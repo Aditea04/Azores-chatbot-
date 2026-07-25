@@ -1,0 +1,2888 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <title>Real Estate Company In Gurgaon | Experion Developers</title>
+    <link rel="canonical" href="https://www.experion.co/" />
+
+    <meta name="description" content="Experion is a real estate company that provides both residential & commercial property in Gurgaon, flats, apartments, & villas which are fully luxurious.">
+    <meta name="copyright" content="Copyrights © 2022 Experion. All Rights Reserved.">
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Real Estate Company In Gurgaon | Experion Developers"/>
+    <meta property="og:description" content="Experion is a real estate company that provides both residential & commercial property in Gurgaon, flats, apartments, & villas which are fully luxurious."/>
+    <meta property="og:url" content="https://www.experion.co/"/>
+
+    <meta property="og:site_name" content="Experion Developers"/>
+    <meta property="og:image" content="https://experion.co/images/common/experion-logo.png"/>
+    <meta property="fb:admins" content="ExperionDevelopers"/>
+    <meta property="og:latitude" content="28.44449216739477"/>
+    <meta property="og:longitude" content="77.04278150188804"/>
+    <meta property="og:street-address" content="8th Floor, Wing B, Milestone Experion Centre, Sector 15 Part 2, Gurugram, Haryana-122001"/>
+    <meta property="og:locality" content="Haryana"/>
+    <meta property="og:region" content="Gurugram"/>
+    <meta property="og:postal-code" content="122001"/>
+    <meta property="og:country-name" content="India"/>
+    <meta property="og:email" content=" care@experion.net.in"/>
+    <meta property="og:phone_number" content="+91 124 6281 630"/>
+
+    <meta name="fb:page_id" content="340474006104484" />
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Real Estate Company In Gurgaon | Experion Developers"/>
+    <meta name="twitter:description" content="Experion is a real estate company that provides both residential & commercial property in Gurgaon, flats, apartments, & villas which are fully luxurious."/>
+    <meta name="twitter:image" content="https://experion.co/images/common/social-share.jpg"/>
+    <meta name="twitter:image:alt" content="Experion Developers"/>
+
+
+    
+<link rel="shortcut icon" href="img/favicon.png" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow&amp;family=Barlow+Condensed&amp;family=Gilda+Display&amp;display=swap" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" />
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css' crossorigin="anonymous">
+<link rel="stylesheet" href="css/plugins.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/custom.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-32338102-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-32338102-1');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K5F3X4F');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "experion",
+  "url": "https://www.experion.co/",
+  "logo": "https://www.experion.co/images/common/experion-logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+911246281630",
+    "contactType": "customer service",
+    "areaServed": "in",
+    "availableLanguage": "en"
+  },
+  "sameAs": ["https://www.facebook.com/ExperionDevelopers","https://www.instagram.com/experiondevelopers/","https://www.linkedin.com/company/experiondevelopers/",
+"https://www.youtube.com/user/ExperionDeveloper"]
+}
+</script>
+
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Experion Developers",
+    "image": "https://www.experion.co/img/logo/experion-logo.png",
+    "@id": "https://www.experion.co/",
+    "url": "https://www.experion.co/",
+    "telephone": "+91-124-628-1630",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8th Floor, Wing B, Milestone Experion Centre, Sector 15 Part 2, Haryana",
+        "addressLocality": "Gurugram",
+        "postalCode": "12200",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 28.4622917,
+        "longitude": 77.0507796
+    },
+    "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+        ],
+        "opens": "09:30",
+        "closes": "17:00"
+    },
+    "sameAs": [
+        "https://www.instagram.com/experiondevelopers/",
+        "https://www.youtube.com/user/ExperionDeveloper",
+        "https://www.linkedin.com/company/experiondevelopers/",
+        "https://www.instagram.com/experiondevelopers/"
+      ] 
+    }
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Website",
+  "name": "Experion",
+  "url": "https://www.experion.co/",
+  "potential action": {
+    "@type": "SearchAction",
+    "target": "https://www.experion.co/{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<style>
+    .home_benner img {
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5F3X4F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Navbar -->
+<div class="header_wrap">
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper navbar-brand valign">
+                <a href="/">
+                    <div class="logo">
+                        <img src="img/logo/experion-logo.png" class="logo-img" alt="Experion Developers">
+                    </div>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+
+
+            <div class="menu" id="navbar">
+                <ul class="level1">
+                    <li class="">
+                        <span class="nav-link"> About Us <i class="ti-angle-down"></i>
+                            <span class="dropdown_clk"><i class="ti-angle-down"></i></span>
+                        </span>
+                        <ul class="level2">
+                            <li><a href="about-us">About Experion</a></li>
+                            <li><a class="navscroll" href="about-us#vision">Vision</a></li>
+                            <li><a class="navscroll" href="about-us#logo">Our Logo</a></li>
+                            <li><a class="navscroll" href="about-us#awards">Awards</a></li>
+                            <!-- <li><a href="awards">Awards</a></li> -->
+                        </ul>
+                    </li>
+
+                    <li>
+                        <span class="nav-link"> Projects <i class="ti-angle-down"></i>
+                            <span class="dropdown_clk"><i class="ti-angle-down"></i></span>
+                        </span>
+                        <ul class="level2">
+                            <li>
+                                <span class="nav-link"><a href="residential">Residential</a> <i class="ti-angle-right"></i>
+                                    <span class="dropdown_clk"><i class="ti-angle-down"></i></span>
+                                </span>
+                                <ul class="level3">
+                                    <li><a href="residential-saatori">Experion Saatori</a></li>
+                                    <li><a href="experion-epic">One42 Golf Course Road</a></li>
+                                    <li><a href="the-trillion">The Trillion</a></li>
+									<li><a href="residential-windchants-nova">Windchants Nova</a></li>
+                                    <li><a href="elements">Experion Elements</a></li>
+                                    <li><a href="residential-windchants">Windchants</a></li>
+                                    <li><a href="residential-westerlies">The Westerlies</a></li>
+                                    <li><a href="residential-experion-virsa">Experion Virsa</a></li>
+                                    <li><a href="residential-heartsong">The Heartsong</a></li>
+                                    <li><a href="residential-experion-capital">Experion Capital</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span class="nav-link"><a href="commercial">Commercial</a> <i class="ti-angle-right"></i>
+                                    <span class="dropdown_clk"><i class="ti-angle-down"></i></span>
+                                </span>
+                                <ul class="level3">
+                                    <li><a href="commercial-experio-experion-capital">Experio @ Experion Capital</a></li>
+                                    <li><a href="commercial-milestone-experion-centre">Milestone Experion Centre</a></li>
+                                    <li><a href="hub-108">Hub @ 108</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item"><a class="nav-link" href="media">Media</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="nri-corner">NRI Corner</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="careers">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="get-in-touch">Get In Touch</a></li>
+                    <div class="butn-light mt-30 mb-30 ml-15 other_button">
+                         
+                                 <a href="javascript:;" class="Experion-Enquire_Now-Button-Click" onclick="enquire_pop()"><span>Enquire Now</span></a>
+                                  
+                        <a class="portal_button_fixed other" href="https://erpnew.edpl.co/" target="_blank"> Customer Portal </a>
+                    </div>
+
+                    
+                        <div class="butn-light mt-30 mb-30 ml-15 element_button"> <a href="javascript:;" onclick="enquire_func()" class="Elements_Enquire_Now_Button"><span>Enquire Now</span></a> </div>
+                    
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="fixed_button">
+    
+
+    <a class="portal_button_fixed other Experion-Enquire_Now-Button-Click" href="javascript:;" onclick="enquire_pop()"> Enquire Now </a>
+
+    
+
+    <a class="portal_button_fixed element Elements_Enquire_Now_Button" href="javascript:;" onclick="enquire_pop()"> Enquire Now </a>
+
+    
+
+</div>
+
+    <!-- Slider -->  
+    <header class="header slider-fade">
+            <!--<div class="home_benner">
+                <picture>
+                    <source media="(max-width:991px )" srcset="img/banner/Singapore_Event_EDM_2_banner_mob.webp">
+                    <img src="img/banner/Singapore_Event_EDM_2_banner.webp" alt="Banner">
+                </picture>
+            </div>-->
+        <div class="video_banner">
+            <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/611657256?h=c830d0a844&loop=1&autoplay=1&muted=1&potrait=0&transparent=1" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-ready="true" frameborder="0" poster="img/home_video_poster.jpg" ></iframe>
+            </div>
+        </div>  
+    </header>
+
+
+    <!-- About -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-12 animate-box text-center" data-animate-effect="fadeInUp">
+                    <!-- <div class="section-subtitle">About Experion</div> -->
+                    <h1 class="section-title">Delivering Positive Experiences</h1>
+                    <p>Experion is an FDI-funded <a href="blog-3-monsoon-season-a-litmus"><strong>real estate developer</strong></a>, a subsidiary of Experion Holding Pte. Limited, Singapore, the real estate investing arm of AT Holdings group of companies. It started its India journey in 2006. It has a track record of successfully undertaking 10 landmark projects across Gurugram, Lucknow, Noida and Amritsar covering a total of 1.02 million square meter (10.96 million square feet) built-up area.</p>
+                    <p>Experion Group has presence across Haryana, Punjab, Uttar Pradesh, Telangana, Goa and Maharashtra. The company has plans to develop large-format integrated townships, high-rise condominiums, commercial spaces, hotels and resorts.</p>
+                    <p class="last_child_mb0">We put a vision in our every project and strive to live up to our motto <br> <strong>"The Positive Side Of Life"</strong>.</p>
+                    <!-- call -->
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- Rooms -->
+    <section class="rooms1 section-padding bg-cream" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"> 
+                    <h2 class="section-title">Residential Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+    <div class="col-md-4">
+        <a href="the-trillion">
+            <div class="item">
+                <div class="position-re o-hidden">
+                    <img src="img/projects/res-7.jpg" alt="The Trillion"> 
+                </div>
+                <div class="con">
+                    <h5>The Trillion</h5>
+                    <div class="line"></div>
+                    <div class="row facilities">
+                        <div class="col col-lg-8 col-md-6">
+                            <p>Sector 48, Gurugram</p>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 text-end">
+                            <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="elements">
+            <div class="item">
+                <div class="position-re o-hidden">
+                    <img src="img/projects/res-6.jpg" alt="Experion Elements">
+                    <!-- <span>Sector 45, Noida</span> -->
+                </div>
+                <div class="con">
+                    <h5>Experion Elements</h5>
+                    <div class="line"></div>
+                    <div class="row facilities">
+                        <div class="col col-lg-8 col-md-6">
+                            <p>Sector 45, Noida</p>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 text-end">
+                            <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="residential-windchants">
+            <div class="item">
+                <div class="position-re o-hidden">
+                    <img src="img/projects/res-1.jpg" alt="Windchants">
+                    <!-- <span>Sector 112, Gurugram</span> -->
+                </div>
+                <div class="con">
+                    <h5>Windchants</h5>
+                    <div class="line"></div>
+                    <div class="row facilities">
+                        <div class="col col-lg-8 col-md-6">
+                            <p>Sector 112, Gurugram</p>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 text-end">
+                            <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="residential-windchants-nova">
+            <div class="item">
+                <div class="position-re o-hidden">
+                    <img src="img/projects/windchants-nova.jpg" alt="Windchants Nova">
+                    <!-- <span>Sector 112, Gurugram</span> -->
+                </div>
+                <div class="con">
+                    <h5>Windchants Nova</h5>
+                    <div class="line"></div>
+                    <div class="row facilities">
+                        <div class="col col-lg-8 col-md-6">
+                            <p>Sector 112, Gurugram</p>
+                        </div>
+                        <div class="col col-lg-4 col-md-6 text-end">
+                            <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="residential-experion-virsa">
+            <div class="item">
+                <div class="position-re o-hidden">
+                    <img src="img/projects/experion-virsa.jpg" alt="Experion Virsa">
+                    <!-- <span>GT Road, Amritsar</span> -->
+                </div>
+                <div class="con">
+                    <h5>Experion Virsa</h5>
+                    <div class="line"></div>
+                    <div class="row facilities">
+                        <div class="col col-md-7">
+                            <p>GT Road, Amritsar</p>
+                        </div>
+                        <div class="col col-md-5 text-end">
+                            <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="residential-westerlies">
+            <div class="item">
+                <div class="position-re o-hidden">
+                    <img src="img/projects/res-5.jpg" alt="The Westerlies">
+                    <!-- <span>Sector 108, Gurugram</span> -->
+                </div>
+                <div class="con">
+                    <h5>The Westerlies</h5>
+                    <div class="line"></div>
+                    <div class="row facilities">
+                        <div class="col col-md-7">
+                            <p>Sector 108, Gurugram</p>
+                        </div>
+                        <div class="col col-md-5 text-end">
+                            <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="residential-heartsong">
+            <div class="item">
+                <div class="position-re o-hidden">
+                    <img src="img/projects/res-4.jpg" alt="The Heartsong">
+                    <!-- <span>Sector 108, Gurugram</span> -->
+                </div>
+                <div class="con">
+                    <h5>The Heartsong</h5>
+                    <div class="line"></div>
+                    <div class="row facilities">
+                        <div class="col col-md-7">
+                            <p>Sector 108, Gurugram</p>
+                        </div>
+                        <div class="col col-md-5 text-end">
+                            <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a href="residential-experion-capital">
+            <div class="item">
+                <div class="position-re o-hidden">
+                    <img src="img/projects/res-2.jpg" alt="Experion Capital">
+                    <!-- <span>Gomti Nagar, Lucknow</span> -->
+                </div>
+                <div class="con">
+                    <h5>Experion Capital </h5>
+                    <div class="line"></div>
+                    <div class="row facilities">
+                        <div class="col col-md-6">
+                            <p>Gomti Nagar, Lucknow</p>
+                        </div>
+                        <div class="col col-md-6 text-end">
+                            <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <section class="rooms1 section-padding" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"> 
+                    <div class="section-title">Commercial Projects</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="commercial-experio-experion-capital">
+                        <div class="item">
+                            <div class="position-re o-hidden">
+                                <img src="img/projects/new-com-2.jpg" alt="EXPERIO @ EXPERION CAPITAL">
+                                <!-- <span>Gomti Nagar, Lucknow</span> -->
+                            </div>
+                            <div class="con">
+                                <h5>EXPERIO @ EXPERION CAPITAL</h5>
+                                <div class="line"></div>
+                                <div class="row facilities">
+                                    <div class="col col-lg-8 col-md-6">
+                                        <p>Gomti Nagar, Lucknow</p>
+                                    </div>
+                                    <div class="col col-lg-4 col-md-6 text-end">
+                                        <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="commercial-milestone-experion-centre">
+                        <div class="item">
+                            <div class="position-re o-hidden">
+                                <img src="img/projects/new-com-1.jpg" alt="Milestone Experion Centre">
+                                <!-- <span>Sector 15 Part II, Gurugram</span> -->
+                            </div>
+                            <div class="con">
+                                <h5>Milestone Experion Centre</h5>
+                                <!-- <h5><a href="commercial-milestone-experion-centre">MILESTONE EXPERION CENTRE (MEC)</a> </h5> -->
+                                <div class="line"></div>
+                                <div class="row facilities">
+                                    <div class="col col-lg-8 col-md-6">
+                                        <p>Sector 15 Part II, Gurugram</p>
+                                    </div>
+                                    <div class="col col-lg-4 col-md-6 text-end">
+                                        <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="hub-108">
+                        <div class="item">
+                            <div class="position-re o-hidden">
+                                <img src="img/projects/new_hub_box.jpg" alt="HUB @ 108">
+                                <!-- <span>Sector 108, Gurugram</span> -->
+                            </div>
+                            <div class="con">
+                                <h5>HUB @ 108</h5>
+                                <div class="line"></div>
+                                <div class="row facilities">
+                                    <div class="col col-lg-8 col-md-6">
+                                        <p>Sector 108, Gurugram</p>
+                                    </div>
+                                    <div class="col col-lg-4 col-md-6 text-end">
+                                        <div class="permalink">Details <i class="ti-arrow-right"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section-padding testimonial_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"> 
+                    <div class="section-title">Stories of Home, Heart, and Happiness</div>
+                </div>
+            </div>
+            <div class="gallery_slider owl-carousel">
+                <div class="items">
+                    <a href="https://www.youtube.com/watch?v=Ns9r8Hcquvw" data-fancybox="video" class="vidoe_link">
+                        <img src="img/testimonial/Dr_Sankrant_Sanu.jpg" alt="Dr. Sankrant Sanu">
+                        <div class="glightbox pulsating-play-btn"></div>
+                    </a>
+                    <p>Life at Windchants: Dr. Sankrant Sanu (Author & Publisher)</p>
+                </div>
+                <div class="items">
+                    <a href="https://www.youtube.com/watch?v=jZKmt30QtzI" data-fancybox="video" class="vidoe_link">
+                        <img src="img/testimonial/mrs_meenakshi.jpg" alt="Mrs. Meenakshi & Mr. Dharmender Rana">
+                        <div class="glightbox pulsating-play-btn"></div>
+                    </a>
+                    <p>Life at Windchants: Mrs. Meenakshi & Mr. Dharmender Rana (Health Consultants)</p>
+                </div>
+                <div class="items">
+                    <a href="https://www.youtube.com/watch?v=SW_lNTfz6EM" data-fancybox="video" class="vidoe_link">
+                        <img src="img/testimonial/mrs_akansha_kalani.jpg" alt="Mrs. Akansha Kalani">
+                        <div class="glightbox pulsating-play-btn"></div>
+                    </a>
+                    <p>Life at Windchants: Mrs. Akansha Kalani (Chartered Accountant)</p>
+                </div>
+                <div class="items">
+                    <a href="https://www.youtube.com/watch?v=lAJdr9I1u3M" data-fancybox="video" class="vidoe_link">
+                        <img src="img/testimonial/mr_sunil_kumar_oberoi.jpg" alt="Mr. Sunil Kumar Oberoi">
+                        <div class="glightbox pulsating-play-btn"></div>
+                    </a>
+                    <p>Life at Windchants: Mr. Sunil Kumar Oberoi (Retired Officer, Airport Authority of India)</p>
+                </div> 
+                <div class="items">
+                    <a href="https://www.youtube.com/watch?v=l6CVTN-a1SA" data-fancybox="video" class="vidoe_link">
+                        <img src="img/testimonial/mrs_pratibha_kaul.jpg" alt="Mrs. Pratibha Kaul & Dr. Satish Kaul"> 
+                        <div class="glightbox pulsating-play-btn"></div>
+                    </a>
+                    <p>Life at Windchants: Mrs. Pratibha Kaul & Dr. Satish Kaul</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+    
+    <!-- Promo Video -->
+    <!-- <section class="video-wrapper video section-padding bg-img bg-fixed video_pad" data-overlay-dark="3" data-background="img/projects/bg-1.jpg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-sm-12 col-12 text-center">
+                    <div class="section-subtitle"><span>Experion Lifestyle</span></div>
+                    <div class="section-title"><span>Welcome to a World of Experiences</span></div>
+                </div>
+                <div class="text-center col-md-12">
+                    <a class="vid" href="https://www.youtube.com/watch?v=_DRMTVsixZE">
+                    <div class="vid-butn">
+                        <span class="icon">
+                            <i class="ti-control-play"></i>
+                        </span>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="image_caption right">Actual Image</div>
+    </section> -->
+    <!-- Services -->
+    
+
+    <!-- News -->
+    <!-- <section class="news section-padding bg-blck home_blog_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-subtitle"><span>New Articles</span></div>
+                    <div class="section-title"><span>Blogs</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/wmt-1.png" alt="What Makes The Trillion? 3BHK Flats Stand Out in Gurugram">
+                                <div class="date">
+                                    <a href="blog-74-what-makes-the-trillion-3bhk-flats-stand-out-in-gurugram"> May 15, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-74-what-makes-the-trillion-3bhk-flats-stand-out-in-gurugram"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-74-what-makes-the-trillion-3bhk-flats-stand-out-in-gurugram">What Makes The Trillion? 3BHK Flats Stand Out in Gurugram</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/wbf-1.png" alt="Why 4 BHK Flats at The Trillion Feel Bigger Than Most Villas">
+                                <div class="date">
+                                    <a href="blog-73-why-4-bhk-flats-at-the-trillion-feel-bigger-than-most-villas"> May 14, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-73-why-4-bhk-flats-at-the-trillion-feel-bigger-than-most-villas"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-73-why-4-bhk-flats-at-the-trillion-feel-bigger-than-most-villas">Why 4 BHK Flats at The Trillion Feel Bigger Than Most Villas</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/wee-1.png" alt="Why Experion Elements Feels Different from Other Residential Projects in Noida">
+                                <div class="date">
+                                    <a href="blog-72-why-experion-elements-feels-different-from-other-residential-projects-in-Noida"> May 13, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-72-why-experion-elements-feels-different-from-other-residential-projects-in-Noida"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-72-why-experion-elements-feels-different-from-other-residential-projects-in-Noida">Why Experion Elements Feels Different from Other Residential Projects in Noida</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/lai-1.png" alt="Luxury Apartments in Noida for Sale That Actually Feel Peaceful-Explore Elements">
+                                <div class="date">
+                                    <a href="blog-71-luxury-apartments-in-noida-for-sale-that-actually-feel-peaceful-explore-elements"> May 12, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-71-luxury-apartments-in-noida-for-sale-that-actually-feel-peaceful-explore-elements"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-71-luxury-apartments-in-noida-for-sale-that-actually-feel-peaceful-explore-elements">Luxury Apartments in Noida for Sale That Actually Feel Peaceful-Explore Elements</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/tht-1.png" alt="The Hidden Truth Behind Ready to Move 4 BHK Flats in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-70-the-hidden-truth-behind-ready-to-move-4-bhk-flats-in-gurgaon"> May 11, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-70-the-hidden-truth-behind-ready-to-move-4-bhk-flats-in-gurgaon"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-70-the-hidden-truth-behind-ready-to-move-4-bhk-flats-in-gurgaon">The Hidden Truth Behind Ready to Move 4 BHK Flats in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/cre-1.png" alt="Choosing Real Estate Developers in Gurgaon? Avoid This Costly Mistake">
+                                <div class="date">
+                                    <a href="blog-69-choosing-real-estate-developers-in-gurgaon-avoid-this-costly-mistake"> May 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-69-choosing-real-estate-developers-in-gurgaon-avoid-this-costly-mistake"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-69-choosing-real-estate-developers-in-gurgaon-avoid-this-costly-mistake">Choosing Real Estate Developers in Gurgaon? Avoid This Costly Mistake</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/ELEMENTS-2-hs-10.png" alt="Stop Settling: Explore 4 BHK Apartments in Noida Now">
+                                <div class="date">
+                                    <a href="blog-68-stop-settling-explore-4-bhk-apartments-in-noida-now"> April 23, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-68-stop-settling-explore-4-bhk-apartments-in-noida-now"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-68-stop-settling-explore-4-bhk-apartments-in-noida-now">Stop Settling: Explore 4 BHK Apartments in Noida Now</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experionn-hs-02.png" alt="Waiting: Explore Ready-to-Move Flats in Gurugram Now">
+                                <div class="date">
+                                    <a href="blog-66-waiting-explore-ready-to-move-flats-in-gurugram-now"> April 22, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-66-waiting-explore-ready-to-move-flats-in-gurugram-now"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-66-waiting-explore-ready-to-move-flats-in-gurugram-now">Waiting: Explore Ready-to-Move Flats in Gurugram Now</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/ELEMENTS-HS-1.png" alt="Why 4 BHK Luxury Apartments in Noida Are the New Power Move">
+                                <div class="date">
+                                    <a href="blog-67-why-4-bhk-luxury-apartments-in-noida-are-the-new-power-move"> April 16, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-67-why-4-bhk-luxury-apartments-in-noida-are-the-new-power-move"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-67-why-4-bhk-luxury-apartments-in-noida-are-the-new-power-move">Why 4 BHK Luxury Apartments in Noida Are the New Power Move</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/trilloin2026mayblog.webp" alt="Luxury Flat for Sale in Gurugram You'll Regret Missing.">
+                                <div class="date">
+                                    <a href="blog-64-luxury-flat-for-sale-in-gurugram-youll-regret-missing"> April 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-64-luxury-flat-for-sale-in-gurugram-youll-regret-missing"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-64-luxury-flat-for-sale-in-gurugram-youll-regret-missing">Luxury Flat for Sale in Gurugram You'll Regret Missing.</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/trillionnew1.png" alt="Searching Flat for Sale in Gurugram? Here's Why the Trillion Stands Out">
+                                <div class="date">
+                                    <a href="blog-63-searching-flat-for-sale-in-gurugram-here-why-the-trillion-stands-out"> April 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-63-searching-flat-for-sale-in-gurugram-here-why-the-trillion-stands-out"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-63-searching-flat-for-sale-in-gurugram-here-why-the-trillion-stands-out">Searching Flat for Sale in Gurugram? Here's Why the Trillion Stands Out</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experionn-hs01.png" alt="Upgrade Your Life with Experion's Luxury Apartments in Gurugram">
+                                <div class="date">
+                                    <a href="blog-65-upgrade-your-life-with-experion-luxury-apartments-in-gurugram"> April 07, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-65-upgrade-your-life-with-experion-luxury-apartments-in-gurugram"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-65-upgrade-your-life-with-experion-luxury-apartments-in-gurugram">Upgrade Your Life with Experion's Luxury Apartments in Gurugram</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/sale-in-gurugramm-hs.png" alt="Flats for Sale in Gurugram That Actually Deliver Luxury-Discover The Trillion.">
+                                <div class="date">
+                                    <a href="blog-62-flats-for-Sale-in-gurugram-that-actually-deliver-luxury-discover-the-trillion"> March 12, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-62-flats-for-Sale-in-gurugram-that-actually-deliver-luxury-discover-the-trillion"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-62-flats-for-Sale-in-gurugram-that-actually-deliver-luxury-discover-the-trillion">Flats for Sale in Gurugram That Actually Deliver Luxury-Discover The Trillion.</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-residential-projects-in-noida.png" alt="Why Duplex Villaments Are Selling Faster Than Luxury Flats">
+                                <div class="date">
+                                    <a href="blog-59-why-duplex-villaments-are-selling-faster-than-luxury-flats"> March 11, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-59-why-duplex-villaments-are-selling-faster-than-luxury-flats"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-59-why-duplex-villaments-are-selling-faster-than-luxury-flats">Why Duplex Villaments Are Selling Faster Than Luxury Flats</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-Best-Residential-Projects-in-Noida-hs.png" alt="Why Modern Families Are Redefining Luxury Apartments in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-60-why-modern-families-are-redefining-luxury-apartments-in-gurgaon"> March 11, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-60-why-modern-families-are-redefining-luxury-apartments-in-gurgaon"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-60-why-modern-families-are-redefining-luxury-apartments-in-gurgaon">Why Modern Families Are Redefining Luxury Apartments in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/smart-3BHK-flats.png" alt="Why Modern Families Prefer Smart 3BHK Flats Over Bigger Homes">
+                                <div class="date">
+                                    <a href="blog-61-why-modern-families-prefer-smart-3BHK-flats-over-bigger-homes"> March 11, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-61-why-modern-families-prefer-smart-3BHK-flats-over-bigger-homes"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-61-why-modern-families-prefer-smart-3BHK-flats-over-bigger-homes">Why Modern Families Prefer Smart 3BHK Flats Over Bigger Homes</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-3-hs.png" alt="The Biggest Mistake Buyers Make When Choosing Residential Projects in Noida">
+                                <div class="date">
+                                    <a href="blog-57-the-biggest-mistake-buyers-make-when-choosing-residential-projects-in-noida"> March 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-57-the-biggest-mistake-buyers-make-when-choosing-residential-projects-in-noida"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-57-the-biggest-mistake-buyers-make-when-choosing-residential-projects-in-noida">The Biggest Mistake Buyers Make When Choosing Residential Projects in Noida</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-4-hs.png" alt="Why Most Best Residential Projects in Noida Still Feel Crowded">
+                                <div class="date">
+                                    <a href="blog-58-why-most-best-residential-projects-in-noida-still-feel-crowded"> March 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-58-why-most-best-residential-projects-in-noida-still-feel-crowded"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-58-why-most-best-residential-projects-in-noida-still-feel-crowded">Why Most Best Residential Projects in Noida Still Feel Crowded</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/duplex-apartments-1.jpeg" alt="Why Duplex Apartments in Gurgaon Are the New Luxury Status Symbol">
+                                <div class="date">
+                                    <a href="blog-51-why-duplex-apartments-in-gurgaon-are-the-new-luxury-status-symbol"> February 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-51-why-duplex-apartments-in-gurgaon-are-the-new-luxury-status-symbol"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-51-why-duplex-apartments-in-gurgaon-are-the-new-luxury-status-symbol">Why Duplex Apartments in Gurgaon Are the New Luxury Status Symbol</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/duplex-apartments-2.jpg" alt="Property for Sale in Gurgaon: Don't Buy Until You Read This">
+                                <div class="date">
+                                    <a href="blog-52-property-for-sale-in-gurgaon-dont-buy-until-you-read-this"> February 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-52-property-for-sale-in-gurgaon-dont-buy-until-you-read-this"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-52-property-for-sale-in-gurgaon-dont-buy-until-you-read-this">Property for Sale in Gurgaon: Don't Buy Until You Read This</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/move-flats-2.png" alt="Searching for Ready-to-Move Luxury Apartments in Noida? Here's Where Smart Buyers Invest">
+                                <div class="date">
+                                    <a href="blog-54-searching-for-ready-to-move-luxury-apartments-in-noida-here-where-smart-buyers-invest"> February 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-54-searching-for-ready-to-move-luxury-apartments-in-noida-here-where-smart-buyers-invest"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-54-searching-for-ready-to-move-luxury-apartments-in-noida-here-where-smart-buyers-invest">Searching for Ready-to-Move Luxury Apartments in Noida? Here's Where Smart Buyers Invest</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/must-see-1.jpeg" alt="Ready to Buy a 4BHK Flat in Gurgaon? Here's Why The Trillion Is a Must-See">
+                                <div class="date">
+                                    <a href="blog-55-ready-to-buy-a-4bhk-flat-in-gurgaon-here-why-the-trillion-Is-a-must-see"> February 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-55-ready-to-buy-a-4bhk-flat-in-gurgaon-here-why-the-trillion-Is-a-must-see"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-55-ready-to-buy-a-4bhk-flat-in-gurgaon-here-why-the-trillion-Is-a-must-see">Ready to Buy a 4BHK Flat in Gurgaon? Here's Why The Trillion Is a Must-See</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/must-see-2.jpeg" alt="Your Dream 3BHK Flat in Gurugram Awaits (But Most Buyers Will Miss It)">
+                                <div class="date">
+                                    <a href="blog-56-your-dream-3bhk-flat-in-gurugram-awaits-but-most-buyers-will-miss-it)"> February 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-56-your-dream-3bhk-flat-in-gurugram-awaits-but-most-buyers-will-miss-it)"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-56-your-dream-3bhk-flat-in-gurugram-awaits-but-most-buyers-will-miss-it)">Your Dream 3BHK Flat in Gurugram Awaits (But Most Buyers Will Miss It)</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/move-flats-1.png" alt="Ready to Move Flats in Noida: Best Choices for Families & Investors">
+                                <div class="date">
+                                    <a href="blog-53-ready-to-move-flats-in-noida-best-choices-for-families-and-investors"> February 10, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-53-ready-to-move-flats-in-noida-best-choices-for-families-and-investors"> EXPERION</a>
+                                </span>
+                                <h5><a href="blog-53-ready-to-move-flats-in-noida-best-choices-for-families-and-investors">Ready to Move Flats in Noida: Best Choices for Families & Investors</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/1 (5).jpg" alt="Why Spacious Homes Are Becoming the First Choice for Urban Families in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-45-why-spacious-homes-are-becoming-the-first-choice-for-urban-families-in-gurgaon"> January 16, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-45-why-spacious-homes-are-becoming-the-first-choice-for-urban-families-in-gurgaon"> Admin</a>
+                                </span>
+                                <h5><a href="blog-45-why-spacious-homes-are-becoming-the-first-choice-for-urban-families-in-gurgaon">Why Spacious Homes Are Becoming the First Choice for Urban Families in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/2 (2).jpg" alt="Space That Elevates Everyday Living: Exploring 3 BHK Homes in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-46-space-that-elevates-everyday-living-exploring-3bhk-homes-in-gurgaon"> January 16, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-46-space-that-elevates-everyday-living-exploring-3bhk-homes-in-gurgaon"> Admin</a>
+                                </span>
+                                <h5><a href="blog-46-space-that-elevates-everyday-living-exploring-3bhk-homes-in-gurgaon">Space That Elevates Everyday Living: Exploring 3 BHK Homes in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/3 (2).jpg" alt="How Thoughtful Planning Shapes the Right Apartment in Noida for Sale">
+                                <div class="date">
+                                    <a href="blog-47-how-thoughtful-planning-shapes-the-right-apartment-in-noida-for-sale"> January 16, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-47-how-thoughtful-planning-shapes-the-right-apartment-in-noida-for-sale"> Admin</a>
+                                </span>
+                                <h5><a href="blog-47-how-thoughtful-planning-shapes-the-right-apartment-in-noida-for-sale">How Thoughtful Planning Shapes the Right Apartment in Noida for Sale</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Experion blog.png" alt="4 BHK vs 3 BHK: Which Home Size Makes More Sense in Gurgaon?">
+                                <div class="date">
+                                    <a href="blog-49-4bhk-vs-3bhk-which-home-size-makes-more-sense-in-gurgaon"> January 16, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-49-4bhk-vs-3bhk-which-home-size-makes-more-sense-in-gurgaon"> Admin</a>
+                                </span>
+                                <h5><a href="blog-49-4bhk-vs-3bhk-which-home-size-makes-more-sense-in-gurgaon">4 BHK vs 3 BHK: Which Home Size Makes More Sense in Gurgaon?</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Untitled design (63).jpg" alt="What Makes a 4 BHK in Gurgaon a Smart Choice for End-Users">
+                                <div class="date">
+                                    <a href="blog-50-what-makes-a-4-bhk-in-gurgaon-a-smart-choice-for-end-users"> January 16, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-50-what-makes-a-4-bhk-in-gurgaon-a-smart-choice-for-end-users"> Admin</a>
+                                </span>
+                                <h5><a href="blog-50-what-makes-a-4-bhk-in-gurgaon-a-smart-choice-for-end-users">What Makes a 4 BHK in Gurgaon a Smart Choice for End-Users</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/4 (3).jpg" alt="Discover Premier Real Estate Projects in Noida by Experion Developers">
+                                <div class="date">
+                                    <a href="blog-48-discover-premier-real-estate-projects-in-noida-by-experion-developers"> January 16, 2026 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-48-discover-premier-real-estate-projects-in-noida-by-experion-developers"> Admin</a>
+                                </span>
+                                <h5><a href="blog-48-discover-premier-real-estate-projects-in-noida-by-experion-developers">Discover Premier Real Estate Projects in Noida by Experion Developers</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Artboard 2 (6).jpg" alt="How to Pick a Spacious Home Without Compromising Location">
+                                <div class="date">
+                                    <a href="blog-43-how-to-pick-a-spacious-home-without-compromising-location"> November 24, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-43-how-to-pick-a-spacious-home-without-compromising-location"> admin</a>
+                                </span>
+                                <h5><a href="blog-43-how-to-pick-a-spacious-home-without-compromising-location">How to Pick a Spacious Home Without Compromising Location</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Artboard 1 (4).jpg" alt="Investing in Your Dream Home: What to Look for in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-44-investing-in-your-dream-home-what-to-look-for-in-gurgaon"> November 24, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-44-investing-in-your-dream-home-what-to-look-for-in-gurgaon"> admin</a>
+                                </span>
+                                <h5><a href="blog-44-investing-in-your-dream-home-what-to-look-for-in-gurgaon">Investing in Your Dream Home: What to Look for in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Artboard 1 (5).jpg" alt="The Future of Apartment Living: Trends in Gurgaon? Residential Market">
+                                <div class="date">
+                                    <a href="blog-38-the-future-of-apartment-living-trends-in-gurgaon-residential-market"> November 14, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-38-the-future-of-apartment-living-trends-in-gurgaon-residential-market"> admin</a>
+                                </span>
+                                <h5><a href="blog-38-the-future-of-apartment-living-trends-in-gurgaon-residential-market">The Future of Apartment Living: Trends in Gurgaon? Residential Market</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Artboard 3 (2).jpg" alt="Why Apartments on Noida Expressway Are a Prime Choice for Buyers">
+                                <div class="date">
+                                    <a href="blog-39-why-apartments-on-noida-expressway-are-a-prime-choice-for-buyers"> November 13, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-39-why-apartments-on-noida-expressway-are-a-prime-choice-for-buyers"> admin</a>
+                                </span>
+                                <h5><a href="blog-39-why-apartments-on-noida-expressway-are-a-prime-choice-for-buyers">Why Apartments on Noida Expressway Are a Prime Choice for Buyers</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Artboard 2 (7).jpg" alt="How to Choose the Perfect Family Home in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-40-how-to-choose-the-perfect-family-home-in-gurgaon"> November 10, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-40-how-to-choose-the-perfect-family-home-in-gurgaon"> admin</a>
+                                </span>
+                                <h5><a href="blog-40-how-to-choose-the-perfect-family-home-in-gurgaon">How to Choose the Perfect Family Home in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Artboard 4 (1).jpg" alt="Elements: The Perfect Balance of Luxury, Location, and Lifestyle">
+                                <div class="date">
+                                    <a href="blog-42-elements-the-perfect-balance-of-luxury-location-and-lifestyle"> October 15, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-42-elements-the-perfect-balance-of-luxury-location-and-lifestyle"> admin</a>
+                                </span>
+                                <h5><a href="blog-42-elements-the-perfect-balance-of-luxury-location-and-lifestyle">Elements: The Perfect Balance of Luxury, Location, and Lifestyle</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Untitled-1 (10).jpg" alt="The Future of Modern Living in Gurgaon: A Look at Experion The Trillion">
+                                <div class="date">
+                                    <a href="blog-37-look-at-experion-the-trillion"> September 25, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-37-look-at-experion-the-trillion"> admin</a>
+                                </span>
+                                <h5><a href="blog-37-look-at-experion-the-trillion">The Future of Modern Living in Gurgaon: A Look at Experion The Trillion</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/3 BHK (2).jpg" alt="A Complete Guide to Buying a 3BHK Apartment in Noida">
+                                <div class="date">
+                                    <a href="blog-36-complete-guide-to-buying-a-3bhk-apartment-in-noida"> September 24, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-36-complete-guide-to-buying-a-3bhk-apartment-in-noida"> admin</a>
+                                </span>
+                                <h5><a href="blog-36-complete-guide-to-buying-a-3bhk-apartment-in-noida">A Complete Guide to Buying a 3BHK Apartment in Noida</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/duplex apartments for sale.jpg" alt="Duplex Apartments for Sale? Experion Developers">
+                                <div class="date">
+                                    <a href="blog-35-duplex-apartments-for-sale-experion-developers"> September 23, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-35-duplex-apartments-for-sale-experion-developers"> admin</a>
+                                </span>
+                                <h5><a href="blog-35-duplex-apartments-for-sale-experion-developers">Duplex Apartments for Sale? Experion Developers</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/ELEMENTS (1).png" alt="Ultra-Luxury 3BHK Flats in Noida">
+                                <div class="date">
+                                    <a href="blog-34-Ultra-Luxury-bhk-flats-in-noida
+"> August 11, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-34-Ultra-Luxury-bhk-flats-in-noida
+"> admin</a>
+                                </span>
+                                <h5><a href="blog-34-Ultra-Luxury-bhk-flats-in-noida
+">Ultra-Luxury 3BHK Flats in Noida</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Trillion (1).png" alt="Grasping Gurgaon's Real Estate Scenario">
+                                <div class="date">
+                                    <a href="blog-33-grasping-gurgaon-real-estate-scenario
+"> August 08, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-33-grasping-gurgaon-real-estate-scenario
+"> admin</a>
+                                </span>
+                                <h5><a href="blog-33-grasping-gurgaon-real-estate-scenario
+">Grasping Gurgaon's Real Estate Scenario</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-trillion.png" alt="Luxury Meets Location: Discover The Trillion by Experion in Sector 48, Gurgaon">
+                                <div class="date">
+                                    <a href="blog-31-the-trillion-by-experion-in-sector-48-gurgaon"> June 19, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-31-the-trillion-by-experion-in-sector-48-gurgaon"> admin</a>
+                                </span>
+                                <h5><a href="blog-31-the-trillion-by-experion-in-sector-48-gurgaon">Luxury Meets Location: Discover The Trillion by Experion in Sector 48, Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-elements.png" alt="3 BHK Flats for Sale in Noida? The Ultimate Guide">
+                                <div class="date">
+                                    <a href="blog-32-3-bhk-flats-for-sale-in-noida-the-ultimate-guide
+"> June 14, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-32-3-bhk-flats-for-sale-in-noida-the-ultimate-guide
+"> admin</a>
+                                </span>
+                                <h5><a href="blog-32-3-bhk-flats-for-sale-in-noida-the-ultimate-guide
+">3 BHK Flats for Sale in Noida? The Ultimate Guide</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Experion Windchants Nova.png" alt="Redefining Urban Living: Luxurious 3 BHK Homes at Experion Elements, Noida">
+                                <div class="date">
+                                    <a href="blog-30-redefining-urban-living-luxurious-3-bhk-homes-at-experion-elements-noida
+"> May 23, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-30-redefining-urban-living-luxurious-3-bhk-homes-at-experion-elements-noida
+"> admin</a>
+                                </span>
+                                <h5><a href="blog-30-redefining-urban-living-luxurious-3-bhk-homes-at-experion-elements-noida
+">Redefining Urban Living: Luxurious 3 BHK Homes at Experion Elements, Noida</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-nova-windchants.png" alt="Experion Windchants Nova: A Grand Sense of Space">
+                                <div class="date">
+                                    <a href="blog-27-experion-windchants-nova-a-grand-sense-of-space"> April 19, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-27-experion-windchants-nova-a-grand-sense-of-space"> admin</a>
+                                </span>
+                                <h5><a href="blog-27-experion-windchants-nova-a-grand-sense-of-space">Experion Windchants Nova: A Grand Sense of Space</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/elements-experion.png" alt="Experion Element: Luxury Apartments in Noida">
+                                <div class="date">
+                                    <a href="blog-28-experion-element-luxury-apartments-in-noida
+"> April 19, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-28-experion-element-luxury-apartments-in-noida
+"> admin</a>
+                                </span>
+                                <h5><a href="blog-28-experion-element-luxury-apartments-in-noida
+">Experion Element: Luxury Apartments in Noida</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-deve.png" alt="Experion's Wandering Buds: A Luxurious Duplex Villament in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-25-Experions-wandering-buds-a-luxurious-duplex-villament-in-gurgaon"> March 13, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-25-Experions-wandering-buds-a-luxurious-duplex-villament-in-gurgaon"> admin</a>
+                                </span>
+                                <h5><a href="blog-25-Experions-wandering-buds-a-luxurious-duplex-villament-in-gurgaon">Experion's Wandering Buds: A Luxurious Duplex Villament in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-westerlies.png" alt="Experion Westerlies: Prime Residential Plotted Development in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-26-Experion-Westerlies-Prime-Residential-Plotted-Development-in-Gurgaon
+"> March 13, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-26-Experion-Westerlies-Prime-Residential-Plotted-Development-in-Gurgaon
+"> admin</a>
+                                </span>
+                                <h5><a href="blog-26-Experion-Westerlies-Prime-Residential-Plotted-Development-in-Gurgaon
+">Experion Westerlies: Prime Residential Plotted Development in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/elements-noida.png" alt="Experion Elements: The Luxurious Residential Complex in Noida">
+                                <div class="date">
+                                    <a href="blog-23-experion-elements-the-luxurious-residential-complex-in-noida"> February 28, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-23-experion-elements-the-luxurious-residential-complex-in-noida"> admin</a>
+                                </span>
+                                <h5><a href="blog-23-experion-elements-the-luxurious-residential-complex-in-noida">Experion Elements: The Luxurious Residential Complex in Noida</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/residential-noida-elements.png" alt="Experion Elements: Elevating Luxury in Noida">
+                                <div class="date">
+                                    <a href="blog-24-experion-elements-elevating-luxury-in-noida"> February 28, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-24-experion-elements-elevating-luxury-in-noida"> admin</a>
+                                </span>
+                                <h5><a href="blog-24-experion-elements-elevating-luxury-in-noida">Experion Elements: Elevating Luxury in Noida</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/EXPERION-penthouse.png" alt="Windchants by Experion: The High-end and Exclusive Penthouse in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-22-windchants-by-experion-the-high-end-and-exclusive-penthouse-in-gurgaon"> January 21, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-22-windchants-by-experion-the-high-end-and-exclusive-penthouse-in-gurgaon"> admin</a>
+                                </span>
+                                <h5><a href="blog-22-windchants-by-experion-the-high-end-and-exclusive-penthouse-in-gurgaon">Windchants by Experion: The High-end and Exclusive Penthouse in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/villa-experion.png" alt="Step Into Splendor: Experion's Exquisite Villas in Gurgaon">
+                                <div class="date">
+                                    <a href="blog-20-step-into-splendor-experion-exquisite-villas-in-gurgaon"> January 08, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-20-step-into-splendor-experion-exquisite-villas-in-gurgaon"> admin</a>
+                                </span>
+                                <h5><a href="blog-20-step-into-splendor-experion-exquisite-villas-in-gurgaon">Step Into Splendor: Experion's Exquisite Villas in Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-virsa.png" alt="Experion Virsa: Residential Plots For Sale In Amritsar">
+                                <div class="date">
+                                    <a href="blog-21-experion-virsa-residential-plots-for-sale-in-amritsar"> January 08, 2025 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-21-experion-virsa-residential-plots-for-sale-in-amritsar"> admin</a>
+                                </span>
+                                <h5><a href="blog-21-experion-virsa-residential-plots-for-sale-in-amritsar">Experion Virsa: Residential Plots For Sale In Amritsar</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/ready-to-move.webp" alt="Investing in Ready-To-Move-In Flats in Gurgaon by Experion: A Smart Choice">
+                                <div class="date">
+                                    <a href="blog-18-investing-in-ready-to-move-in-flats-in-gurgaon-by-experion-a-smart-choice"> November 09, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-18-investing-in-ready-to-move-in-flats-in-gurgaon-by-experion-a-smart-choice"> admin</a>
+                                </span>
+                                <h5><a href="blog-18-investing-in-ready-to-move-in-flats-in-gurgaon-by-experion-a-smart-choice">Investing in Ready-To-Move-In Flats in Gurgaon by Experion: A Smart Choice</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experion-windchants-society-for-sale-dwarka-expressway.webp" alt="Why You Should Invest in Flats on Dwarka Expressway by Experion">
+                                <div class="date">
+                                    <a href="blog-19-why-you-should-invest-in-flats-on-dwarka-expressway-by-experion"> November 09, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-19-why-you-should-invest-in-flats-on-dwarka-expressway-by-experion"> admin</a>
+                                </span>
+                                <h5><a href="blog-19-why-you-should-invest-in-flats-on-dwarka-expressway-by-experion">Why You Should Invest in Flats on Dwarka Expressway by Experion</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/unnamed.webp" alt="Why Invest in Plots in Dwarka Expressway by Experion: A Golden Opportunity for Investors">
+                                <div class="date">
+                                    <a href="blog-17-why-invest-in-plots-in-dwarka-expressway-by-experion-a-golden-opportunity-for-investors"> July 17, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-17-why-invest-in-plots-in-dwarka-expressway-by-experion-a-golden-opportunity-for-investors"> admin</a>
+                                </span>
+                                <h5><a href="blog-17-why-invest-in-plots-in-dwarka-expressway-by-experion-a-golden-opportunity-for-investors">Why Invest in Plots in Dwarka Expressway by Experion: A Golden Opportunity for Investors</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/gurgoan-main.webp" alt="Why Buy Property in Gurgaon by Experion: A Wise Investment for the Future">
+                                <div class="date">
+                                    <a href="blog-16-why-buy-property-in-gurgaon-by-experion-a-wise-investment-for-the-future"> July 17, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-16-why-buy-property-in-gurgaon-by-experion-a-wise-investment-for-the-future"> admin</a>
+                                </span>
+                                <h5><a href="blog-16-why-buy-property-in-gurgaon-by-experion-a-wise-investment-for-the-future">Why Buy Property in Gurgaon by Experion: A Wise Investment for the Future</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/overview-banner.webp" alt="Why You Should Invest in 3 BHK or 4 BHK Residential Apartments in Noida at Experion Elements">
+                                <div class="date">
+                                    <a href="blog-15-why-you-should-invest-in-3-bhk-or-4-bhk-residential-apartments-in-noida-at-experion-elements"> July 10, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-15-why-you-should-invest-in-3-bhk-or-4-bhk-residential-apartments-in-noida-at-experion-elements"> admin</a>
+                                </span>
+                                <h5><a href="blog-15-why-you-should-invest-in-3-bhk-or-4-bhk-residential-apartments-in-noida-at-experion-elements">Why You Should Invest in 3 BHK or 4 BHK Residential Apartments in Noida at Experion Elements</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Experion-Elements-main2.webp" alt="Sustainable Living at Experion Elements: Invest in 3 BHK & 4BHK Apartments in Noida">
+                                <div class="date">
+                                    <a href="blog-13-sustainable-living-at-experion-elements-invest-in-3-bhk-and-4bhk-apartments-in-noida"> May 18, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-13-sustainable-living-at-experion-elements-invest-in-3-bhk-and-4bhk-apartments-in-noida"> admin</a>
+                                </span>
+                                <h5><a href="blog-13-sustainable-living-at-experion-elements-invest-in-3-bhk-and-4bhk-apartments-in-noida">Sustainable Living at Experion Elements: Invest in 3 BHK & 4BHK Apartments in Noida</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Experion Elements-main.webp" alt="Experion Elements offering 3 & 4 BHK Luxury Apartments in Noida for Pet Lovers">
+                                <div class="date">
+                                    <a href="blog-14-experion-elements-offering-3-and-4-bhk-luxury-apartments-in-noida-for-pet-lovers"> May 18, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-14-experion-elements-offering-3-and-4-bhk-luxury-apartments-in-noida-for-pet-lovers"> admin</a>
+                                </span>
+                                <h5><a href="blog-14-experion-elements-offering-3-and-4-bhk-luxury-apartments-in-noida-for-pet-lovers">Experion Elements offering 3 & 4 BHK Luxury Apartments in Noida for Pet Lovers</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/elevated-walkways-main.webp" alt="Experion Elements: The Best Residential Property in Noida for Nature Lovers">
+                                <div class="date">
+                                    <a href="blog-12-experion-elements-the-best-residential-property-in-noida-for-nature-lovers"> May 16, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-12-experion-elements-the-best-residential-property-in-noida-for-nature-lovers"> admin</a>
+                                </span>
+                                <h5><a href="blog-12-experion-elements-the-best-residential-property-in-noida-for-nature-lovers">Experion Elements: The Best Residential Property in Noida for Nature Lovers</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/imgs-10.webp" alt="The Best Residential Project in Noida for Sports Enthusiasts: Experion Elements">
+                                <div class="date">
+                                    <a href="blog-11-the-best-residential-project-in-noida-for-sports-enthusiasts-experion-elements"> May 16, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-11-the-best-residential-project-in-noida-for-sports-enthusiasts-experion-elements"> admin</a>
+                                </span>
+                                <h5><a href="blog-11-the-best-residential-project-in-noida-for-sports-enthusiasts-experion-elements">The Best Residential Project in Noida for Sports Enthusiasts: Experion Elements</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/realestatedeveloper.jpg" alt="The world is in your home, with Windchants">
+                                <div class="date">
+                                    <a href="blog-10-the-world-is-in-your-home-with-windchants
+"> February 07, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-10-the-world-is-in-your-home-with-windchants
+"> Admin</a>
+                                </span>
+                                <h5><a href="blog-10-the-world-is-in-your-home-with-windchants
+">The world is in your home, with Windchants</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/ExperionDevelopers.webp" alt="Step into the realm of opulent living with Experion Developers">
+                                <div class="date">
+                                    <a href="blog-9-step-into-the-realm-of-opulent-living-with-experion-developers"> January 16, 2024 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-9-step-into-the-realm-of-opulent-living-with-experion-developers"> Admin</a>
+                                </span>
+                                <h5><a href="blog-9-step-into-the-realm-of-opulent-living-with-experion-developers">Step into the realm of opulent living with Experion Developers</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experionvirsa.jpg" alt="Golden opportunity in the city of the Golden Temple!">
+                                <div class="date">
+                                    <a href="blog-8-golden-opportunity-in-the-city-of-the-golden-temple
+"> August 22, 2023 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-8-golden-opportunity-in-the-city-of-the-golden-temple
+"> Admin</a>
+                                </span>
+                                <h5><a href="blog-8-golden-opportunity-in-the-city-of-the-golden-temple
+">Golden opportunity in the city of the Golden Temple!</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/experiondeveloper.jpg" alt="Shaping the Landscape of Tomorrow with Luxury">
+                                <div class="date">
+                                    <a href="blog-6-shaping-the-landscape-of-tomorrow-with-luxury"> August 18, 2023 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-6-shaping-the-landscape-of-tomorrow-with-luxury"> Admin</a>
+                                </span>
+                                <h5><a href="blog-6-shaping-the-landscape-of-tomorrow-with-luxury">Shaping the Landscape of Tomorrow with Luxury</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Experion Image.jpeg" alt="Windchants Duplex Villaments: Elegant Homes in Heart of Gurgaon">
+                                <div class="date">
+                                    <a href="blog-5-windchants-duplex-villaments-elegant-homes-in-heart-of-gurgaon"> December 09, 2022 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-5-windchants-duplex-villaments-elegant-homes-in-heart-of-gurgaon"> Admin</a>
+                                </span>
+                                <h5><a href="blog-5-windchants-duplex-villaments-elegant-homes-in-heart-of-gurgaon">Windchants Duplex Villaments: Elegant Homes in Heart of Gurgaon</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/Tv12Qf5d7WfYoeUoXHrs.jpg" alt="Gurgaon Redefines Luxury Living!">
+                                <div class="date">
+                                    <a href="blog-4-flats-In-Gurgoan-Experion"> July 27, 2022 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-4-flats-In-Gurgoan-Experion"> Admin</a>
+                                </span>
+                                <h5><a href="blog-4-flats-In-Gurgoan-Experion">Gurgaon Redefines Luxury Living!</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/YqGraC2ixIhZ0BiOY6Yu.jpg" alt="How to select a suitable location while buying a house in gurugram?">
+                                <div class="date">
+                                    <a href="blog-1-suitable-location-buying-a-house-in-gurugram"> January 28, 2022 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-1-suitable-location-buying-a-house-in-gurugram"> Experion Developers</a>
+                                </span>
+                                <h5><a href="blog-1-suitable-location-buying-a-house-in-gurugram">How to select a suitable location while buying a house in gurugram?</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/vVnLXRCnWwWFt1VWA06m.jpg" alt="Top 5 reasons to invest in Dwarka Expressway">
+                                <div class="date">
+                                    <a href="blog-2-invest-in-dwarka-expressway"> January 28, 2022 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-2-invest-in-dwarka-expressway"> Experion Developers</a>
+                                </span>
+                                <h5><a href="blog-2-invest-in-dwarka-expressway">Top 5 reasons to invest in Dwarka Expressway</a></h5>
+                            </div>
+                        </div>
+
+                        
+                        <div class="item">
+                            <div class="position-re o-hidden">  <img src="images/blog/g3Ckqw9wfBK1eXgZuK3R.jpg" alt="Monsoon season: A litmus test for real estate developers">
+                                <div class="date">
+                                    <a href="blog-3-monsoon-season-a-litmus"> January 28, 2022 </a>
+                                </div>
+                            </div>
+                            <div class="con"> <span class="category">
+                                    <a href="blog-3-monsoon-season-a-litmus"> Admin</a>
+                                </span>
+                                <h5><a href="blog-3-monsoon-season-a-litmus">Monsoon season: A litmus test for real estate developers</a></h5>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Reservation & Booking Form -->
+
+    <section class="testimonials" id="book">
+  <div class="background bg-img bg-fixed section-padding" data-background="img/projects/bg-1.jpg" data-overlay-dark="2">
+    <div class="container">
+      <div class="row">
+        <!-- Reservation -->
+        <div class="col-lg-5 col-md-12 mb-30 mt-30">
+          <div class="section-title"><span>Experience is on</span></div>
+          <h5 class="mt-15">We offer transparency in transactions, thought leadership in action, and customer insight in our development</h5>
+        </div>
+        <!-- Booking From -->
+        <div class="col-xl-5 col-lg-6 col-md-12 offset-xl-2 offset-lg-1">
+          <div class="booking-box">
+            <div class="head-box">
+              <!-- <h6>Enquire Now</h6> -->
+              <h4>Enquire Now</h4>
+            </div>
+            <div class="booking-inner clearfix">
+              <form class="form1 clearfix" method="post" action="javascript:;" onSubmit="return validatefmHome();">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="input1_wrapper">
+                      <!-- <label>Name</label> -->
+                      <div class="input1_inner">
+                        <input type="text" name="en_name_home" id="en_name_home" class="form-control input" placeholder="Enter Name">
+                        <div class="home_error_mgs" id="error_1_home"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="input1_wrapper">
+                      <!-- <label>Email</label> -->
+                      <div class="input1_inner">
+                        <input type="email" name="en_email_home" id="en_email_home" class="form-control input" placeholder="Enter Email">
+                        <div class="home_error_mgs" id="error_2_home"></div>
+                      </div>
+                    </div>
+                  </div>
+                                                                                <div class="col-md-12 form-group">
+     <!--<label for="mobile">Mobile</label>-->
+     <div class="mobile_number_wrap"> 
+        <select  name="" class="country_code" id="country_code" title="Country Code"> 
+        <option value="+91">+91</option>
+        <option value="+93">+93</option>
+        <option value="+355">+355</option>
+        <option value="+213">+213</option>
+        <option value="+1684">+1684</option>
+        <option value="+376">+376</option>
+        <option value="+244">+244</option>
+        <option value="+1264">+1264</option>
+        <option value="+672">+672</option>
+        <option value="+1268">+1268</option>
+        <option value="+54">+54</option>
+        <option value="+374">+374</option>
+        <option value="+297">+297</option>
+        <option value="+61">+61</option>
+        <option value="+43">+43</option>
+        <option value="+994">+994</option>
+        <option value="+1242">+1242</option>
+        <option value="+973">+973</option>
+        <option value="+880">+880</option>
+        <option value="+1246">+1246</option>
+        <option value="+375">+375</option>
+        <option value="+32">+32</option>
+        <option value="+501">+501</option>
+        <option value="+229">+229</option>
+        <option value="+1441">+1441</option>
+        <option value="+975">+975</option>
+        <option value="+591">+591</option>
+        <option value="+387">+387</option>
+        <option value="+267">+267</option>
+        <option value="+55">+55</option>
+        <option value="+246">+246</option>
+        <option value="+1284">+1284</option>
+        <option value="+673">+673</option>
+        <option value="+359">+359</option>
+        <option value="+226">+226</option>
+        <option value="+257">+257</option>
+        <option value="+855">+855</option>
+        <option value="+237">+237</option>
+        <option value="+1">+1</option>
+        <option value="+238">+238</option>
+        <option value="+1345">+1345</option>
+        <option value="+236">+236</option>
+        <option value="+235">+235</option>
+        <option value="+56">+56</option>
+        <option value="+86">+86</option>
+        <option value="+61">+61</option>
+        <option value="+61">+61</option>
+        <option value="+57">+57</option>
+        <option value="+269">+269</option>
+        <option value="+682">+682</option>
+        <option value="+506">+506</option>
+        <option value="+385">+385</option>
+        <option value="+53">+53</option>
+        <option value="+599">+599</option>
+        <option value="+357">+357</option>
+        <option value="+420">+420</option>
+        <option value="+243">+243</option>
+        <option value="+45">+45</option>
+        <option value="+253">+253</option>
+        <option value="+1767">+1767</option>
+        <option value="+1809">+1809</option>
+        <option value="+670">+670</option>
+        <option value="+593">+593</option>
+        <option value="+20">+20</option>
+        <option value="+503">+503</option>
+        <option value="+240">+240</option>
+        <option value="+291">+291</option>
+        <option value="+372">+372</option>
+        <option value="+251">+251</option>
+        <option value="+500">+500</option>
+        <option value="+298">+298</option>
+        <option value="+679">+679</option>
+        <option value="+358">+358</option>
+        <option value="+33">+33</option>
+        <option value="+689">+689</option>
+        <option value="+241">+241</option>
+        <option value="+220">+220</option>
+        <option value="+995">+995</option>
+        <option value="+49">+49</option>
+        <option value="+233">+233</option>
+        <option value="+350">+350</option>
+        <option value="+30">+30</option>
+        <option value="+299">+299</option>
+        <option value="+1473">+1473</option>
+        <option value="+1671">+1671</option>
+        <option value="+502">+502</option>
+        <option value="+44-1481">+44-1481</option>
+        <option value="+224">+224</option>
+        <option value="+245">+245</option>
+        <option value="+592">+592</option>
+        <option value="+509">+509</option>
+        <option value="+504">+504</option>
+        <option value="+852">+852</option>
+        <option value="+36">+36</option>
+        <option value="+354">+354</option> 
+        <option value="+62">+62</option>
+        <option value="+98">+98</option>
+        <option value="+964">+964</option>
+        <option value="+353">+353</option>
+        <option value="+44-1624">+44-1624</option>
+        <option value="+972">+972</option>
+        <option value="+39">+39</option>
+        <option value="+225">+225</option>
+        <option value="+1876">+1876</option>
+        <option value="+81">+81</option>
+        <option value="+44-1534">+44-1534</option>
+        <option value="+962">+962</option>
+        <option value="+7">+7</option>
+        <option value="+254">+254</option>
+        <option value="+686">+686</option>
+        <option value="+383">+383</option>
+        <option value="+965">+965</option>
+        <option value="+996">+996</option>
+        <option value="+856">+856</option>
+        <option value="+371">+371</option>
+        <option value="+961">+961</option>
+        <option value="+266">+266</option>
+        <option value="+231">+231</option>
+        <option value="+218">+218</option>
+        <option value="+423">+423</option>
+        <option value="+370">+370</option>
+        <option value="+352">+352</option>
+        <option value="+853">+853</option>
+        <option value="+389">+389</option>
+        <option value="+261">+261</option>
+        <option value="+265">+265</option>
+        <option value="+60">+60</option>
+        <option value="+960">+960</option>
+        <option value="+223">+223</option>
+        <option value="+356">+356</option>
+        <option value="+692">+692</option>
+        <option value="+222">+222</option>
+        <option value="+230">+230</option>
+        <option value="+262">+262</option>
+        <option value="+52">+52</option>
+        <option value="+691">+691</option>
+        <option value="+373">+373</option>
+        <option value="+377">+377</option>
+        <option value="+976">+976</option>
+        <option value="+382">+382</option>
+        <option value="+1664">+1664</option>
+        <option value="+212">+212</option>
+        <option value="+258">+258</option>
+        <option value="+95">+95</option>
+        <option value="+264">+264</option>
+        <option value="+674">+674</option>
+        <option value="+977">+977</option>
+        <option value="+31">+31</option>
+        <option value="+599">+599</option>
+        <option value="+687">+687</option>
+        <option value="+64">+64</option>
+        <option value="+505">+505</option>
+        <option value="+227">+227</option>
+        <option value="+234">+234</option>
+        <option value="+683">+683</option>
+        <option value="+850">+850</option>
+        <option value="+1670">+1670</option>
+        <option value="+47">+47</option>
+        <option value="+968">+968</option>
+        <option value="+92">+92</option>
+        <option value="+680">+680</option>
+        <option value="+970">+970</option>
+        <option value="+507">+507</option>
+        <option value="+675">+675</option>
+        <option value="+595">+595</option>
+        <option value="+51">+51</option>
+        <option value="+63">+63</option>
+        <option value="+64">+64</option>
+        <option value="+48">+48</option>
+        <option value="+351">+351</option>
+        <option value="+1787">+1787</option>
+        <option value="+974">+974</option>
+        <option value="+242">+242</option>
+        <option value="+262">+262</option>
+        <option value="+40">+40</option>
+        <option value="+7">+7</option>
+        <option value="+250">+250</option>
+        <option value="+590">+590</option>
+        <option value="+290">+290</option>
+        <option value="+1869">+1869</option>
+        <option value="+1758">+1758</option>
+        <option value="+590">+590</option>
+        <option value="+508">+508</option>
+        <option value="+1784">+1784</option>
+        <option value="+685">+685</option>
+        <option value="+378">+378</option>
+        <option value="+239">+239</option>
+        <option value="+966">+966</option>
+        <option value="+221">+221</option>
+        <option value="+381">+381</option>
+        <option value="+248">+248</option>
+        <option value="+232">+232</option>
+        <option value="+65">+65</option>
+        <option value="+1721">+1721</option>
+        <option value="+421">+421</option>
+        <option value="+386">+386</option>
+        <option value="+677">+677</option>
+        <option value="+252">+252</option>
+        <option value="+27">+27</option>
+        <option value="+82">+82</option>
+        <option value="+211">+211</option>
+        <option value="+34">+34</option>
+        <option value="+94">+94</option>
+        <option value="+249">+249</option>
+        <option value="+597">+597</option>
+        <option value="+47">+47</option>
+        <option value="+268">+268</option>
+        <option value="+46">+46</option>
+        <option value="+41">+41</option>
+        <option value="+963">+963</option>
+        <option value="+886">+886</option>
+        <option value="+992">+992</option>
+        <option value="+255">+255</option>
+        <option value="+66">+66</option>
+        <option value="+228">+228</option>
+        <option value="+690">+690</option>
+        <option value="+676">+676</option>
+        <option value="+1868">+1868</option>
+        <option value="+216">+216</option>
+        <option value="+90">+90</option>
+        <option value="+993">+993</option>
+        <option value="+1649">+1649</option>
+        <option value="+688">+688</option>
+        <option value="+1340">+1340</option>
+        <option value="+256">+256</option>
+        <option value="+380">+380</option>
+        <option value="+971">+971</option>
+        <option value="+44">+44</option>
+        <option value="+1">+1</option>
+        <option value="+598">+598</option>
+        <option value="+998">+998</option>
+        <option value="+678">+678</option>
+        <option value="+379">+379</option>
+        <option value="+58">+58</option>
+        <option value="+84">+84</option>
+        <option value="+681">+681</option>
+        <option value="+212">+212</option>
+        <option value="+967">+967</option>
+        <option value="+260">+260</option>
+        <option value="+263">+263</option>
+        </select>
+            <input name="en_phone_home" id="en_phone_home" type="tel" minlength="10" maxlength="15" class="form-control input" placeholder="Enter Mobile No.">
+<div class="home_error_mgs" id="error_3_home"></div>
+     </div>
+</div>
+                  
+                  <div class="col-md-12">
+                    <div id="wrapper">
+                      <label class="radio-button-container" disabled>Residential Project
+                        <input type="radio" id="inlineRadio11" name="projectRadioOptHome" onClick="javascript:fptypeHome('1','divProjectnamesHome');" value="residential" class="hp_enquiry">
+                        <span class="checkmark"></span> </label>
+                      <label class="radio-button-container">Commercial Project
+                        <input type="radio"  id="inlineRadio12" name="projectRadioOptHome" onClick="javascript:fptypeHome('2','divProjectnamesHome');" name="projectRadioOptHome" value="commercial" class="hp_enquiry">
+                        <span class="checkmark"></span> </label>
+                      <div class="home_error_mgs" id="error_4_home"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="input1_wrapper" id="divProjectnamesHome">
+                      <select name="project" id="project_enquiry_home" class="form-control">
+                        <option value="">--- Select Projects* ---</option>
+                      </select>
+                    </div>
+                      <div class="home_error_mgs" id="error_5_home"></div>
+                  </div>
+                  <div class="col-md-12 form-group">
+                    <div class="form_control check_lable">
+                      <input id="termshome1" type="checkbox"  name="termshome1" value="on1" />
+                      <label class="form-check-label"> I authorize Experion Developers Private Limited and its representatives to Call, SMS, Email or WhatsApp me about its programmes and offers. This consent overrides any registration for DND / NDNC. <a href="privacy-policy#land" target="_blank" style="text-decoration: underline;">Privacy Policy</a>
+                    <div class="home_error_mgs" id="error_6_home"></div></label>
+                    </div>
+                  </div>
+                  <div class="form_control main-cpt"> <img id="myimgcapthome" src="aspcaptcha4.asp" border="0" alt="Captcha"> <a href="javascript:capref2home()"><i class="fa-solid fa-rotate"></i></a> <span>Please Enter Code:</span>
+                    <input name="strCAPTCHA2home" type="text" placeholder="Enter Captcha *" class="inp form_input" id="strCAPTCHA2home" size="10">
+                    <div class="home_error_mgs" id="error_7_home"></div>
+                  </div>
+                    <input class="form-control" id="utmsourceget" name="utmsourceget" type="hidden" value="">
+                    <input class="form-control" id="utmsubsourceget" name="utmsubsourceget" type="hidden" value="">
+                  <div class="col-md-12">
+                    <a href="javascript:submitformenquireHome();" class="btn-form1-submit mt-15 text-center" id="Experion_Home_Enquire_Button12" onClick=""><span>Enquire Now</span></a>
+                    <div class="" id="lblProcessFormHome"></div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <div class="owl-carousel owl-theme">
+                    <div class="clients-logo">
+                        <a href="the-trillion"><img src="img/project_logo/trillion_logo.jpg" alt="The Trillion"></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="elements"><img src="img/project_logo/elements-logo.png" alt="Elements"></a>
+                    </div>
+                    <!-- <div class="clients-logo">
+                        <a href="residential-experion-capital"><img src="img/project_logo/capital.png" alt="Residential Experion Capital"></a>
+                    </div> -->
+                    <div class="clients-logo">
+                        <a href="residential-heartsong"><img src="img/project-logo/heartsong.png" alt="Residential Heartsong"></a>
+                    </div>
+                    <!-- <div class="clients-logo">
+                        <a href="residential-experion-virsa"><img src="img/project_logo/virsa.png" alt="Residential Experion Virsa"></a>
+                    </div> -->
+                    <div class="clients-logo">
+                        <a href="residential-windchants"><img src="img/project-logo/windchants.png" alt="Residential Windchants"></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="residential-windchants-nova"><img src="img/project-logo/windchants-nova-logo.png" alt="Residential Windchants Nova"></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="residential-westerlies"><img src="img/project-logo/wes.png" alt="Residential Westerlies"></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="commercial-milestone-experion-centre"><img src="img/project-logo/milestone.png" alt="Commercial Milestone Experion Centre"></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="commercial-experio-experion-capital"><img src="img/project_logo/experio.png" alt="Commercial Experio Experion Capital"></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="hub-108"><img src="img/project_logo/hub@108.jpg" alt="hub@108"></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section class="cookie-bar">
+	<div class="cookie-notice container">
+		<p class="cookie-para">We use cookies to enhance your user experience. By continuing using our site, you agree to our use of cookies.</p>
+		<a href="javascript:;" class="cookie-btn">Ok</a>
+        <a href="privacy-policy#cookies" class="cookie-btn secondary">Read More</a>
+
+	</div>
+</section>
+
+
+ <!-- Footer -->
+ <footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-column footer-about">
+                        <img src="img/logo/experion-footer.png" alt="Experion Developers">
+                        <h3 class="footer-title">About Experion</h3>
+                        <p class="footer-about-text">Experion, an FDI-funded real estate developer <br> backed by Experion Holdings Pte. Ltd., Singapore, the real estate investing arm of AT Holdings group of companies</p>
+                        <a class="portal_button" href="https://erpnew.edpl.co/" target="_blank"> Customer Portal </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-column footer-explore clearfix">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="footer-explore-list list-unstyled">
+                            <li><a href="about-us">About Us</a></li>
+                            <li><a href="blog">Blogs</a></li>
+                            <li><a href="nri-corner">NRI Corner</a></li>
+                            <li><a href="media">Media</a></li>
+                            <!-- <li><a href="construction-updates">Constructions Update</a></li> -->
+                            <li><a href="careers">Careers</a></li>
+                            <!-- <li><a href="compliances">Compliances</a></li> -->
+                            <li><a href="disclaimer">Disclaimer</a></li>
+                            <li><a href="privacy-policy">Privacy Policy</a></li>
+                            <li><a href="investor">Investors</a></li>
+                            <li><a href="construction-updates">Construction Updates</a></li>
+                            <!-- <li><a href="pdf/vigilance-mechanism-policy.pdf" data-fancybox="pdf">Vigil Mechanism Policy</a></li> -->
+                            <!-- <li><a href="pdf/csr-policy.pdf" target="_blank">CSR Policy</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-column footer-contact">
+                        <h3 class="footer-title">Corporate office</h3>
+                        <p class="footer-contact-text">8th Floor, Wing B, Milestone Experion Centre, Sector 15 Part 2, Gurugram, Haryana-122001</p>
+                        <div class="footer-contact-info">
+                            <p class="footer-contact-mail">+91-124-628-1630</p>
+                        </div>
+                        <h3 class="footer-title">Social Media</h3>
+                        <!-- <h3 class="footer-title">Singapore Office</h3> -->
+                        <!-- <p class="footer-contact-text">#16-04/05, Samsung Hub, 3 Church Street, Singapore - 049483</p> -->
+						<div class="footer-about-social-list">
+                            <a href="https://www.facebook.com/ExperionDevelopers" target="_blank"><i class="ti-facebook"></i></a>
+                            <a href="https://www.instagram.com/experiondevelopers/" target="_blank"><i class="ti-instagram"></i></a>
+                            <a href="https://www.youtube.com/user/ExperionDeveloper" target="_blank"><i class="ti-youtube"></i></a>
+                            <a href="https://www.linkedin.com/company/experion-developers-pvt-ltd" target="_blank"><i class="ti-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-bottom-inner">
+                        <p class="footer-bottom-copy-right">© Copyright <script>document.write(new Date().getFullYear());</script>. All Rights Reserved. <a href="javascript:;">Experion</a></p>
+                        <p class="footer-bottom-copy-right sityby">Site By :- <a href="https://www.iisindia.net/" target="_blank">Instant Info Solutions</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--<div class="whats_div">
+    <a target="new" href="https://api.whatsapp.com/send?phone=919717007755&amp;text=Hi there! I want to know more about experion."><img src="img/whatsapp.png" alt="whatsapp icon"></a>
+</div>-->
+
+<div class="phone">
+    <a href="tel:+911246281630" class="Experion-call-button-click"><img src="img/call.gif" alt="call icon"></a>
+</div>
+
+<div class="phone element_btn">
+    <a href="tel:+917510001325" class="element_call_button" ><img src="img/call.gif" alt="call icon"></a>
+</div>
+
+
+<style>
+.whats_div {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 18px;
+    left: 16px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 46px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.phone {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 18px;
+    right: 20px;
+    background-color: #aa8453;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 46px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.phone img {
+    display: block;
+    padding: 12px;
+}
+</style><div class="popup_module" id="disclaimer">
+    <div class="popup_module_in">
+        <div class="popup_container">
+            <!-- <span class="pop_close" onclick="enquire_pop_close()">&#x2716;</span> -->
+
+            <div class="disclaimer_content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Disclaimer</h2>
+                </div>
+                <div class="modal-body cs_scrollbar">
+                    <p class="big">Thank you for visiting <strong>www.experion.co</strong></p>
+                    <p>Experion.co is the only official website of Experion Developers Private Limited (“Experion”). Please
+                        beware and exercise caution against any other website fraudulently posing as the website of Experion
+                        and/or any of the projects of Experion. Experion is not in any way associated/affiliated with such
+                        fraudulent websites and will not be held liable or responsible for any claims, losses, damages or
+                        expenses resulting from any website not created/authorised by Experion providing any inaccurate
+                        and/or misleading information.</p>
+                    <p>The contents of this website of Experion Developers Private Limited (“Company”) do not constitute
+                        part of an offer or contract for sale and are for information purposes only. The visitors are
+                        advised to have their own independent evaluation. Nothing on this website, constitutes advertising,
+                        marketing, booking, selling or an offer for sale, or invitation to purchase a unit in any project in
+                        any manner by the Company.</p>
+                    <p>All the relevant phases of all the projects of the Company are registered with the applicable RERA
+                        authorities.</p>
+                    <p>This Website may contain other proprietary notices and copyright information, the terms of which
+                        must be observed and followed.</p>
+                    <p>Information may be changed or updated without notice. Company may also make improvements and/or
+                        changes in the products and/or the programs described in this information at any time without
+                        notice.</p>
+                    <p>The present content on the website(s), regarding the project and in respect of the apartments, plot
+                        or building, and project layout, area, amenities, services, terms of sale and other relevant terms,
+                        are based on the approved and sanctioned plans subject to any modification and change in consonance
+                        with relevant laws or as directed by the Authorities. The visuals, pictures, images/ renderings/maps
+                        of the project at the development / construction stage, are purely indicative, informative, and
+                        representational in nature and only an architect's impression, unless specifically claimed to be
+                        actual photographs.</p>
+                    <p>The Company expressly disclaims all liability in respect to actions taken or not taken based on any
+                        or all the contents of this Website. The Company will in no circumstance be liable for any expense,
+                        loss or damage including, without limitation, indirect or consequential loss or damage, or any
+                        expense, loss or damage whatsoever arising from the use of data, arising out of or in connection
+                        with the use of this Website.</p>
+                    <p>By using or accessing the Website, the User agrees, acknowledges and accepts all the terms and
+                        conditions of the disclaimer without any qualification or limitation.</p>
+                    <p>In no event Company will be liable to any party for any Direct, Indirect, Special or other
+                        consequential damages for any use of this website, or any other hyper linked website, including
+                        without limitation, any lost profits, Business Interruption, Loss of programs or other data on your
+                        information handling system or otherwise, even if we are expressly advised of the possibility of
+                        such damages.</p>
+                    <p>The foregoing are subject to the prevailing laws of India and the courts in India shall have the
+                        exclusive jurisdiction on any dispute that may arise out of the use of this site.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn bg--black text--white btn-block" onclick="enquire_pop_close()">I AGREE THAT I HAVE READ &AMP; UNDERSTOOD THE DISCLAIMER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery -->
+<script src="js/jquery-3.6.3.min.js"></script> 
+<script src="js/modernizr-2.6.2.min.js"></script>  
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scrollIt.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js' crossorigin="anonymous"></script>
+<script src="js/custom.js"></script>
+<script>
+    function capref2home()
+           {d = new Date();
+           $("#myimgcapthome").attr("src", "aspcaptcha4.asp?"+d.getTime());
+       }
+   function fptypeHome(ptypeval,dividname)
+    {
+        //alert(ptypeval)
+
+            $.ajax({
+               url: 'ajaxprojectsdisphome.asp',
+                data: {ptypeval: ptypeval},
+                success: function (data) {
+                       $("#"+dividname).html(data);
+                }
+         });
+
+
+    }
+   
+       function submitformenquireHome()
+           {
+               $("#en_name_home,#en_email_home,#en_phone_home").css("border-bottom", "2px solid #ccc");
+               
+               document.querySelector("#error_1_home").innerHTML = "";
+               document.querySelector("#error_2_home").innerHTML = "";
+               document.querySelector("#error_3_home").innerHTML = "";
+               document.querySelector("#error_4_home").innerHTML = "";
+               document.querySelector("#error_5_home").innerHTML = "";
+               document.querySelector("#error_6_home").innerHTML = "";
+               document.querySelector("#error_7_home").innerHTML = "";
+               
+               var en_name_home = $("#en_name_home").val();
+               var en_email_home = $("#en_email_home").val();
+                var country_code = $("#country_code").val();
+               var en_phone_home = $("#en_phone_home").val();
+                var projectRadioOptHome =$('input[name="projectRadioOptHome"]:checked').val();
+                var project_enquiry_home = $('#project_enquiry_home').val();
+               var termshome1=$("#termshome1").is(':checked');
+                 var utmsource = $("#utmsourceget").val();
+                    var utmsubsourceget = $("#utmsubsourceget").val();
+               var strCAPTCHA2home = $("#strCAPTCHA2home").val();
+   
+               var counter=0;
+   
+               if (en_name_home == "") {
+                   $("#en_name_home").css("border-bottom", "2px solid red");
+                   $("#en_name_home").focus();
+                   document.querySelector("#error_1_home").innerHTML = "Please Enter Your Name";
+                   counter=1;
+                   return false;
+               }
+   
+               if (en_email_home == "") {
+                   $("#en_email_home").css("border-bottom", "2px solid red");
+                   $("#en_email_home").focus();
+                   document.querySelector("#error_2_home").innerHTML = "Please enter a valid email address.";
+                   counter=1;
+                     return false;
+               }
+   
+               if (IsEmail(en_email_home) == false) {
+                   $("#en_email_home").css("border-bottom", "2px solid red");
+                   $("#en_email_home").focus();
+                   document.querySelector("#error_2_home").innerHTML = "Please enter a valid email address";
+                   counter=1;
+                     return false;
+               }
+                if (country_code == "") {
+                    $("#spanid").text('Select Country Code').css("color", "red");
+                    $("[id='country_code']").focus();
+                    return false;
+                }
+   
+               if (en_phone_home == "") {
+                   $("#en_phone_home").css("border-bottom", "2px solid red");
+                   $("#en_phone_home").focus();
+                   document.querySelector("#error_3_home").innerHTML = "Please enter your mobile number.";
+                   counter=1;
+                     return false;
+               }
+   
+         
+               var phone55 = /^([0|\+[0-9]{1,5})?([6-9][0-9]{9})$/;
+                if (phone55.test(en_phone_home) == false) {
+                   $("#en_phone_home").css("border-bottom", "2px solid red");
+                   $("#en_phone_home").focus();
+                   document.querySelector("#error_3_home").innerHTML = "Please enter correct Mobile Number";
+                   counter=1;
+                   return false;
+               }
+   
+               if (!projectRadioOptHome) {
+                   alert("Please select a project type (Residential or Commercial).");
+                   $("input[name='project']").closest("label").css("border", "2px solid red");
+                   document.querySelector("#error_4_home").innerHTML = "This field is required.";
+                   counter = 1;
+                   return false;
+               }
+               
+               if (project_enquiry_home == "") {
+                   $("#project_enquiry_home").css("border-bottom", "2px solid red");
+                   $("#project_enquiry_home").focus();
+                   document.querySelector("#error_5_home").innerHTML = "Please Select Project Name";
+                   counter=1;
+                     return false;
+               }
+           
+                 if (termshome1 == false) {
+                   alert("Please click on checkbox for privacy policy.");
+                   document.querySelector("#error_6_home").innerHTML = "Please give your consent.";
+                   counter=1;
+                   return false;
+               }
+   
+               if (strCAPTCHA2home == "") {
+                 $("#strCAPTCHA2home").css("border", "2px solid red");
+                   document.querySelector("#error_7_home").innerHTML = "Please enter Captcha Code.";
+                 $("#strCAPTCHA2home").focus();
+                 counter = 1;
+                 return false;
+             }
+   
+       if(counter==0){
+   
+            $("#lblProcessFormHome").html("Please wait...");
+               $.ajax({
+                  url: 'ajaxSubmitEnquirePopupHome.asp',
+                   data: {en_name_home: en_name_home,en_email_home:en_email_home, country_code: country_code, utmsource: utmsource, utmsubsourceget: utmsubsourceget,en_phone_home:en_phone_home,projectRadioOptHome:projectRadioOptHome,project_enquiry_home:project_enquiry_home,strCAPTCHA2home:strCAPTCHA2home},
+                   success: function (data) {
+                       //alert(data)
+                         if (data=="WrongCaptchaHome"){
+                           $("#lblProcessFormHome").html("Wrong Captcha, Please enter correct captcha image and Try Again!")
+                           capref2home();
+                          }
+                          else if(data=="successhome"){
+                            $("#en_name_home,#en_email_home,#en_phone_home,#strCAPTCHA2home").val('');
+                            window.location.href="thankyou.asp";
+                          } 
+                       else{
+                           $("#lblProcessFormHome").html(data);
+                       }
+                   }
+            });
+       }
+           }
+   
+           function validatefmHome() {
+   
+               $("#en_name_home,#en_email_home,#en_phone_home").css("border-bottom", "2px solid #ccc");
+   
+               var en_name_home = $("#en_name_home").val();
+               var en_email_home = $("#en_email_home").val();
+               var en_phone_home = $("#en_phone_home").val();
+                var projectRadioOptHome =$('input[name="projectRadioOptHome"]:checked').val();
+                var project_enquiry_home = $('#project_enquiry_home').val();
+               var termshome1=$("#termshome1").is(':checked');
+               var strCAPTCHA2home = $("#strCAPTCHA2home").val();
+   
+               if (en_name_home == "") {
+                   $("#en_name_home").css("border-bottom", "2px solid red");
+                   $("#en_name_home").focus();
+                   return false;
+               }
+   
+               if (en_email_home == "") {
+                   $("#en_email_home").css("border-bottom", "2px solid red");
+                   $("#en_email_home").focus();
+   
+                   return false;
+               }
+
+               if (en_phone_home == "") {
+                   $("#en_phone_home").css("border-bottom", "2px solid red");
+                   $("#en_phone_home").focus();
+                   return false;
+               }
+
+           
+               return true;
+               
+           }
+   
+   
+           function IsEmail(en_email_home) {
+               var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+               return regex.test(en_email_home);
+           }
+
+   
+   </script>
+<script src="js/other-custom.js"></script>
+ <script>
+    $("#trillion_year").on("change", (function () {
+        $("#trillion_year26_27").css("display", "none"), "2026-2027" === $(this).val() && $("#trillion_year26_27").css("display", "flex")
+    }))
+</script>
+<div class="popup_module">
+  <div class="popup_module_in">
+    <div class="popup_container">
+      <span class="pop_close" onclick="enquire_pop_close()">&#x2716;</span>
+      <form method="post" class="enquire_form" action="javascript:;" onSubmit="return validatefm();">
+        <div class="row">
+          <div class="col-12">
+            <div class="enquire_title">Booking Enquiry</div>
+          </div>
+        </div>
+        <!-- form elements -->
+        <div class="row">
+          <div class="col-md-12 form-group">
+            <input name="en_name" id="en_name" type="text" placeholder="Name *">
+            <div class="popup_error_mgs" id="error_1"></div>
+          </div>
+          <div class="col-md-12 form-group">
+            <input name="en_email" id="en_email" type="email" placeholder="Email *">
+            <div class="popup_error_mgs" id="error_2"></div>
+          </div>
+          
+                                                            <div class="col-md-12 form-group">
+     <!--<label for="mobile">Mobile</label>-->
+     <div class="mobile_number_wrap"> 
+        <select  name="" class="country_code" id="country_code" title="Country Code"> 
+        <option value="+91">+91</option>
+        <option value="+93">+93</option>
+        <option value="+355">+355</option>
+        <option value="+213">+213</option>
+        <option value="+1684">+1684</option>
+        <option value="+376">+376</option>
+        <option value="+244">+244</option>
+        <option value="+1264">+1264</option>
+        <option value="+672">+672</option>
+        <option value="+1268">+1268</option>
+        <option value="+54">+54</option>
+        <option value="+374">+374</option>
+        <option value="+297">+297</option>
+        <option value="+61">+61</option>
+        <option value="+43">+43</option>
+        <option value="+994">+994</option>
+        <option value="+1242">+1242</option>
+        <option value="+973">+973</option>
+        <option value="+880">+880</option>
+        <option value="+1246">+1246</option>
+        <option value="+375">+375</option>
+        <option value="+32">+32</option>
+        <option value="+501">+501</option>
+        <option value="+229">+229</option>
+        <option value="+1441">+1441</option>
+        <option value="+975">+975</option>
+        <option value="+591">+591</option>
+        <option value="+387">+387</option>
+        <option value="+267">+267</option>
+        <option value="+55">+55</option>
+        <option value="+246">+246</option>
+        <option value="+1284">+1284</option>
+        <option value="+673">+673</option>
+        <option value="+359">+359</option>
+        <option value="+226">+226</option>
+        <option value="+257">+257</option>
+        <option value="+855">+855</option>
+        <option value="+237">+237</option>
+        <option value="+1">+1</option>
+        <option value="+238">+238</option>
+        <option value="+1345">+1345</option>
+        <option value="+236">+236</option>
+        <option value="+235">+235</option>
+        <option value="+56">+56</option>
+        <option value="+86">+86</option>
+        <option value="+61">+61</option>
+        <option value="+61">+61</option>
+        <option value="+57">+57</option>
+        <option value="+269">+269</option>
+        <option value="+682">+682</option>
+        <option value="+506">+506</option>
+        <option value="+385">+385</option>
+        <option value="+53">+53</option>
+        <option value="+599">+599</option>
+        <option value="+357">+357</option>
+        <option value="+420">+420</option>
+        <option value="+243">+243</option>
+        <option value="+45">+45</option>
+        <option value="+253">+253</option>
+        <option value="+1767">+1767</option>
+        <option value="+1809">+1809</option>
+        <option value="+670">+670</option>
+        <option value="+593">+593</option>
+        <option value="+20">+20</option>
+        <option value="+503">+503</option>
+        <option value="+240">+240</option>
+        <option value="+291">+291</option>
+        <option value="+372">+372</option>
+        <option value="+251">+251</option>
+        <option value="+500">+500</option>
+        <option value="+298">+298</option>
+        <option value="+679">+679</option>
+        <option value="+358">+358</option>
+        <option value="+33">+33</option>
+        <option value="+689">+689</option>
+        <option value="+241">+241</option>
+        <option value="+220">+220</option>
+        <option value="+995">+995</option>
+        <option value="+49">+49</option>
+        <option value="+233">+233</option>
+        <option value="+350">+350</option>
+        <option value="+30">+30</option>
+        <option value="+299">+299</option>
+        <option value="+1473">+1473</option>
+        <option value="+1671">+1671</option>
+        <option value="+502">+502</option>
+        <option value="+44-1481">+44-1481</option>
+        <option value="+224">+224</option>
+        <option value="+245">+245</option>
+        <option value="+592">+592</option>
+        <option value="+509">+509</option>
+        <option value="+504">+504</option>
+        <option value="+852">+852</option>
+        <option value="+36">+36</option>
+        <option value="+354">+354</option> 
+        <option value="+62">+62</option>
+        <option value="+98">+98</option>
+        <option value="+964">+964</option>
+        <option value="+353">+353</option>
+        <option value="+44-1624">+44-1624</option>
+        <option value="+972">+972</option>
+        <option value="+39">+39</option>
+        <option value="+225">+225</option>
+        <option value="+1876">+1876</option>
+        <option value="+81">+81</option>
+        <option value="+44-1534">+44-1534</option>
+        <option value="+962">+962</option>
+        <option value="+7">+7</option>
+        <option value="+254">+254</option>
+        <option value="+686">+686</option>
+        <option value="+383">+383</option>
+        <option value="+965">+965</option>
+        <option value="+996">+996</option>
+        <option value="+856">+856</option>
+        <option value="+371">+371</option>
+        <option value="+961">+961</option>
+        <option value="+266">+266</option>
+        <option value="+231">+231</option>
+        <option value="+218">+218</option>
+        <option value="+423">+423</option>
+        <option value="+370">+370</option>
+        <option value="+352">+352</option>
+        <option value="+853">+853</option>
+        <option value="+389">+389</option>
+        <option value="+261">+261</option>
+        <option value="+265">+265</option>
+        <option value="+60">+60</option>
+        <option value="+960">+960</option>
+        <option value="+223">+223</option>
+        <option value="+356">+356</option>
+        <option value="+692">+692</option>
+        <option value="+222">+222</option>
+        <option value="+230">+230</option>
+        <option value="+262">+262</option>
+        <option value="+52">+52</option>
+        <option value="+691">+691</option>
+        <option value="+373">+373</option>
+        <option value="+377">+377</option>
+        <option value="+976">+976</option>
+        <option value="+382">+382</option>
+        <option value="+1664">+1664</option>
+        <option value="+212">+212</option>
+        <option value="+258">+258</option>
+        <option value="+95">+95</option>
+        <option value="+264">+264</option>
+        <option value="+674">+674</option>
+        <option value="+977">+977</option>
+        <option value="+31">+31</option>
+        <option value="+599">+599</option>
+        <option value="+687">+687</option>
+        <option value="+64">+64</option>
+        <option value="+505">+505</option>
+        <option value="+227">+227</option>
+        <option value="+234">+234</option>
+        <option value="+683">+683</option>
+        <option value="+850">+850</option>
+        <option value="+1670">+1670</option>
+        <option value="+47">+47</option>
+        <option value="+968">+968</option>
+        <option value="+92">+92</option>
+        <option value="+680">+680</option>
+        <option value="+970">+970</option>
+        <option value="+507">+507</option>
+        <option value="+675">+675</option>
+        <option value="+595">+595</option>
+        <option value="+51">+51</option>
+        <option value="+63">+63</option>
+        <option value="+64">+64</option>
+        <option value="+48">+48</option>
+        <option value="+351">+351</option>
+        <option value="+1787">+1787</option>
+        <option value="+974">+974</option>
+        <option value="+242">+242</option>
+        <option value="+262">+262</option>
+        <option value="+40">+40</option>
+        <option value="+7">+7</option>
+        <option value="+250">+250</option>
+        <option value="+590">+590</option>
+        <option value="+290">+290</option>
+        <option value="+1869">+1869</option>
+        <option value="+1758">+1758</option>
+        <option value="+590">+590</option>
+        <option value="+508">+508</option>
+        <option value="+1784">+1784</option>
+        <option value="+685">+685</option>
+        <option value="+378">+378</option>
+        <option value="+239">+239</option>
+        <option value="+966">+966</option>
+        <option value="+221">+221</option>
+        <option value="+381">+381</option>
+        <option value="+248">+248</option>
+        <option value="+232">+232</option>
+        <option value="+65">+65</option>
+        <option value="+1721">+1721</option>
+        <option value="+421">+421</option>
+        <option value="+386">+386</option>
+        <option value="+677">+677</option>
+        <option value="+252">+252</option>
+        <option value="+27">+27</option>
+        <option value="+82">+82</option>
+        <option value="+211">+211</option>
+        <option value="+34">+34</option>
+        <option value="+94">+94</option>
+        <option value="+249">+249</option>
+        <option value="+597">+597</option>
+        <option value="+47">+47</option>
+        <option value="+268">+268</option>
+        <option value="+46">+46</option>
+        <option value="+41">+41</option>
+        <option value="+963">+963</option>
+        <option value="+886">+886</option>
+        <option value="+992">+992</option>
+        <option value="+255">+255</option>
+        <option value="+66">+66</option>
+        <option value="+228">+228</option>
+        <option value="+690">+690</option>
+        <option value="+676">+676</option>
+        <option value="+1868">+1868</option>
+        <option value="+216">+216</option>
+        <option value="+90">+90</option>
+        <option value="+993">+993</option>
+        <option value="+1649">+1649</option>
+        <option value="+688">+688</option>
+        <option value="+1340">+1340</option>
+        <option value="+256">+256</option>
+        <option value="+380">+380</option>
+        <option value="+971">+971</option>
+        <option value="+44">+44</option>
+        <option value="+1">+1</option>
+        <option value="+598">+598</option>
+        <option value="+998">+998</option>
+        <option value="+678">+678</option>
+        <option value="+379">+379</option>
+        <option value="+58">+58</option>
+        <option value="+84">+84</option>
+        <option value="+681">+681</option>
+        <option value="+212">+212</option>
+        <option value="+967">+967</option>
+        <option value="+260">+260</option>
+        <option value="+263">+263</option>
+        </select>
+            <input type="tel" minlength="10" maxlength="15" name="en_phone" id="en_phone" placeholder="Mobile No. *">
+            <div class="popup_error_mgs" id="error_3"></div>
+     </div>
+</div>
+          <div class="col-md-12 form-group">
+            <div class="form-radio">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input check-box" type="radio" id="inlineRadio1" onClick="javascript:fptype('1','divProjectnames');" name="projectRadioOpt" value="residential">
+              <label class="form-check-label" for="inlineRadio1">Residential Project</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input check-box" type="radio" onClick="javascript:fptype('2','divProjectnames');" id="inlineRadio2" name="projectRadioOpt" value="commercial">
+              <label class="form-check-label" for="inlineRadio2">Commercial Project</label>
+            </div>
+          </div>
+            <div class="popup_error_mgs" id="error_4"></div>
+          </div>
+          <div class="form-group" id="divProjectnames">
+            <select name="project" id="project-enquiry" class="form-control">
+              <option value="">--- Select Projects* ---</option>
+            </select>
+          </div>
+
+          <div class="col-md-12 form-group">
+            <div class="form-check form-check-inline">
+               <input class="form-check-input check-box" id="terms" type="checkbox"  name="terms" value="on" />
+              <label class="form-check-label"> I authorize Experion Developers Private Limited and its representatives to Call, SMS, Email or WhatsApp me about its programmes and offers. This consent overrides any registration for DND / NDNC. <a href="privacy-policy#land" target="_blank" style="text-decoration: underline;">Privacy Policy</a>
+                <div class="popup_error_mgs" id="error_6"></div></label>
+            </div>
+          </div>
+          <div class="col-md-12">
+          <div class="form_control main-cpt"> <img id="myimgcapt" style="width: 80px;" src="aspcaptcha.asp" border="0" alt="Captcha"><a href="javascript:capref1()"><i class="fa-solid fa-rotate"></i></a> <span>Please Enter Code:</span>
+            <input name="strCAPTCHA" type="text" placeholder="Enter Captcha *" class="inp form_input"
+                            id="strCAPTCHA" size="10">
+                            <div class="popup_error_mgs" id="error_7"></div>
+                          </div>
+
+        </div>
+                                    <input class="form-control" id="utmsourceget" name="utmsourceget" type="hidden" value="">
+                                    <input class="form-control" id="utmsubsourceget" name="utmsubsourceget" type="hidden" value="">
+          <div class="col-md-12 mt-20 text-center">
+            <button type="submit" class="butn-dark2" onClick="javascript:submitformenquire();"><span>Enquire Now</span></button>
+              <div class="" id="lblProcessForm"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  $(document).ready(function(){
+     if(readCookie("cookie_accepted") == "1"){
+        $(".cookie-bar").hide();
+    }
+    else{
+        $(".cookie-bar").show();
+            $('body').addClass('cookie-space');
+            $('.cookie-btn').click(function(){
+                $('body').removeClass('cookie-space');
+            $('.cookie-bar').fadeOut();
+            createCookie("cookie_accepted", 1, 365);
+        });
+    }
+    });
+
+
+    // $(document).ready(function() {
+    //     $("#disclaimer").show();
+    // });
+
+ function getParameterByName(name, url) {
+        if (!url) {
+            url = window.location.href;
+        }
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    $(document).ready(function() {
+        var advMedium = getParameterByName('advm');
+        if (advMedium != null) {
+            $('input[name=advm]').val(advMedium);
+            createCookie('advm', advMedium, 1);
+        } else {
+            advMedium = readCookie('advm');
+            $('input[name=advm]').val(advMedium);
+        }
+        var nodeCount = document.getElementsByName('ft').length;
+        for (count = 0; count < nodeCount; count++) {
+            document.getElementsByName('ft')[count].value = window.location.href;
+        }
+    });
+</script>
+<script>
+     $('.gallery_slider.owl-carousel').owlCarousel({
+        items: 2,
+        loop: true,
+        margin: 50,
+        nav: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        autoplaySpeed: 1000,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        // center: true,
+        // stagePadding: 50,
+        nav: true,
+        dots: false,
+        navText: ["<i class='fa-solid fa-arrow-left-long'></i>", "<i class='fa-solid fa-arrow-right-long'></i>"],
+        responsive: {
+            0:{
+                items: 1,
+                margin: 10,
+                stagePadding: 0,
+                center: false,
+            },
+            767:{
+                items: 2, 
+                margin: 20,
+                // stagePadding: 110,
+                // center: true,
+            },
+            992:{
+                items: 2,
+                margin: 30,
+                stagePadding: 0,
+            }
+        }
+    });
+</script>
+</body>
+</html>
