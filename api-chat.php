@@ -131,7 +131,7 @@ function buildServicesHTML() {
 }
 
 function buildCompanyOverviewHTML() {
-    $contactInfoHTML = "📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>";
+    $contactInfoHTML = "📞 <a href=\"tel:+917004709933\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">+91 7004709933</a> (<a href=\"https://wa.me/917004709933\" target=\"_blank\" style=\"color:#16a34a; text-decoration:underline; font-weight:bold;\">WhatsApp</a>) | 📧 <a href=\"mailto:Azores.ranchi@gmail.com\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Azores.ranchi@gmail.com</a>";
     return "<strong>Azores Infrastructure Private Limited (AIPL)</strong> is a Class 1A Government Registered Civil Engineering Contractor with over 29+ years of industry experience and 120+ executed infrastructure projects across India.<br><br>" . 
            "Here are the services we provide:<br><br>" . 
            buildHyperlinksHTML() . 
@@ -139,7 +139,7 @@ function buildCompanyOverviewHTML() {
 }
 
 function buildIrrelevantResponseHTML() {
-    $contactInfoHTML = "📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>";
+    $contactInfoHTML = "📞 <a href=\"tel:+917004709933\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">+91 7004709933</a> (<a href=\"https://wa.me/917004709933\" target=\"_blank\" style=\"color:#16a34a; text-decoration:underline; font-weight:bold;\">WhatsApp</a>) | 📧 <a href=\"mailto:Azores.ranchi@gmail.com\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Azores.ranchi@gmail.com</a>";
     return "🤣 Lol! I cant help you with that...<br><br>But here's how i can definitely help you:<br>" . 
            buildCapsulesHTML() . 
            "<br>For more details reach out to us at " . $contactInfoHTML . " or check out our <a href=\"index.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">website</a>.";
@@ -203,12 +203,14 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         ];
     }
 
+    $contactInfoHTML = "📞 <a href=\"tel:+917004709933\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">+91 7004709933</a> (<a href=\"https://wa.me/917004709933\" target=\"_blank\" style=\"color:#16a34a; text-decoration:underline; font-weight:bold;\">WhatsApp</a>) | 📧 <a href=\"mailto:Azores.ranchi@gmail.com\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Azores.ranchi@gmail.com</a>";
+
     // SPECIALIZATION INQUIRIES (EXACT SPECIFIED RESPONSES)
     if (preg_match('/\b(turnkey|peb|peb shed|epc)\b/i', $msg) && !preg_match('/\b(budget|cost|price|rate|discount|manpower|timeline|material|people|staff)\b/i', $msg)) {
         return [
             'reply' => "Yes, absolutely! We handle complete Turnkey EPC projects — managing everything from engineering design, procurement, and civil construction to final testing and handover under a single contract.<br><br>" .
                        "You can explore our <a href=\"specialization-turnkey.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Turnkey & EPC Project capabilities here</a>.<br><br>" .
-                       "Since major EPC contracts require detailed technical discussions, please connect with our engineering team directly over 📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>",
+                       "Since major EPC contracts require detailed technical discussions, please connect with our engineering team directly over " . $contactInfoHTML,
             'suggestions' => ["Turnkey Capabilities", "PEB Sheds", "Contact Team"]
         ];
     }
@@ -216,7 +218,7 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         return [
             'reply' => "You're in the right place! We specialize in multi-span pre-stressed concrete (PSC) girder bridges, Railway Overbridges (ROBs), RUBs, and urban flyovers.<br><br>" .
                        "You can check our <a href=\"specialization-bridges.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Bridge & Elevated Structure projects here</a>.<br><br>" .
-                       "To discuss your bridge specifications or tender details, please get in touch with us over 📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>",
+                       "To discuss your bridge specifications or tender details, please get in touch with us over " . $contactInfoHTML,
             'suggestions' => ["Bridge Projects", "Railway Overbridges", "Contact Team"]
         ];
     }
@@ -224,7 +226,7 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         return [
             'reply' => "You're in the right place! We specialize in flexible asphalt pavements, rigid concrete roads (PQC), highway widening, embankment construction, and toll plaza infrastructure.<br><br>" .
                        "You can check our <a href=\"specialization-highways.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Highways & Expressways projects here</a>.<br><br>" .
-                       "To discuss your highway specifications or tender details, please get in touch with us over 📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>",
+                       "To discuss your highway specifications or tender details, please get in touch with us over " . $contactInfoHTML,
             'suggestions' => ["Highway Projects", "Concrete PQC Roads", "Contact Team"]
         ];
     }
@@ -232,7 +234,7 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         return [
             'reply' => "You're in the right place! We construct purpose-built institutional infrastructure, including schools, university campuses, multispecialty hospitals, high court annexes, and administrative complexes.<br><br>" .
                        "You can view our <a href=\"specialization-institutional.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Institutional Infrastructure projects here</a>.<br><br>" .
-                       "Please reach out to our team at 📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong> to discuss your project requirements.",
+                       "Please reach out to our team at " . $contactInfoHTML . " to discuss your project requirements.",
             'suggestions' => ["Institutional Projects", "Hospitals", "Contact Team"]
         ];
     }
@@ -240,7 +242,7 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         return [
             'reply' => "You're in the right place! We build integrated residential townships, high-rise residential towers, gated community infrastructure, utilities, and land development.<br><br>" .
                        "You can view our <a href=\"specialization-residential.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Residential Townships projects here</a>.<br><br>" .
-                       "To discuss your residential township specifications, please get in touch with us over 📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>",
+                       "To discuss your residential township specifications, please get in touch with us over " . $contactInfoHTML,
             'suggestions' => ["Residential Projects", "High-Rise Towers", "Contact Team"]
         ];
     }
@@ -249,14 +251,13 @@ function matchLocalIntent($userMessage, $questionsData = []) {
     if (preg_match('/\b(founder|owner|managing director|director|ceo|ranvijay|pradhan|leadership|head of company|who owns|who founded|who runs)\b/i', $msg)) {
         return [
             'reply' => "<strong>Azores Infrastructure Private Limited</strong> is led by <strong>Mr. Ranvijay Pradhan</strong> (Founder & Managing Director). He holds a B.Tech in Mechanical Engineering and brings 29+ years of civil construction experience, having executed over 120+ major government infrastructure projects across India.<br><br>" .
-                       "You can connect directly with our leadership team at 📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>.",
+                       "You can connect directly with our leadership team at " . $contactInfoHTML . ".",
             'suggestions' => ["Class 1A Credentials", "Our Services", "Contact Team"]
         ];
     }
 
     // 3B. IN-DEPTH COMMERCIAL / BUDGET / FINANCIAL / EXPENSES / STAFF INQUIRIES
     if (preg_match('/\b(budget|cost|costs|price|prices|pricing|rate|rates|discount|discounts|expense|expenses|expenditure|finance|finances|financial|estimate|estimation|quotation|timeline|duration|manpower|labor|labour|workforce|material|materials|steel|cement|concrete|land|land cost|acre|sqft|sq ft|sqm|sq m|fee|fees|charge|charges|tender quote|boq|bill of quantities)\b/i', $msg)) {
-        $contactInfoHTML = "📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>";
         return [
             'reply' => "I cannot help you with that currently but you can reach out to us at " . $contactInfoHTML . " and enquire about it.",
             'suggestions' => ["Call +91 7004709933", "Send Email", "Contact Team"]
@@ -331,13 +332,13 @@ function matchLocalIntent($userMessage, $questionsData = []) {
 
     if (preg_match('/\b(contact|phone|call|number|reach|email|mail|address)\b/i', $msg) && !preg_match('/\b(build|bridge|highway|project)\b/i', $msg)) {
         return [
-            'reply' => "Reach Azores Infrastructure Private Limited directly:<br><br>📞 <strong>+91 7004709933</strong><br>📧 <strong>Azores.ranchi@gmail.com</strong><br>🏢 <strong>Corporate Office: Ranchi, Jharkhand, India</strong>",
+            'reply' => "Reach Azores Infrastructure Private Limited directly:<br><br>📞 <a href=\"tel:+917004709933\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">+91 7004709933</a> (<a href=\"https://wa.me/917004709933\" target=\"_blank\" style=\"color:#16a34a; text-decoration:underline; font-weight:bold;\">WhatsApp</a>)<br>📧 <a href=\"mailto:Azores.ranchi@gmail.com\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Azores.ranchi@gmail.com</a><br>🏢 <a href=\"https://maps.google.com/?q=Azores+Infrastructure+Private+Limited+Ranchi+Jharkhand\" target=\"_blank\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Corporate Office: Ranchi, Jharkhand, India</a>",
             'suggestions' => ["Call +91 7004709933", "Send Email", "Partner With Us"]
         ];
     }
     if (preg_match('/\b(office|headquarter|location|ranchi|delhi|jharkhand)\b/i', $msg) && !preg_match('/\b(build|bridge|highway)\b/i', $msg)) {
         return [
-            'reply' => "📍 <strong>Corporate Office & Machinery Yard:</strong> Ranchi, Jharkhand, India.<br>🏢 <strong>Bidding & Corporate Finance Hub:</strong> New Delhi.<br><br>Operating corporate finance hubs in New Delhi while maintaining physical machinery yards in regional corridors like Jharkhand is standard practice for national contractors.",
+            'reply' => "📍 <strong>Corporate Office & Machinery Yard:</strong> <a href=\"https://maps.google.com/?q=Azores+Infrastructure+Private+Limited+Ranchi+Jharkhand\" target=\"_blank\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Ranchi, Jharkhand, India</a>.<br>🏢 <strong>Bidding & Corporate Finance Hub:</strong> <a href=\"https://maps.google.com/?q=New+Delhi+India\" target=\"_blank\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">New Delhi</a>.<br><br>Operating corporate finance hubs in New Delhi while maintaining physical machinery yards in regional corridors like Jharkhand is standard practice for national contractors.",
             'suggestions' => ["Machinery Fleet", "Contact Us", "Our Services"]
         ];
     }
