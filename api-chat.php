@@ -18,6 +18,8 @@ $knowledgeFile = file_exists('F:/chatbot/knowledge.txt') ? 'F:/chatbot/knowledge
 
 $truthsData    = file_exists($truthsFile) ? json_decode(file_get_contents($truthsFile), true) : [];
 $miscData      = file_exists($miscFile)   ? json_decode(file_get_contents($miscFile), true)   : [];
+$masterDictFile= __DIR__ . '/data/master_keyword_dictionary.json';
+$masterDict    = file_exists($masterDictFile) ? json_decode(file_get_contents($masterDictFile), true) : [];
 $doNotSayRules = file_exists($doNotSayFile) ? file_get_contents($doNotSayFile) : '';
 $knowledgeRules= file_exists($knowledgeFile) ? file_get_contents($knowledgeFile) : '';
 
