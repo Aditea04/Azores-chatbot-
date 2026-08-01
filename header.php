@@ -31,39 +31,66 @@
         }
         
         /* New Header Styles based on mockup */
-        .site-header {
-            background-color: #ffffff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: auto;
-            box-sizing: border-box;
-            padding: 1.5rem 1.5rem 1rem 1.5rem;
-        }
-        
+        /* Header & Navigation Styles */
         .logo-container {
             display: flex;
             align-items: center;
-            justify-content: center;
+            gap: 12px;
             text-decoration: none;
+            background: transparent;
+            padding: 0;
+            margin: 0;
         }
         
-        .logo-img {
-            max-height: 80px;
+        /* Crisp solid 1px white border stroke icon (Zero CSS blur fading effect) */
+        .logo-icon-img {
+            height: 52px;
             width: auto;
+            display: block;
+            filter: none;
+            transition: transform 0.3s ease;
+        }
+        
+        /* Written text matching font family & tracking from reference picture (NO border/aura) */
+        .logo-text-block {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 1;
+        }
+        
+        .logo-text-title {
+            font-family: 'Montserrat', 'Century Gothic', 'Inter', sans-serif;
+            font-size: 1.65rem;
+            font-weight: 500;
+            color: #ffffff;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+        }
+        
+        .logo-text-sub {
+            font-family: 'Montserrat', 'Century Gothic', 'Inter', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.92);
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            margin-top: 4px;
         }
 
         .nav-wrapper {
-            position: sticky;
+            position: absolute;
             top: 0;
+            left: 0;
             z-index: 1000;
             width: 100%;
-            background: linear-gradient(90deg, #02016A, #0434dc);
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
         }
 
         .nav-wrapper.scrolled {
+            position: fixed;
             background: linear-gradient(90deg, rgba(2, 1, 106, 0.95), rgba(4, 52, 220, 0.95));
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
@@ -74,16 +101,20 @@
         .main-nav {
             display: flex;
             align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding: 1rem 1.5rem;
+            justify-content: space-between;
+            padding: 1.2rem 2rem;
             max-width: 1400px;
             margin: 0 auto;
             transition: padding 0.3s ease;
         }
         
+        .nav-links-wrapper {
+            display: flex;
+            align-items: center;
+        }
+        
         .nav-wrapper.scrolled .main-nav {
-            padding: 0.8rem 1.5rem;
+            padding: 0.8rem 2rem;
         }
         
         .main-nav a {
@@ -361,8 +392,9 @@
         /* Global Hero Styles */
         .hero-slider {
             width: 100%;
-            min-height: 400px;
-            padding: 3rem 0;
+            min-height: 100vh;
+            height: 100vh;
+            padding: 100px 0 3rem 0;
             background: url('img/hero_bg.png') center/cover no-repeat;
             display: flex;
             align-items: center;
@@ -395,8 +427,21 @@
             text-align: left;
             color: white;
         }
-        .hero-content-left h1 { font-size: 4rem; margin-bottom: 0.5rem; color: #fff; letter-spacing: 2px;}
-        .hero-content-left p { font-size: 1.5rem; }
+        .hero-content-left h1 { 
+            font-size: 3.8rem; 
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 1rem; 
+            color: #ffffff; 
+            letter-spacing: -0.5px;
+            text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+        }
+        .hero-content-left p { 
+            font-size: 1.4rem; 
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.95);
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+        }
 
         .hero-form-container {
             background: rgba(255, 255, 255, 0.15);
@@ -469,37 +514,28 @@
         }
 
         @media (max-width: 768px) {
-            /* Header & Nav */
-            .logo-img { max-height: 55px; }
-            
-            .site-header {
-                position: sticky;
-                top: 0;
-                z-index: 1000;
-                box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-                padding: 0.8rem 1.5rem;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-            }
+            /* Header & Nav Overlay */
+            .logo-img { max-height: 48px; }
             
             .mobile-menu-toggle {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                color: #02016A;
-                font-size: 1.8rem;
+                color: #ffffff;
+                font-size: 1.6rem;
                 cursor: pointer;
                 width: 44px;
                 height: 44px;
                 border-radius: 8px;
-                background: #f4f7f6;
+                background: rgba(255, 255, 255, 0.15);
+                backdrop-filter: blur(5px);
                 transition: background 0.2s, color 0.2s;
                 box-sizing: border-box;
+                border: 1px solid rgba(255, 255, 255, 0.2);
             }
             
             .mobile-menu-toggle:hover {
-                background: #02016A;
+                background: rgba(255, 255, 255, 0.3);
                 color: #ffffff;
             }
             
@@ -591,6 +627,12 @@
             .nav-close:hover {
                 background: rgba(255, 255, 255, 0.2);
                 transform: rotate(90deg);
+            }
+
+            .nav-links-wrapper {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
             }
 
             .main-nav a {
@@ -742,62 +784,67 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header class="site-header">
-        <a href="index.php" class="logo-container">
-            <img src="img/Azores_logo.png" alt="Azores Logo" class="logo-img">
-        </a>
-        <div class="mobile-menu-toggle" id="mobileMenuToggle">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-    </header>
-    
     <div class="nav-wrapper" id="navWrapper">
         <div class="nav-backdrop" id="navBackdrop"></div>
         <nav class="main-nav" id="mainNav">
+            <a href="index.php" class="logo-container">
+                <img src="img/Azores_icon_bordered.png" alt="Azores" class="logo-icon-img">
+                <div class="logo-text-block">
+                    <span class="logo-text-title">AZORES</span>
+                    <span class="logo-text-sub">INFRASTRUCTURE PVT. LTD.</span>
+                </div>
+            </a>
             <div class="nav-drawer-header">
                 <div class="nav-close" id="navClose">
                     <i class="fa-solid fa-xmark"></i>
                 </div>
             </div>
-            <a href="index.php">Home</a>
-            <a href="about.php">About Us</a>
-            <a href="services.php">Services</a>
-            <div class="nav-dropdown" id="specDropdown">
-                <a href="specialization.php" id="specDropdownLink">
-                    Specialization <i class="fa-solid fa-chevron-down dropdown-caret" id="specCaret"></i>
-                </a>
-                <div class="dropdown-menu">
-                    <a href="specialization.php">
-                        <span class="dropdown-icon-wrapper"><i class="fa-solid fa-layer-group"></i></span>
-                        <span>All Specializations</span>
+            <div class="nav-links-wrapper">
+                <a href="index.php">Home</a>
+                <a href="about.php">About Us</a>
+                <a href="services.php">Services</a>
+                <div class="nav-dropdown" id="specDropdown">
+                    <a href="specialization.php" id="specDropdownLink">
+                        Specialization <i class="fa-solid fa-chevron-down dropdown-caret" id="specCaret"></i>
                     </a>
-                    <a href="specialization-highways.php">
-                        <span class="dropdown-icon-wrapper"><i class="fa-solid fa-road"></i></span>
-                        <span>Infrastructure &amp; Highways</span>
-                    </a>
-                    <a href="specialization-turnkey.php">
-                        <span class="dropdown-icon-wrapper"><i class="fa-solid fa-key"></i></span>
-                        <span>Turnkey Projects</span>
-                    </a>
-                    <a href="specialization-commercial.php">
-                        <span class="dropdown-icon-wrapper"><i class="fa-solid fa-city"></i></span>
-                        <span>Commercial &amp; Industrial</span>
-                    </a>
-                    <a href="specialization-institutional.php">
-                        <span class="dropdown-icon-wrapper"><i class="fa-solid fa-building-columns"></i></span>
-                        <span>Institutional Buildings</span>
-                    </a>
-                    <a href="specialization-bridges.php">
-                        <span class="dropdown-icon-wrapper"><i class="fa-solid fa-bridge"></i></span>
-                        <span>Bridges</span>
-                    </a>
-                    <a href="specialization-residential.php">
-                        <span class="dropdown-icon-wrapper"><i class="fa-solid fa-house-chimney"></i></span>
-                        <span>Residential Complexes</span>
-                    </a>
+                    <div class="dropdown-menu">
+                        <a href="specialization.php">
+                            <span class="dropdown-icon-wrapper"><i class="fa-solid fa-layer-group"></i></span>
+                            <span>All Specializations</span>
+                        </a>
+                        <a href="specialization-highways.php">
+                            <span class="dropdown-icon-wrapper"><i class="fa-solid fa-road"></i></span>
+                            <span>Infrastructure &amp; Highways</span>
+                        </a>
+                        <a href="specialization-turnkey.php">
+                            <span class="dropdown-icon-wrapper"><i class="fa-solid fa-key"></i></span>
+                            <span>Turnkey Projects</span>
+                        </a>
+                        <a href="specialization-commercial.php">
+                            <span class="dropdown-icon-wrapper"><i class="fa-solid fa-city"></i></span>
+                            <span>Commercial &amp; Industrial</span>
+                        </a>
+                        <a href="specialization-institutional.php">
+                            <span class="dropdown-icon-wrapper"><i class="fa-solid fa-building-columns"></i></span>
+                            <span>Institutional Buildings</span>
+                        </a>
+                        <a href="specialization-bridges.php">
+                            <span class="dropdown-icon-wrapper"><i class="fa-solid fa-bridge"></i></span>
+                            <span>Bridges</span>
+                        </a>
+                        <a href="specialization-residential.php">
+                            <span class="dropdown-icon-wrapper"><i class="fa-solid fa-house-chimney"></i></span>
+                            <span>Residential Complexes</span>
+                        </a>
+                    </div>
                 </div>
+                <a href="partners.php">Partner With Us</a>
             </div>
-            <a href="partners.php">Partner With Us</a>
+            <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </div>
         </nav>
     </div>
     
@@ -853,5 +900,126 @@
                 }
             });
         }
+
+        /* =====================================================
+           SCROLL-DRIVEN LIFECYCLE CONNECTOR LINE
+           Draws an SVG line connecting all .step-num circles
+           as the user scrolls through .lifecycle-steps
+        ===================================================== */
+        (function() {
+            var styleEl = document.createElement('style');
+            styleEl.textContent = [
+                '.lifecycle-steps { position: relative; }',
+                '.lc-svg-track { position: absolute; left: 17px; top: 0; width: 2px; pointer-events: none; overflow: visible; z-index: 0; }',
+                '.lc-track-bg { stroke: rgba(2,1,106,0.12); stroke-width: 2; fill: none; }',
+                '.lc-track-fill { stroke: url(#lcGrad); stroke-width: 2.5; fill: none; stroke-linecap: round; transition: stroke-dashoffset 0.05s linear; }',
+                '.step-num { position: relative; z-index: 1; transition: box-shadow 0.4s ease, transform 0.4s ease; }',
+                '.step-num.lc-active { box-shadow: 0 0 0 6px rgba(42,89,199,0.25), 0 0 0 12px rgba(42,89,199,0.10); transform: scale(1.08); }',
+                '@keyframes lcPulse { 0%,100%{box-shadow:0 0 0 4px rgba(42,89,199,0.3)} 50%{box-shadow:0 0 0 10px rgba(42,89,199,0.08)} }',
+                '.step-num.lc-active { animation: lcPulse 1.8s ease infinite; }'
+            ].join('\n');
+            document.head.appendChild(styleEl);
+
+            function initLifecycleLine() {
+                var container = document.querySelector('.lifecycle-steps');
+                if (!container) return;
+
+                var steps = Array.from(container.querySelectorAll('.step-item'));
+                var nums  = steps.map(function(s){ return s.querySelector('.step-num'); });
+                if (nums.length < 2) return;
+
+                /* Build the SVG */
+                var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                svg.setAttribute('class', 'lc-svg-track');
+                svg.style.position = 'absolute';
+
+                /* Gradient def */
+                var defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+                var grad = document.createElementNS('http://www.w3.org/2000/svg', 'linearGradient');
+                grad.setAttribute('id', 'lcGrad');
+                grad.setAttribute('x1','0'); grad.setAttribute('y1','0');
+                grad.setAttribute('x2','0'); grad.setAttribute('y2','1');
+                var s1 = document.createElementNS('http://www.w3.org/2000/svg','stop');
+                s1.setAttribute('offset','0%'); s1.setAttribute('stop-color','#2a59c7');
+                var s2 = document.createElementNS('http://www.w3.org/2000/svg','stop');
+                s2.setAttribute('offset','100%'); s2.setAttribute('stop-color','#08124a');
+                grad.appendChild(s1); grad.appendChild(s2);
+                defs.appendChild(grad);
+                svg.appendChild(defs);
+
+                var bgPath  = document.createElementNS('http://www.w3.org/2000/svg','line');
+                bgPath.setAttribute('class','lc-track-bg');
+                var fillPath = document.createElementNS('http://www.w3.org/2000/svg','line');
+                fillPath.setAttribute('class','lc-track-fill');
+
+                svg.appendChild(bgPath);
+                svg.appendChild(fillPath);
+                container.insertBefore(svg, container.firstChild);
+
+                function getY(el) {
+                    var cr = el.getBoundingClientRect();
+                    var pr = container.getBoundingClientRect();
+                    return (cr.top - pr.top) + cr.height / 2;
+                }
+
+                function layout() {
+                    var y1 = getY(nums[0]);
+                    var y2 = getY(nums[nums.length - 1]);
+                    var totalH = container.offsetHeight;
+
+                    svg.setAttribute('height', totalH);
+                    svg.style.height = totalH + 'px';
+
+                    bgPath.setAttribute('x1','1');  bgPath.setAttribute('y1', y1);
+                    bgPath.setAttribute('x2','1');  bgPath.setAttribute('y2', y2);
+                    fillPath.setAttribute('x1','1'); fillPath.setAttribute('y1', y1);
+                    fillPath.setAttribute('x2','1'); fillPath.setAttribute('y2', y2);
+
+                    var len = y2 - y1;
+                    fillPath.style.strokeDasharray  = len;
+                    fillPath.style.strokeDashoffset = len; /* starts hidden */
+                }
+
+                layout();
+                window.addEventListener('resize', layout);
+
+                /* Scroll-driven draw */
+                function onScroll() {
+                    var rect = container.getBoundingClientRect();
+                    var wh   = window.innerHeight;
+
+                    /* progress: 0 when top of container enters bottom of viewport
+                                 1 when bottom of container leaves top of viewport */
+                    var start  = rect.top  - wh * 0.85;
+                    var end    = rect.bottom - wh * 0.15;
+                    var range  = end - start;
+                    var prog   = Math.min(1, Math.max(0, -start / range));
+
+                    var y1  = getY(nums[0]);
+                    var y2  = getY(nums[nums.length - 1]);
+                    var len = y2 - y1;
+                    fillPath.style.strokeDashoffset = len * (1 - prog);
+
+                    /* Activate individual circles */
+                    nums.forEach(function(num, i) {
+                        var threshold = i / (nums.length - 1);
+                        if (prog >= threshold) {
+                            num.classList.add('lc-active');
+                        } else {
+                            num.classList.remove('lc-active');
+                        }
+                    });
+                }
+
+                window.addEventListener('scroll', onScroll, { passive: true });
+                onScroll(); /* run once on load */
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initLifecycleLine);
+            } else {
+                initLifecycleLine();
+            }
+        })();
     </script>
     <main>

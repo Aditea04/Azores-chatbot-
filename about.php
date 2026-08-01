@@ -108,7 +108,7 @@ require_once 'header.php';
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1.5rem;
     }
-    
+
     .why-choose-list li {
         background: #f8fcfb;
         padding: 1.5rem;
@@ -116,6 +116,13 @@ require_once 'header.php';
         border-left: 4px solid #0d1a56;
         font-weight: 500;
         color: #333;
+        transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+                    box-shadow 0.25s ease;
+    }
+
+    .why-choose-list li:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 28px rgba(13, 26, 86, 0.12);
     }
 
     @media (max-width: 768px) {

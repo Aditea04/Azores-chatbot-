@@ -1,0 +1,41 @@
+{
+  "company": {
+    "legal_name": "Azores Infrastructure Private Limited",
+    "abbreviation": "AIPL",
+    "classification": "Class 1A Government Registered Contractor (NHAI, MoRTH, State PWD, CPWD, PSUs Approved)",
+    "years_experience": "29+",
+    "completed_projects": "120+",
+    "headquarters": "Ranchi, Jharkhand, India",
+    "bidding_office": "New Delhi Corporate Hub",
+    "contact": {
+      "phone": "+91 7004709933",
+      "email": "Azores.ranchi@gmail.com"
+    },
+    "leadership": {
+      "managing_director": "Mr. Ranvijay Pradhan",
+      "designation": "Founder & Managing Director",
+      "education": "B.Tech in Mechanical Engineering",
+      "total_experience": "29+ years in construction industry",
+      "aipl_tenure": "Founder & MD of AIPL for last 16 years",
+      "prior_experience": "Director in family-owned construction business for 13 years",
+      "positions": "Former State Chairman, Builders Association of India (BAI) Jharkhand; Current State Vice President, JCDA"
+    }
+  },
+  "sectors": [
+    "Highway Construction & Strategic Network Development (4-lane/6-lane, Flexible BC/DBM/SMA & Rigid PQC/DLC Pavements)",
+    "Bridge Construction & Elevated Viaducts (PSC Girders, ROBs, RUBs, Urban Flyovers, Deep Well/Pile Foundations)",
+    "Unified Turnkey & EPC Project Management (5-Pillar BIM Design, Global Procurement, Single-Point Risk Absorption)",
+    "Commercial & Industrial Infrastructure (PEB Sheds up to 60m span, Logistics Hubs, Laser Screed FM2 Floors, Factories)",
+    "Purpose-Built Institutional Infrastructure (Universities, Hospitals with Medical Gas/Cleanrooms, Judicial Annexes)",
+    "Modern Residential & Urban Townships (High-Rise Towers, Monolithic MIVAN Formwork, Landowner JV PPP Models)"
+  ],
+  "equipment_fleet": [
+    "Automated concrete batching plants",
+    "Hydraulic crawler pile drivers",
+    "Tower cranes and heavy lifting trusses",
+    "Electronic sensor-equipped asphalt pavers",
+    "Double-drum vibratory road compactors",
+    "Micro-tunneling boring machines"
+  ]
+}
+

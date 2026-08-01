@@ -272,6 +272,21 @@ require_once 'header.php';
             font-size: 2.2rem;
         }
     }
+    /* ===== Contact Modal ===== */
+    .disc-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.82); z-index:9999; align-items:center; justify-content:center; padding:1rem; }
+    .disc-overlay.open { display:flex; animation:discFadeIn 0.3s ease; }
+    @keyframes discFadeIn { from{opacity:0} to{opacity:1} }
+    .disc-modal { background:rgba(255,255,255,0.12); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); border:1px solid rgba(255,255,255,0.25); border-radius:8px; width:100%; max-width:400px; padding:2rem; position:relative; box-shadow:0 8px 32px rgba(0,0,0,0.4); animation:discSlideUp 0.32s cubic-bezier(0.34,1.56,0.64,1); color:#fff; font-family:'Inter','Segoe UI',Roboto,sans-serif; }
+    @keyframes discSlideUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
+    .disc-close { position:absolute; top:0.9rem; right:1.1rem; font-size:1.5rem; color:rgba(255,255,255,0.7); cursor:pointer; background:none; border:none; line-height:1; transition:color 0.2s; }
+    .disc-close:hover { color:#fff; }
+    .disc-modal h3 { margin:0 0 0.3rem; color:#fff; font-size:1.25rem; font-weight:bold; }
+    .disc-modal p { color:rgba(255,255,255,0.68); font-size:0.88rem; margin:0 0 1.5rem; }
+    .disc-contact-btn { display:flex; align-items:center; justify-content:center; gap:0.7rem; width:100%; padding:1rem 1.5rem; border:none; border-radius:8px; font-size:1rem; font-weight:bold; color:#fff; cursor:pointer; margin-bottom:1rem; font-family:inherit; text-decoration:none; box-sizing:border-box; transition:transform 0.3s,box-shadow 0.3s; }
+    .disc-contact-btn:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(0,0,0,0.35); }
+    .disc-contact-btn.disc-mail { background: linear-gradient(135deg, #08124a 0%, #1a3580 100%); }
+    .disc-contact-btn.disc-wa { background: linear-gradient(135deg, #1a4db0 0%, #2a59c7 100%); }
+    .disc-contact-btn img { width:24px; height:24px; object-fit:contain; border-radius:3px; display:block; flex-shrink:0; }
 </style>
 
 <div class="spec-detail-hero">
@@ -414,11 +429,33 @@ require_once 'header.php';
                 <i class="fa-solid fa-bridge" style="font-size:2.5rem; margin-bottom:1rem;"></i>
                 <h3>Need Bridge Engineering Capabilities?</h3>
                 <p>Partner with Class 1A bridge contractors for river crossings, urban flyovers, and elevated viaduct projects.</p>
-                <a href="mailto:Azores.ranchi@gmail.com" class="cta-btn">Consult Bridge Engineers</a>
+                <a href="#" class="cta-btn" onclick="openDiscModal(event)">Consult Bridge Engineers</a>
             </div>
         </div>
     </div>
 </div>
+
+
+<!-- Contact Modal -->
+<div class="disc-overlay" id="discOverlay" onclick="discOverlayClick(event)">
+    <div class="disc-modal">
+        <button class="disc-close" onclick="closeDiscModal()">&times;</button>
+        <h3>Get In Touch</h3>
+        <p>Choose how you'd like to connect with our team.</p>
+        <a href="mailto:Azores.ranchi@gmail.com" class="disc-contact-btn disc-mail">
+            <img src="img/icon-gmail.png" alt="Gmail"> <span>Mail via Gmail</span>
+        </a>
+        <a href="https://wa.me/919031140000" target="_blank" class="disc-contact-btn disc-wa">
+            <img src="img/icon-whatsapp.png" alt="WhatsApp"> <span>WhatsApp</span>
+        </a>
+    </div>
+</div>
+<script>
+function openDiscModal(e) { e.preventDefault(); document.getElementById('discOverlay').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeDiscModal() { document.getElementById('discOverlay').classList.remove('open'); document.body.style.overflow=''; }
+function discOverlayClick(e) { if(e.target===document.getElementById('discOverlay')) closeDiscModal(); }
+document.addEventListener('keydown',function(e){ if(e.key==='Escape') closeDiscModal(); });
+</script>
 
 <?php
 require_once 'footer.php';

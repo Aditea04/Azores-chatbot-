@@ -335,12 +335,9 @@ require_once 'header.php';
     z-index: 1;
     pointer-events: none;
 }
-.spec-content:hover {
-    background: #2a59c7;
-}
-
-/* ACTIVE STATE */
-.spec-item.active .spec-content {
+/* ACTIVE STATE — triggered by center detection OR hover */
+.spec-item.active .spec-content,
+.spec-item:hover .spec-content {
     height: 100%;
     width: 100% !important;
     border-radius: 16px;
@@ -350,10 +347,13 @@ require_once 'header.php';
     background: #fff;
 }
 .spec-item.active .spec-content .spec-img,
-.spec-item.active .spec-content::before {
+.spec-item.active .spec-content::before,
+.spec-item:hover .spec-content .spec-img,
+.spec-item:hover .spec-content::before {
     opacity: 1;
 }
-.spec-item.active .spec-content .spec-text {
+.spec-item.active .spec-content .spec-text,
+.spec-item:hover .spec-content .spec-text {
     width: 100%;
     text-align: center;
     padding: 1.5rem 1rem;
@@ -361,6 +361,11 @@ require_once 'header.php';
     line-height: 1.3;
     font-size: 1.2rem;
     text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+/* Subtle lift on hovered expanded card */
+.spec-item:hover .spec-content {
+    transform: scale(1.03);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.35);
 }
 
 /* 6. Clients/Partners */
@@ -470,6 +475,13 @@ require_once 'header.php';
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(4, 52, 220, 0.4);
 }
+button.cta-btn {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    letter-spacing: inherit;
+}
 
 
 
@@ -517,10 +529,180 @@ require_once 'header.php';
 #homeHeroSlider {
     transition: background-image 1s ease-in-out;
     background-image: url('img/pexels-vitthal-dikonda-1417433-31684126.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 100vh;
 }
 #homeHeroSlider::before {
     background: rgba(0,0,0,0.65) !important;
 }
+/* ===== Career Modal ===== */
+.career-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.82);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.career-overlay.open { display: flex; animation: fadeInOverlay 0.3s ease; }
+@keyframes fadeInOverlay { from { opacity: 0; } to { opacity: 1; } }
+.career-modal {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 460px;
+    padding: 2.5rem 2rem 2rem;
+    position: relative;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    animation: slideUp 0.32s cubic-bezier(0.34, 1.56, 0.64, 1);
+    max-height: 90vh;
+    overflow-y: auto;
+    color: #fff;
+    font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+}
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.career-modal-close {
+    position: absolute; top: 1rem; right: 1.2rem;
+    font-size: 1.6rem; color: rgba(255,255,255,0.7);
+    cursor: pointer; background: none; border: none; line-height: 1;
+    transition: color 0.2s;
+}
+.career-modal-close:hover { color: #fff; }
+.career-modal h2 {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+    margin-top: 0;
+    text-align: left;
+}
+.career-modal .modal-subtitle {
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 0.88rem;
+    text-align: left;
+    margin-bottom: 1.8rem;
+}
+.career-screen { display: none; }
+.career-screen.active { display: block; animation: fadeInScreen 0.22s ease; }
+@keyframes fadeInScreen {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.career-choice-btn {
+    display: flex; align-items: center; gap: 0.8rem;
+    width: 100%; padding: 0.9rem 1.2rem; margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    color: #fff; font-size: 1rem; font-weight: 600;
+    text-align: left; cursor: pointer; font-family: inherit;
+    transition: background 0.25s, border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+}
+.career-choice-btn:hover {
+    background: linear-gradient(270deg, #02016A, #0434dc, #02016A);
+    background-size: 300% 300%;
+    animation: gradientRotate 15s ease infinite;
+    border-color: transparent;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(4, 52, 220, 0.4);
+}
+.career-choice-btn .btn-icon { font-size: 1.2rem; }
+.career-form-group { margin-bottom: 1rem; }
+.career-form-group label {
+    display: block; font-size: 0.82rem; font-weight: 600;
+    color: rgba(255, 255, 255, 0.85); margin-bottom: 0.35rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+}
+.career-form-group input[type=text],
+.career-form-group input[type=email],
+.career-form-group input[type=number],
+.career-form-group input[type=tel],
+.career-form-group input[type=file] {
+    width: 100%; padding: 0.8rem; border: 1px solid #ddd;
+    border-radius: 8px; font-size: 0.95rem;
+    font-family: inherit; color: #333;
+    background: #fff; box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+.career-form-group input:focus { outline: none; border-color: #2a59c7; }
+.career-form-group input.error { border-color: #e74c3c; }
+.field-error { color: #ffaaaa; font-size: 0.75rem; margin-top: 0.25rem; display: none; }
+.gender-group { display: flex; gap: 1.2rem; flex-wrap: wrap; margin-top: 0.35rem; }
+.gender-option { display: flex; align-items: center; gap: 0.4rem; cursor: pointer; color: #fff; font-size: 0.95rem; }
+.gender-option input[type=radio] { accent-color: #0434dc; }
+.career-submit-btn {
+    width: 100%; padding: 1rem;
+    background: linear-gradient(270deg, #02016A, #0434dc, #02016A);
+    background-size: 300% 300%;
+    animation: gradientRotate 15s ease infinite;
+    color: #fff; border: none; border-radius: 8px;
+    font-size: 1rem; font-weight: bold; font-family: inherit;
+    cursor: pointer; margin-top: 0.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.career-submit-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(4, 52, 220, 0.4); }
+.career-back-link {
+    display: inline-block; color: rgba(255,255,255,0.72);
+    font-size: 0.85rem; cursor: pointer;
+    margin-bottom: 1.2rem; text-decoration: underline;
+    background: none; border: none; padding: 0; font-family: inherit;
+    transition: color 0.2s;
+}
+.career-back-link:hover { color: #fff; }
+.connect-note { color: rgba(255,255,255,0.68); font-size: 0.85rem; margin-bottom: 1.5rem; }
+.connect-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+    gap: 0.7rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+    letter-spacing: 0.3px;
+}
+.connect-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.35); }
+.connect-btn.mail-btn { background: linear-gradient(135deg, #08124a 0%, #1a3580 100%); }
+.connect-btn.whatsapp-btn { background: linear-gradient(135deg, #1a4db0 0%, #2a59c7 100%); }
+.connect-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 3px;
+    display: block;
+}
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+}
+.btn-icon svg { display: block; }
+.upload-success { text-align: center; padding: 1.5rem 0 0.5rem; display: none; }
+.upload-success .success-icon { font-size: 3rem; }
+.upload-success p { color: #aaffcc; font-weight: 600; margin-top: 0.5rem; }
 </style>
 
 <div class="index-main">
@@ -665,13 +847,120 @@ require_once 'header.php';
             <div class="cta-content">
                 <h3>Careers</h3>
                 <p>Join a leading infrastructure and construction company. We are looking for talented architects and consultants.</p>
-                <a href="partners.php" class="cta-btn">Join Our Team</a>
+                <button class="cta-btn" id="careerBtn" onclick="openCareerModal()">Join Our Team</button>
             </div>
         </div>
     </div>
 
 
 
+</div>
+
+<!-- Career Modal -->
+<div class="career-overlay" id="careerOverlay" onclick="handleOverlayClick(event)">
+    <div class="career-modal" id="careerModal">
+        <button class="career-modal-close" onclick="closeCareerModal()">&times;</button>
+
+        <!-- Screen 0: Main choice -->
+        <div class="career-screen active" id="careerScreen0">
+            <h2>Join Our Team</h2>
+            <p class="modal-subtitle">How would you like to get in touch?</p>
+            <button class="career-choice-btn" onclick="showCareerScreen(1)">
+                <span class="btn-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline points="14,2 14,8 20,8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><polyline points="10,9 9,9 8,9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span> Send in your Resume
+            </button>
+            <button class="career-choice-btn" onclick="showCareerScreen(3)">
+                <span class="btn-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Connect directly with us
+            </button>
+        </div>
+
+        <!-- Screen 1: Resume sub-options -->
+        <div class="career-screen" id="careerScreen1">
+            <button class="career-back-link" onclick="showCareerScreen(0)">&#8592; Back</button>
+            <h2>Send Your Resume</h2>
+            <p class="modal-subtitle">Choose how you'd like to submit</p>
+            <button class="career-choice-btn" onclick="showCareerScreen(2)">
+                <span class="btn-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><polyline points="16,16 12,12 8,16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="12" y1="12" x2="12" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Upload your Resume
+            </button>
+            <button class="career-choice-btn" onclick="careerMailResume()">
+                <span class="btn-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Mail your Resume
+            </button>
+        </div>
+
+        <!-- Screen 2: File upload -->
+        <div class="career-screen" id="careerScreen2">
+            <button class="career-back-link" onclick="showCareerScreen(1)">&#8592; Back</button>
+            <h2>Upload Your Resume</h2>
+            <p class="modal-subtitle">Accepted: PDF, DOC, DOCX</p>
+            <div id="uploadFormArea">
+                <div class="career-form-group">
+                    <label>Select File</label>
+                    <input type="file" id="resumeFileInput" accept=".pdf,.doc,.docx">
+                </div>
+                <button class="career-submit-btn" onclick="careerSubmitUpload()">Submit Resume</button>
+            </div>
+            <div class="upload-success" id="uploadSuccess">
+                <div class="success-icon">&#9989;</div>
+                <p>Thank you! We'll be in touch soon.</p>
+            </div>
+        </div>
+
+        <!-- Screen 3: Contact form -->
+        <div class="career-screen" id="careerScreen3">
+            <button class="career-back-link" onclick="showCareerScreen(0)">&#8592; Back</button>
+            <h2>Tell Us About Yourself</h2>
+            <div class="career-form-group">
+                <label>Full Name *</label>
+                <input type="text" id="cf_name" placeholder="Your full name">
+                <div class="field-error" id="err_name">Please enter your name</div>
+            </div>
+            <div class="career-form-group">
+                <label>Age *</label>
+                <input type="number" id="cf_age" placeholder="Your age" min="18" max="65">
+                <div class="field-error" id="err_age">Please enter a valid age (18&ndash;65)</div>
+            </div>
+            <div class="career-form-group">
+                <label>Phone Number *</label>
+                <input type="tel" id="cf_phone" placeholder="+91 XXXXX XXXXX">
+                <div class="field-error" id="err_phone">Please enter your phone number</div>
+            </div>
+            <div class="career-form-group">
+                <label>Email *</label>
+                <input type="email" id="cf_email" placeholder="you@example.com">
+                <div class="field-error" id="err_email">Please enter a valid email</div>
+            </div>
+            <div class="career-form-group">
+                <label>Gender *</label>
+                <div class="gender-group">
+                    <label class="gender-option"><input type="radio" name="cf_gender" value="Male"> Male</label>
+                    <label class="gender-option"><input type="radio" name="cf_gender" value="Female"> Female</label>
+                    <label class="gender-option"><input type="radio" name="cf_gender" value="Other"> Other</label>
+                </div>
+                <div class="field-error" id="err_gender">Please select a gender</div>
+            </div>
+            <div class="career-form-group">
+                <label>Highest Education Qualification *</label>
+                <input type="text" id="cf_edu" placeholder="e.g. B.Tech, MBA, Diploma">
+                <div class="field-error" id="err_edu">Please enter your qualification</div>
+            </div>
+            <div class="career-form-group">
+                <label>Upload Resume <span style="color:#aaa;font-weight:400">(Optional)</span></label>
+                <input type="file" id="cf_resume" accept=".pdf,.doc,.docx">
+            </div>
+            <button class="career-submit-btn" onclick="careerSubmitForm()">Submit &amp; Connect</button>
+        </div>
+
+        <!-- Screen 4: Connect via -->
+        <div class="career-screen" id="careerScreen4" style="text-align:center;">
+            <h2 style="text-align:center;">Connect with us via</h2>
+            <p class="connect-note" style="text-align:center;">We've noted your details. Choose how you'd like to reach us.</p>
+            <a href="mailto:hr@azoresinfra.com" class="connect-btn mail-btn" style="justify-content:center; text-align:center;">
+                <img src="img/icon-gmail.png" alt="Gmail" class="connect-icon" style="vertical-align:middle;"> <span style="vertical-align:middle;">Mail via Gmail</span>
+            </a>
+            <a href="https://wa.me/919031140000" target="_blank" class="connect-btn whatsapp-btn" style="justify-content:center; text-align:center;">
+                <img src="img/icon-whatsapp.png" alt="WhatsApp" class="connect-icon" style="vertical-align:middle;"> <span style="vertical-align:middle;">WhatsApp</span>
+            </a>
+        </div>
+    </div>
 </div>
 
 <!-- Lightbox HTML -->
@@ -757,153 +1046,152 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
     let currentHeroBgIndex = 0;
     const heroSliderElem = document.getElementById('homeHeroSlider');
-    
-    setInterval(() => {
+
+    setInterval(function() {
         currentHeroBgIndex = (currentHeroBgIndex + 1) % heroBgImages.length;
-        heroSliderElem.style.backgroundImage = `url('${heroBgImages[currentHeroBgIndex]}')`;
+        heroSliderElem.style.backgroundImage = "url('" + heroBgImages[currentHeroBgIndex] + "')";
     }, 5000);
 
     // Specialized Marquee Logic
-    const specTrack = document.getElementById('specMarqueeTrack');
-    const specWrapper = document.getElementById('specMarqueeWrapper');
+    var specTrack = document.getElementById('specMarqueeTrack');
+    var specWrapper = document.getElementById('specMarqueeWrapper');
     if (specTrack && specWrapper) {
-        const originalSpecItems = Array.from(specTrack.children);
-        
-        // Freeze the initial computed widths of the pills so they can transition smoothly to 100%
-        originalSpecItems.forEach(item => {
-            const content = item.querySelector('.spec-content');
-            if (content) {
-                const baseWidth = content.offsetWidth;
-                content.style.width = baseWidth + 'px';
-            }
+        // Freeze pill widths before cloning
+        Array.from(specTrack.children).forEach(function(item) {
+            var c = item.querySelector('.spec-content');
+            if (c) c.style.width = c.offsetWidth + 'px';
         });
 
-        // Clone items to fill screen and allow continuous scroll (total 3 sets)
-        for (let i = 0; i < 2; i++) {
-            originalSpecItems.forEach(item => {
-                specTrack.appendChild(item.cloneNode(true));
-            });
+        // Clone items twice for infinite loop buffer (3 sets total)
+        var origItems = Array.from(specTrack.children);
+        for (var i = 0; i < 2; i++) {
+            origItems.forEach(function(item) { specTrack.appendChild(item.cloneNode(true)); });
         }
 
-        const cycleWidth = 1824; // (280px width + 24px gap) * 6 items
-        let specTrackX = -cycleWidth; // Start at the second cycle for bidirectional buffer
-        let specSpeed = window.innerWidth <= 768 ? 0.5 : 1.0; 
-        let isSpecHovered = false;
+        var cycleWidth = 1824;
+        var pos = -cycleWidth;
+        var AUTO_SPEED = 1.4;
+        var momentum = 0;
+        var FRICTION = 0.90;
+        var MIN_VEL = 0.3;
 
-        // Swipe / Drag Logic
-        let isMouseDown = false;
-        let startX = 0;
-        let startY = 0;
-        let startTrackX = 0;
-        let isDragging = false;
-        const dragThreshold = 6;
+        var isDown = false, isDragging = false;
+        var startX = 0, startPos = 0, prevX = 0, dragVel = 0;
 
-        function getX(e) {
-            return e.touches ? e.touches[0].clientX : e.clientX;
-        }
+        function getX(e) { return e.touches ? e.touches[0].clientX : e.clientX; }
 
         function onStart(e) {
-            isMouseDown = true;
-            isDragging = false;
-            startX = getX(e);
-            startY = e.touches ? e.touches[0].clientY : e.clientY;
-            startTrackX = specTrackX;
-            isSpecHovered = true; // Pause auto-scroll
+            isDown = true; isDragging = false; momentum = 0;
+            startX = getX(e); prevX = startX; startPos = pos;
         }
-
         function onMove(e) {
-            if (!isMouseDown) return;
-            const currentX = getX(e);
-            const currentY = e.touches ? e.touches[0].clientY : e.clientY;
-            const deltaX = currentX - startX;
-            const deltaY = currentY - startY;
-
-            // Handle vertical scroll prevention for touch devices
+            if (!isDown) return;
+            var cx = getX(e);
+            var dx = cx - startX;
             if (e.touches) {
-                if (Math.abs(deltaX) > Math.abs(deltaY)) {
-                    if (e.cancelable) e.preventDefault();
-                } else {
-                    isMouseDown = false;
-                    isSpecHovered = false;
-                    return;
-                }
+                var dy = e.touches[0].clientY - (startPos);
+                if (Math.abs(dx) > 6 && e.cancelable) e.preventDefault();
             }
-
-            if (Math.abs(deltaX) > dragThreshold) {
-                isDragging = true;
-            }
-            specTrackX = startTrackX + deltaX;
+            if (Math.abs(dx) > 6) isDragging = true;
+            if (isDragging) { dragVel = cx - prevX; prevX = cx; pos = startPos + dx; }
         }
-
         function onEnd() {
-            if (!isMouseDown) return;
-            isMouseDown = false;
-            setTimeout(() => {
-                isSpecHovered = false;
-            }, 50);
+            if (!isDown) return; isDown = false;
+            if (isDragging) momentum = dragVel;
+            setTimeout(function() { isDragging = false; }, 50);
         }
 
-        // Mouse Listeners
         specWrapper.addEventListener('mousedown', onStart);
         window.addEventListener('mousemove', onMove);
         window.addEventListener('mouseup', onEnd);
-
-        // Touch Listeners
         specWrapper.addEventListener('touchstart', onStart, { passive: true });
         specWrapper.addEventListener('touchmove', onMove, { passive: false });
         specWrapper.addEventListener('touchend', onEnd);
-
-        // Prevent links navigation while dragging
-        specTrack.addEventListener('click', (e) => {
-            if (isDragging) {
-                e.preventDefault();
-                e.stopPropagation();
-            }
+        specTrack.addEventListener('click', function(e) {
+            if (isDragging) { e.preventDefault(); e.stopPropagation(); }
         }, true);
 
-        // Hover Pauses (Desktop only)
-        specTrack.addEventListener('mouseenter', () => { if (!isMouseDown) isSpecHovered = true; });
-        specTrack.addEventListener('mouseleave', () => { if (!isMouseDown) isSpecHovered = false; });
-
-        // Use IntersectionObserver to optimally detect the center items
-        const centerObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                } else {
-                    entry.target.classList.remove('active');
-                }
-            });
-        }, {
-            root: specWrapper,
-            rootMargin: '0px -30% 0px -30%', // Trigger for items in the middle 40% of the container
-            threshold: 0
-        });
-
-        Array.from(specTrack.children).forEach(item => {
-            centerObserver.observe(item);
-        });
-
-        // Smooth Animation & Bidirectional Wrapping Loop
-        function animateSpecMarquee() {
-            if (!isSpecHovered) {
-                specTrackX -= specSpeed;
-            }
-            
-            // Seamless Bidirectional Wrapping
-            if (specTrackX <= -cycleWidth * 2) {
-                specTrackX += cycleWidth;
-            } else if (specTrackX >= 0) {
-                specTrackX -= cycleWidth;
-            }
-            
-            specTrack.style.transform = `translateX(${specTrackX}px)`;
-            requestAnimationFrame(animateSpecMarquee);
+        function updateActive() {
+            var wc = specWrapper.getBoundingClientRect().left + specWrapper.offsetWidth / 2;
+            var all = Array.from(specTrack.children);
+            var ranked = all.map(function(el) {
+                return { el: el, d: Math.abs(el.getBoundingClientRect().left + el.offsetWidth / 2 - wc) };
+            }).sort(function(a, b) { return a.d - b.d; });
+            all.forEach(function(el) { el.classList.remove('active'); });
+            ranked.slice(0, 3).forEach(function(x) { x.el.classList.add('active'); });
         }
-        
-        animateSpecMarquee();
+
+        function animate() {
+            if (!isDragging) {
+                if (Math.abs(momentum) > MIN_VEL) {
+                    pos += momentum;
+                    momentum *= FRICTION;
+                } else {
+                    momentum = 0;
+                    pos -= AUTO_SPEED;
+                }
+            }
+            if (pos <= -cycleWidth * 2) pos += cycleWidth;
+            else if (pos >= 0) pos -= cycleWidth;
+            specTrack.style.transform = 'translateX(' + pos + 'px)';
+            updateActive();
+            requestAnimationFrame(animate);
+        }
+        animate();
     }
 });
+</script>
+
+<script>
+/* Career Modal — global scope so onclick attributes work */
+function openCareerModal() {
+    document.getElementById('careerOverlay').classList.add('open');
+    showCareerScreen(0);
+    document.body.style.overflow = 'hidden';
+}
+function closeCareerModal() {
+    document.getElementById('careerOverlay').classList.remove('open');
+    document.body.style.overflow = '';
+    document.getElementById('uploadFormArea').style.display = 'block';
+    document.getElementById('uploadSuccess').style.display = 'none';
+}
+function handleOverlayClick(e) {
+    if (e.target === document.getElementById('careerOverlay')) closeCareerModal();
+}
+function showCareerScreen(n) {
+    document.querySelectorAll('.career-screen').forEach(function(s) { s.classList.remove('active'); });
+    document.getElementById('careerScreen' + n).classList.add('active');
+}
+function careerMailResume() {
+    window.location.href = 'mailto:hr@azoresinfra.com?subject=Resume%20Submission&body=Please%20find%20my%20resume%20attached.';
+    closeCareerModal();
+}
+function careerSubmitUpload() {
+    var f = document.getElementById('resumeFileInput');
+    if (!f.files || f.files.length === 0) { alert('Please select a file first.'); return; }
+    document.getElementById('uploadFormArea').style.display = 'none';
+    document.getElementById('uploadSuccess').style.display = 'block';
+    setTimeout(function() { closeCareerModal(); }, 3000);
+}
+function careerSubmitForm() {
+    var valid = true;
+    function chk(id, errId, condFn) {
+        var el = document.getElementById(id);
+        var err = document.getElementById(errId);
+        if (!condFn(el)) { el.classList.add('error'); err.style.display = 'block'; valid = false; }
+        else { el.classList.remove('error'); err.style.display = 'none'; }
+    }
+    chk('cf_name',  'err_name',  function(el) { return el.value.trim() !== ''; });
+    chk('cf_age',   'err_age',   function(el) { var v = parseInt(el.value); return v >= 18 && v <= 65; });
+    chk('cf_phone', 'err_phone', function(el) { return el.value.trim().length >= 7; });
+    chk('cf_email', 'err_email', function(el) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value); });
+    chk('cf_edu',   'err_edu',   function(el) { return el.value.trim() !== ''; });
+    var gender = document.querySelector('input[name="cf_gender"]:checked');
+    var errG = document.getElementById('err_gender');
+    if (!gender) { errG.style.display = 'block'; valid = false; } else { errG.style.display = 'none'; }
+    if (valid) showCareerScreen(4);
+}
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeCareerModal(); });
 </script>
 <?php
 // Include the site footer

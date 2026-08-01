@@ -44,5 +44,8 @@
             <p>&copy; <?php echo date("Y"); ?> Azores Infrastructure Private Limited. All rights reserved.</p>
         </div>
     </footer>
+
+    <?php include __DIR__ . '/azores-chatbot.php'; ?>
 </body>
 </html>
+
