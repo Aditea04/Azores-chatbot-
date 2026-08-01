@@ -152,11 +152,17 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         ];
     }
 
-    // 1B. NAME INTRODUCTIONS ("I'm Adity", "I am Adity", "My name is Adity", "im Adity")
-    if (preg_match('/^(im|i am|i\'m|my name is|this is)\s+([a-z]+)$/i', trim($rawMsg), $nameMatches) || preg_match('/^(im|i am|my name is|this is)\s+([a-z]+)$/i', $msg, $nameMatches)) {
+    // 1B. NAME INTRODUCTIONS & POLITE GREETINGS ("nice to meet you too, I'm Adity", "I'm Adity", "nice to meet you too")
+    if (preg_match('/\b(im|i am|i\'m|my name is|this is|call me)\s+([a-z]+)\b/i', trim($rawMsg), $nameMatches) || preg_match('/\b(im|i am|my name is|this is|call me)\s+([a-z]+)\b/i', $msg, $nameMatches)) {
         $userName = ucfirst(trim($nameMatches[2]));
         return [
             'reply' => "Nice to meet you, {$userName}! How can I help you today?",
+            'suggestions' => ["Our Services", "Class 1A Credentials", "Contact Us"]
+        ];
+    }
+    if (preg_match('/\b(nice to meet you|pleasure to meet you|good to meet you|glad to meet you|nice meeting you)\b/i', $msg)) {
+        return [
+            'reply' => "Nice to meet you too! How can I help you with your project today?",
             'suggestions' => ["Our Services", "Class 1A Credentials", "Contact Us"]
         ];
     }
