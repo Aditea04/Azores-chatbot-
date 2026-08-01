@@ -124,25 +124,25 @@ function buildHyperlinksHTML() {
 }
 
 function buildServicesHTML() {
-    $contactInfoHTML = "📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>";
+    $contactInfoHTML = '<span style="display:inline-block; white-space:nowrap;">📞 <a href="tel:+917004709933" style="color:#1d4ed8; text-decoration:underline; font-weight:bold;">+91&nbsp;7004709933</a></span> (<a href="https://wa.me/917004709933" target="_blank" style="color:#16a34a; text-decoration:underline; font-weight:bold;">WhatsApp</a>) | <span style="display:inline-block; white-space:nowrap;">📧 <a href="mailto:Azores.ranchi@gmail.com" style="color:#1d4ed8; text-decoration:underline; font-weight:bold;">Azores.ranchi@gmail.com</a></span>';
     return "Here are the services we provide:<br>" . 
            buildCapsulesHTML() . 
-           "<br>For more details reach out to us at " . $contactInfoHTML . " or check out our <a href=\"index.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">website</a>.";
+           "<br><br>For more details reach out to us at:<br>" . $contactInfoHTML . "<br>or check out our <a href=\"index.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">website</a>.";
 }
 
 function buildCompanyOverviewHTML() {
-    $contactInfoHTML = "📞 <a href=\"tel:+917004709933\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">+91 7004709933</a> (<a href=\"https://wa.me/917004709933\" target=\"_blank\" style=\"color:#16a34a; text-decoration:underline; font-weight:bold;\">WhatsApp</a>) | 📧 <a href=\"mailto:Azores.ranchi@gmail.com\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Azores.ranchi@gmail.com</a>";
+    $contactInfoHTML = '<span style="display:inline-block; white-space:nowrap;">📞 <a href="tel:+917004709933" style="color:#1d4ed8; text-decoration:underline; font-weight:bold;">+91&nbsp;7004709933</a></span> (<a href="https://wa.me/917004709933" target="_blank" style="color:#16a34a; text-decoration:underline; font-weight:bold;">WhatsApp</a>) | <span style="display:inline-block; white-space:nowrap;">📧 <a href="mailto:Azores.ranchi@gmail.com" style="color:#1d4ed8; text-decoration:underline; font-weight:bold;">Azores.ranchi@gmail.com</a></span>';
     return "<strong>Azores Infrastructure Private Limited (AIPL)</strong> is a Class 1A Government Registered Civil Engineering Contractor with over 29+ years of industry experience and 120+ executed infrastructure projects across India.<br><br>" . 
            "Here are the services we provide:<br><br>" . 
            buildHyperlinksHTML() . 
-           "<br>For more details reach out to us at " . $contactInfoHTML . " or check out our <a href=\"index.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">website</a>.";
+           "<br><br>For more details reach out to us at:<br>" . $contactInfoHTML . "<br>or check out our <a href=\"index.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">website</a>.";
 }
 
 function buildIrrelevantResponseHTML() {
-    $contactInfoHTML = "📞 <a href=\"tel:+917004709933\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">+91 7004709933</a> (<a href=\"https://wa.me/917004709933\" target=\"_blank\" style=\"color:#16a34a; text-decoration:underline; font-weight:bold;\">WhatsApp</a>) | 📧 <a href=\"mailto:Azores.ranchi@gmail.com\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Azores.ranchi@gmail.com</a>";
+    $contactInfoHTML = '<span style="display:inline-block; white-space:nowrap;">📞 <a href="tel:+917004709933" style="color:#1d4ed8; text-decoration:underline; font-weight:bold;">+91&nbsp;7004709933</a></span> (<a href="https://wa.me/917004709933" target="_blank" style="color:#16a34a; text-decoration:underline; font-weight:bold;">WhatsApp</a>) | <span style="display:inline-block; white-space:nowrap;">📧 <a href="mailto:Azores.ranchi@gmail.com" style="color:#1d4ed8; text-decoration:underline; font-weight:bold;">Azores.ranchi@gmail.com</a></span>';
     return "🤣 Lol! I cant help you with that...<br><br>But here's how i can definitely help you:<br>" . 
            buildCapsulesHTML() . 
-           "<br>For more details reach out to us at " . $contactInfoHTML . " or check out our <a href=\"index.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">website</a>.";
+           "<br><br>For more details reach out to us at:<br>" . $contactInfoHTML . "<br>or check out our <a href=\"index.php\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">website</a>.";
 }
 
 function matchLocalIntent($userMessage, $questionsData = []) {
@@ -203,7 +203,7 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         ];
     }
 
-    $contactInfoHTML = "📞 <a href=\"tel:+917004709933\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">+91 7004709933</a> (<a href=\"https://wa.me/917004709933\" target=\"_blank\" style=\"color:#16a34a; text-decoration:underline; font-weight:bold;\">WhatsApp</a>) | 📧 <a href=\"mailto:Azores.ranchi@gmail.com\" style=\"color:#1d4ed8; text-decoration:underline; font-weight:bold;\">Azores.ranchi@gmail.com</a>";
+    $contactInfoHTML = '<span style="display:inline-block; white-space:nowrap;">📞 <a href="tel:+917004709933" style="color:#1d4ed8; text-decoration:underline; font-weight:bold;">+91&nbsp;7004709933</a></span> (<a href="https://wa.me/917004709933" target="_blank" style="color:#16a34a; text-decoration:underline; font-weight:bold;">WhatsApp</a>) | <span style="display:inline-block; white-space:nowrap;">📧 <a href="mailto:Azores.ranchi@gmail.com" style="color:#1d4ed8; text-decoration:underline; font-weight:bold;">Azores.ranchi@gmail.com</a></span>';
 
     // SPECIALIZATION INQUIRIES (EXACT SPECIFIED RESPONSES)
     if (preg_match('/\b(turnkey|peb|peb shed|epc)\b/i', $msg) && !preg_match('/\b(budget|cost|price|rate|discount|manpower|timeline|material|people|staff)\b/i', $msg)) {
