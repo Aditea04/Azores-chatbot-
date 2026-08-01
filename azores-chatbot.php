@@ -211,49 +211,46 @@
 
 /* ── SERVICE CAPSULES & HOVER PREVIEW ── */
 .az-capsules-list {
-    margin: 10px 0;
+    margin: 8px 0 4px;
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    flex-wrap: wrap;
+    gap: 6px;
     width: 100%;
     box-sizing: border-box;
 }
 .az-capsule-btn {
-    position: relative;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 11px 15px;
-    width: 100%;
-    box-sizing: border-box;
+    padding: 6px 13px;
     border: 1.5px solid #1d4ed8;
-    border-radius: 14px;
-    background: #f8fafc;
+    border-radius: 18px;
+    background: #ffffff;
     color: #1d4ed8 !important;
     text-decoration: none !important;
     font-weight: 600;
-    font-size: 13px;
-    line-height: 1.4;
+    font-size: 11.5px;
+    line-height: 1.35;
     white-space: normal;
     word-break: break-word;
-    transition: all 0.25s ease;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
 }
 .az-capsule-btn:hover {
     background: #1d4ed8;
     color: #ffffff !important;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(29,78,216,0.25);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(29,78,216,0.25);
     border-color: #1e40af;
 }
 .az-capsule-title {
     display: block;
-    line-height: 1.35;
+    line-height: 1.3;
 }
 .az-capsule-hover-url {
     display: none;
-    margin-top: 4px;
-    font-size: 11px;
+    margin-top: 2px;
+    font-size: 10px;
     font-weight: 500;
     color: #93c5fd;
     letter-spacing: 0.2px;
@@ -668,7 +665,7 @@
                     hideTyping();
                     addBotMsg(
                         "Hello! 👋 Welcome to <strong>Azores Infrastructure</strong>. I'm <strong>Azores AI</strong> — how can I assist you with your construction or infrastructure requirements today?",
-                        ["Highways & Roads", "Bridges & Flyovers", "Turnkey EPC", "Contact Us"]
+                        ["About Us", "Contact Us", "Our Services", "Our Specializations", "Location"]
                     );
                 }, 900);
             }, 300);

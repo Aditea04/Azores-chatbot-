@@ -160,7 +160,7 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         $msg === 'hi' || $msg === 'hello' || $msg === 'hey' || $msg === 'hi azores' || $msg === 'hello azores' || $msg === 'hey azores') {
         return [
             'reply' => "Hey! Nice to meet you. I am Azores AI, how can I help you today?",
-            'suggestions' => ["Our Services", "Class 1A Credentials", "Contact Us"]
+            'suggestions' => ["About Us", "Contact Us", "Our Services", "Our Specializations", "Location"]
         ];
     }
 
@@ -169,13 +169,13 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         $userName = ucfirst(trim($nameMatches[2]));
         return [
             'reply' => "Nice to meet you, {$userName}! How can I help you today?",
-            'suggestions' => ["Our Services", "Class 1A Credentials", "Contact Us"]
+            'suggestions' => ["About Us", "Contact Us", "Our Services", "Our Specializations", "Location"]
         ];
     }
     if (preg_match('/\b(nice to meet you|pleasure to meet you|good to meet you|glad to meet you|nice meeting you)\b/i', $msg)) {
         return [
             'reply' => "Nice to meet you too! How can I help you with your project today?",
-            'suggestions' => ["Our Services", "Class 1A Credentials", "Contact Us"]
+            'suggestions' => ["About Us", "Contact Us", "Our Services", "Our Specializations", "Location"]
         ];
     }
 
