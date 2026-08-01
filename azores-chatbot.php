@@ -704,7 +704,8 @@
             btn.textContent = s.trim();
 
             // Special chip actions
-            btn.addEventListener('click', () => {
+            btn.addEventListener('click', (e) => {
+                if (e) e.stopPropagation();
                 const t = s.toLowerCase().trim();
                 if (t.startsWith('call') || t.includes('+91') || t.includes('7004709933')) {
                     window.open('tel:+917004709933', '_self'); return;
@@ -918,11 +919,13 @@
         if (e.key === 'Escape' && isOpen) closeChat();
     });
 
-    // Click outside to close
+    // Click outside to close (safeguarded against detached elements like clicked chips)
     document.addEventListener('click', e => {
-        if (isOpen && !window_.contains(e.target) && !launcher.contains(e.target)) {
-            closeChat();
+        if (!isOpen) return;
+        if (!document.body.contains(e.target) || window_.contains(e.target) || launcher.contains(e.target)) {
+            return;
         }
+        closeChat();
     });
 
     /* ── INIT ── */
