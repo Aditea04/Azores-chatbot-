@@ -3,6 +3,14 @@ header('Content-Type: application/json');
 header('Access-Control-Allow-Origin: *');
 
 // ─── 1. LOAD TRUTHS, MISCONCEPTIONS & KNOWLEDGE PRINCIPLES ───────────────────
+$sysPromptFile  = __DIR__ . '/instructions/SYSTEM_PROMPT.txt';
+$wfInstFile     = __DIR__ . '/instructions/API_WORKFLOW_INSTRUCTIONS.md';
+$intentGuideFile= __DIR__ . '/instructions/INTENT_DECIPHERING_GUIDE.md';
+
+$systemPrompt   = file_exists($sysPromptFile) ? file_get_contents($sysPromptFile) : '';
+$workflowInst   = file_exists($wfInstFile) ? file_get_contents($wfInstFile) : '';
+$intentGuide    = file_exists($intentGuideFile) ? file_get_contents($intentGuideFile) : '';
+
 $truthsFile    = __DIR__ . '/data/business_truths.json';
 $miscFile      = __DIR__ . '/data/misconceptions.json';
 $doNotSayFile = file_exists('F:/chatbot/do_not_say.txt') ? 'F:/chatbot/do_not_say.txt' : __DIR__ . '/data/do_not_say.txt';
