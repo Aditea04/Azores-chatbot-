@@ -710,7 +710,10 @@
     /* ── CHIPS ── */
     function setChips(suggestions) {
         chipsWrap.innerHTML = '';
-        if (!suggestions || !suggestions.length) return;
+        if (!suggestions || !suggestions.length) {
+            chipsWrap.style.display = 'none';
+            return;
+        }
         suggestions.forEach(s => {
             if (!s || !s.trim()) return;
             const btn = document.createElement('button');
@@ -727,14 +730,15 @@
                 if (t.startsWith('email') || t.includes('email')) {
                     window.open('mailto:Azores.ranchi@gmail.com', '_self'); return;
                 }
-                sendMessage(s.trim());
+                sendMessage(s.trim(), true);
             });
             chipsWrap.appendChild(btn);
         });
+        chipsWrap.style.display = 'flex';
     }
 
     /* ── ADD MESSAGES ── */
-    function addBotMsg(html, suggestions) {
+    function addBotMsg(html, suggestions, isFromCapsuleClick = false) {
         msgCount++;
 
         const row = document.createElement('div');
@@ -773,7 +777,7 @@
                     if (t.startsWith('email') || t.includes('email')) {
                         window.open('mailto:Azores.ranchi@gmail.com', '_self'); return;
                     }
-                    sendMessage(s.trim());
+                    sendMessage(s.trim(), true);
                 });
                 inlineChips.appendChild(btn);
             });
@@ -797,9 +801,12 @@
 
         scrollBottom();
 
-        // Chips + rating
-        if (suggestions && suggestions.length) {
+        // Bottom chips behavior: Only show bottom chips if query originated from a capsule click
+        if (isFromCapsuleClick && suggestions && suggestions.length) {
             setChips(suggestions);
+        } else {
+            chipsWrap.innerHTML = '';
+            chipsWrap.style.display = 'none';
         }
 
         // Rating after 6 bot messages
@@ -813,6 +820,7 @@
 
     function addUserMsg(text) {
         chipsWrap.innerHTML = '';
+        chipsWrap.style.display = 'none';
         const row = document.createElement('div');
         row.className = 'az-msg-row az-user';
 
@@ -884,7 +892,7 @@
     }
 
     /* ── SEND MESSAGE ── */
-    function sendMessage(text) {
+    function sendMessage(text, isFromCapsuleClick = false) {
         text = (text || '').trim();
         if (!text || isBusy) return;
 
@@ -912,12 +920,12 @@
             setTimeout(() => {
                 hideTyping();
                 if (data && data.status === 'success' && data.reply) {
-                    addBotMsg(data.reply, data.suggestions || []);
+                    addBotMsg(data.reply, data.suggestions || [], isFromCapsuleClick);
                     history.push({ role: 'model', content: data.reply });
                 } else if (data && data.reply) {
-                    addBotMsg(data.reply, data.suggestions || ["Our services", "Contact us"]);
+                    addBotMsg(data.reply, data.suggestions || ["Our services", "Contact us"], isFromCapsuleClick);
                 } else {
-                    addBotMsg("Thank you for reaching out to <strong>Azores Infrastructure</strong>. How can we assist your project needs today?", ["Our services", "Contact us"]);
+                    addBotMsg("Thank you for reaching out to <strong>Azores Infrastructure</strong>. How can we assist your project needs today?", ["Our services", "Contact us"], isFromCapsuleClick);
                 }
                 isBusy = false;
                 sendBtn.disabled = false;
@@ -930,7 +938,8 @@
                 hideTyping();
                 addBotMsg(
                     "Thank you for reaching out to <strong>Azores Infrastructure Private Limited</strong>. We specialize in Class 1A heavy infrastructure, pre-stressed bridges, and turnkey EPC projects.<br><br>How can we assist your project needs today?",
-                    ["Our services", "Class 1A Credentials", "Contact us"]
+                    ["Our services", "Class 1A Credentials", "Contact us"],
+                    isFromCapsuleClick
                 );
                 isBusy = false;
                 sendBtn.disabled = false;
