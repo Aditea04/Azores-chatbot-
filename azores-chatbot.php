@@ -616,7 +616,7 @@
         launcher.setAttribute('aria-expanded', 'true');
         launcher.querySelector('.az-icon-chat').style.display = 'none';
         launcher.querySelector('.az-icon-x').style.display   = 'flex';
-        proactive.style.display = 'none';
+        if (proactive) proactive.style.display = 'none';
         clearTimeout(proTimer);
         setBadge(0);
         setTimeout(() => { input.focus(); scrollBottom(); }, 380);
@@ -624,15 +624,15 @@
         // First-open welcome message
         if (msgCount === 0) {
             setTimeout(() => {
-                showTyping(1000);
+                showTyping(800);
                 setTimeout(() => {
                     hideTyping();
                     addBotMsg(
-                        "Hello! 👋 Welcome to <strong>Azores Infrastructure</strong>. I'm your AI assistant — ask me anything about our construction services, projects, or partnerships!",
-                        ["Our services", "About Azores", "Contact us"]
+                        "Hello! 👋 Welcome to <strong>Azores Infrastructure</strong>. I'm <strong>Azores AI</strong> — how can I assist you with your construction or infrastructure requirements today?",
+                        ["Highways & Roads", "Bridges & Flyovers", "Turnkey EPC", "Contact Us"]
                     );
-                }, 1100);
-            }, 400);
+                }, 900);
+            }, 300);
         }
     }
 
@@ -648,20 +648,12 @@
     launcher.addEventListener('click', () => isOpen ? closeChat() : openChat());
     closeBtn.addEventListener('click', closeChat);
 
-    /* ── PROACTIVE BUBBLE ── */
-    function showProactive() {
-        if (isOpen || sessionStorage.getItem('az_pro_shown')) return;
-        proactive.style.display = 'block';
-        sessionStorage.setItem('az_pro_shown', '1');
-        setBadge(1);
-    }
-
-    proClose.addEventListener('click', () => {
-        proactive.style.display = 'none';
-        setBadge(0);
-    });
-
-    proTimer = setTimeout(showProactive, 8000);
+    /* ── AUTO OPEN CHAT POPUP ON PAGE VISIT ── */
+    proTimer = setTimeout(() => {
+        if (!isOpen) {
+            openChat();
+        }
+    }, 1200);
 
     /* ── TYPING INDICATOR ── */
     function showTyping(duration) {
