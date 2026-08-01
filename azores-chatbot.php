@@ -213,7 +213,8 @@
 .az-capsules-list {
     margin: 8px 0 4px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 6px;
     width: 100%;
     box-sizing: border-box;
@@ -222,6 +223,9 @@
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
+    width: fit-content;
+    max-width: 100%;
+    align-self: flex-start;
     padding: 6px 13px;
     border: 1.5px solid #1d4ed8;
     border-radius: 18px;

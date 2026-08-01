@@ -104,12 +104,12 @@ COMMON MISCONCEPTIONS & FACTS (JSON):
 
 // ─── 5. SMART INTENT MATCHING (FAST LOCAL INTERCEPTOR) ────────────────────────
 function buildCapsulesHTML() {
-    return "<div class=\"az-capsules-list\" style=\"margin: 10px 0; display: flex; flex-direction: column; gap: 8px;\">" .
-        "<a href=\"specialization-highways.php\" class=\"az-capsule-btn\" title=\"Visit Highways & Expressways Page\"><span class=\"az-capsule-title\">Highways & Expressways</span><span class=\"az-capsule-hover-url\">🔗 specialization-highways.php</span></a>" .
-        "<a href=\"specialization-bridges.php\" class=\"az-capsule-btn\" title=\"Visit Bridges & Elevated Structures Page\"><span class=\"az-capsule-title\">Bridges & Elevated Structures</span><span class=\"az-capsule-hover-url\">🔗 specialization-bridges.php</span></a>" .
-        "<a href=\"specialization-turnkey.php\" class=\"az-capsule-btn\" title=\"Visit Turnkey EPC & PEB Sheds Page\"><span class=\"az-capsule-title\">Turnkey EPC & PEB Sheds</span><span class=\"az-capsule-hover-url\">🔗 specialization-turnkey.php</span></a>" .
-        "<a href=\"specialization-institutional.php\" class=\"az-capsule-btn\" title=\"Visit Institutional Infrastructure Page\"><span class=\"az-capsule-title\">Institutional & Hospital Infrastructure</span><span class=\"az-capsule-hover-url\">🔗 specialization-institutional.php</span></a>" .
-        "<a href=\"specialization-residential.php\" class=\"az-capsule-btn\" title=\"Visit Residential Townships Page\"><span class=\"az-capsule-title\">Residential Townships</span><span class=\"az-capsule-hover-url\">🔗 specialization-residential.php</span></a>" .
+    return "<div class=\"az-capsules-list\" style=\"margin: 8px 0 4px; display: flex; flex-direction: column; align-items: flex-start; gap: 6px; width: 100%;\">" .
+        "<a href=\"specialization-highways.php\" class=\"az-capsule-btn\" style=\"display: inline-flex; width: fit-content; max-width: 100%; align-self: flex-start;\" title=\"Visit Highways & Expressways Page\"><span class=\"az-capsule-title\">Highways & Expressways</span></a>" .
+        "<a href=\"specialization-bridges.php\" class=\"az-capsule-btn\" style=\"display: inline-flex; width: fit-content; max-width: 100%; align-self: flex-start;\" title=\"Visit Bridges & Elevated Structures Page\"><span class=\"az-capsule-title\">Bridges & Elevated Structures</span></a>" .
+        "<a href=\"specialization-turnkey.php\" class=\"az-capsule-btn\" style=\"display: inline-flex; width: fit-content; max-width: 100%; align-self: flex-start;\" title=\"Visit Turnkey EPC & PEB Sheds Page\"><span class=\"az-capsule-title\">Turnkey EPC & PEB Sheds</span></a>" .
+        "<a href=\"specialization-institutional.php\" class=\"az-capsule-btn\" style=\"display: inline-flex; width: fit-content; max-width: 100%; align-self: flex-start;\" title=\"Visit Institutional Infrastructure Page\"><span class=\"az-capsule-title\">Institutional & Hospital Infrastructure</span></a>" .
+        "<a href=\"specialization-residential.php\" class=\"az-capsule-btn\" style=\"display: inline-flex; width: fit-content; max-width: 100%; align-self: flex-start;\" title=\"Visit Residential Townships Page\"><span class=\"az-capsule-title\">Residential Townships</span></a>" .
         "</div>";
 }
 
