@@ -516,10 +516,10 @@ elseif (containsAny($msg, ['delhi', 'jharkhand', 'ranchi', 'office', 'headquarte
     $chips = ["Machinery Fleet", "Contact Us", "Our Services"];
 }
 
-// 15. GENERAL FALLBACK (For completely off-topic non-business questions)
+// 15. GENERAL FALLBACK (For ambiguous or general project inquiries)
 else {
-    $reply = $unmatchedResponse;
-    $chips = ["Highway Projects", "Bridge Projects", "Contact Team"];
+    $reply = "I would be glad to help! To give you the exact information you need, please let me know what your project is about (e.g., Highways, Bridges, Turnkey EPC, Institutional Buildings, or Residential Townships), or reach out directly to our team at 📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>.";
+    $chips = ["Highways & Roads", "Bridges & Flyovers", "Turnkey EPC"];
 }
 
 
