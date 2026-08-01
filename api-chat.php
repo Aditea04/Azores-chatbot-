@@ -241,8 +241,17 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         ];
     }
 
-    // 3. IN-DEPTH COMMERCIAL / BUDGET / FINANCIAL / EXPENSES / STAFF INQUIRIES
-    if (preg_match('/\b(budget|cost|costs|price|prices|pricing|rate|rates|discount|discounts|expense|expenses|expenditure|finance|finances|financial|estimate|estimation|quotation|timeline|duration|manpower|labor|labour|workforce|material|materials|steel|cement|concrete|land|land cost|acre|sqft|sq ft|sqm|sq m|fee|fees|charge|charges|tender quote|boq|bill of quantities|people|team|staff|engineer|engineers|managing director|director|owner|founder|ceo)\b/i', $msg)) {
+    // 3A. LEADERSHIP / FOUNDER / OWNER INQUIRIES ("who is the founder", "who is the owner", "who is managing director", "ranvijay pradhan")
+    if (preg_match('/\b(founder|owner|managing director|director|ceo|ranvijay|pradhan|leadership|head of company|who owns|who founded|who runs)\b/i', $msg)) {
+        return [
+            'reply' => "<strong>Azores Infrastructure Private Limited</strong> is led by <strong>Mr. Ranvijay Pradhan</strong> (Founder & Managing Director). He holds a B.Tech in Mechanical Engineering and brings 29+ years of civil construction experience, having executed over 120+ major government infrastructure projects across India.<br><br>" .
+                       "You can connect directly with our leadership team at 📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>.",
+            'suggestions' => ["Class 1A Credentials", "Our Services", "Contact Team"]
+        ];
+    }
+
+    // 3B. IN-DEPTH COMMERCIAL / BUDGET / FINANCIAL / EXPENSES / STAFF INQUIRIES
+    if (preg_match('/\b(budget|cost|costs|price|prices|pricing|rate|rates|discount|discounts|expense|expenses|expenditure|finance|finances|financial|estimate|estimation|quotation|timeline|duration|manpower|labor|labour|workforce|material|materials|steel|cement|concrete|land|land cost|acre|sqft|sq ft|sqm|sq m|fee|fees|charge|charges|tender quote|boq|bill of quantities)\b/i', $msg)) {
         $contactInfoHTML = "📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>";
         return [
             'reply' => "I cannot help you with that currently but you can reach out to us at " . $contactInfoHTML . " and enquire about it.",
