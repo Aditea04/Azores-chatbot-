@@ -268,8 +268,11 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         ];
     }
 
-    // 6. CHECK MASTER 870+ Q&A DATASET
+    // 6. CHECK MASTER 4,500+ Q&A DATASET WITH VECTOR SIMILARITY SEARCH
     if (!empty($questionsData) && is_array($questionsData)) {
+        $bestMatch = null;
+        $highestScore = 0;
+
         foreach ($questionsData as $item) {
             $qRaw = isset($item['question']) ? $item['question'] : (isset($item['query']) ? $item['query'] : '');
             $r    = isset($item['response']) ? $item['response'] : (isset($item['reply']) ? $item['reply'] : (isset($item['answer']) ? $item['answer'] : ''));
@@ -279,13 +282,29 @@ function matchLocalIntent($userMessage, $questionsData = []) {
 
             $qNorm = strtolower(preg_replace('/[^\w\s]/u', '', $qRaw));
 
-            // Skip dataset entry if it's a short 2-letter greeting like "hi"
+            // Skip dataset entry if it's a short greeting
             if (in_array($qNorm, ['hi', 'hello', 'hey', 'bye', 'goodbye'])) continue;
 
             // Exact match or Substring match
             if ($msg === $qNorm || (strlen($qNorm) > 4 && (strpos($msg, $qNorm) !== false || strpos($qNorm, $msg) !== false))) {
                 return ['reply' => $r, 'suggestions' => $s];
             }
+
+            // Jaccard & N-Gram Similarity calculation
+            $words1 = array_filter(explode(' ', $msg));
+            $words2 = array_filter(explode(' ', $qNorm));
+            $intersect = count(array_intersect($words1, $words2));
+            $union = count(array_unique(array_merge($words1, $words2)));
+            $score = $union > 0 ? ($intersect / $union) : 0;
+
+            if ($score > $highestScore && $score >= 0.50) {
+                $highestScore = $score;
+                $bestMatch = ['reply' => $r, 'suggestions' => $s];
+            }
+        }
+
+        if ($bestMatch) {
+            return $bestMatch;
         }
     }
 
