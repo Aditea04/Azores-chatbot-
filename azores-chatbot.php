@@ -404,6 +404,20 @@
     box-shadow: 0 4px 12px rgba(29,78,216,0.25);
 }
 
+/* Inline chips under bot message bubbles */
+.az-msg-inline-chips {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    width: 100%;
+}
+.az-inline-chip {
+    padding: 6px 13px;
+    font-size: 11.5px;
+    border-radius: 18px;
+}
+
 /* ── INPUT AREA ── */
 .az-input-area {
     padding: 12px 16px;
@@ -722,7 +736,6 @@
     /* ── ADD MESSAGES ── */
     function addBotMsg(html, suggestions) {
         msgCount++;
-        chipsWrap.innerHTML = '';
 
         const row = document.createElement('div');
         row.className = 'az-msg-row az-bot';
@@ -740,12 +753,38 @@
         bubble.className = 'az-bubble';
         bubble.innerHTML = html;
 
+        wrap.appendChild(bubble);
+
+        // Persistent inline chips under this message bubble
+        if (suggestions && suggestions.length > 0) {
+            const inlineChips = document.createElement('div');
+            inlineChips.className = 'az-msg-inline-chips';
+            suggestions.forEach(s => {
+                if (!s || !s.trim()) return;
+                const btn = document.createElement('button');
+                btn.className = 'az-chip az-inline-chip';
+                btn.textContent = s.trim();
+                btn.addEventListener('click', (e) => {
+                    if (e) e.stopPropagation();
+                    const t = s.toLowerCase().trim();
+                    if (t.startsWith('call') || t.includes('+91') || t.includes('7004709933')) {
+                        window.open('tel:+917004709933', '_self'); return;
+                    }
+                    if (t.startsWith('email') || t.includes('email')) {
+                        window.open('mailto:Azores.ranchi@gmail.com', '_self'); return;
+                    }
+                    sendMessage(s.trim());
+                });
+                inlineChips.appendChild(btn);
+            });
+            wrap.appendChild(inlineChips);
+        }
+
         const ts = document.createElement('div');
         ts.className = 'az-ts';
         ts.textContent = now();
-
-        wrap.appendChild(bubble);
         wrap.appendChild(ts);
+
         row.appendChild(av);
         row.appendChild(wrap);
         msgs.appendChild(row);
