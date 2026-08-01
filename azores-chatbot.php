@@ -283,8 +283,9 @@
 /* Message row */
 .az-msg-row {
     display: flex;
-    align-items: flex-end;
-    gap: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 4px;
     animation: azMsgIn 0.28s ease;
 }
 @keyframes azMsgIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
@@ -302,11 +303,12 @@
     font-weight: 800;
     font-size: 13px;
     letter-spacing: -0.5px;
+    margin-top: 2px;
 }
 .az-user .az-av { background: linear-gradient(135deg, #475569, #334155); }
 
 /* Bubble */
-.az-bubble-wrap { display: flex; flex-direction: column; max-width: 88%; min-width: 0; }
+.az-bubble-wrap { display: flex; flex-direction: column; max-width: 86%; min-width: 0; }
 .az-user .az-bubble-wrap { align-items: flex-end; }
 
 .az-bubble {
@@ -318,8 +320,8 @@
     overflow-wrap: break-word;
     box-sizing: border-box;
 }
-.az-bot  .az-bubble { background: #ffffff; color: #1e293b; border: 1px solid #e2e8f0; border-bottom-left-radius: 5px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
-.az-user .az-bubble { background: linear-gradient(135deg, #02016A 0%, #0434dc 100%); color: #ffffff; border-bottom-right-radius: 5px; box-shadow: 0 4px 14px rgba(4,52,220,0.25); }
+.az-bot  .az-bubble { background: #ffffff; color: #1e293b; border: 1px solid #e2e8f0; border-top-left-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.az-user .az-bubble { background: linear-gradient(135deg, #02016A 0%, #0434dc 100%); color: #ffffff; border-top-right-radius: 4px; box-shadow: 0 4px 14px rgba(4,52,220,0.25); }
 
 /* Links inside bot bubbles */
 .az-bot .az-bubble a { color: #1d4ed8; text-decoration: underline; font-weight: 600; word-break: break-word; }
@@ -336,9 +338,9 @@
 /* ── TYPING INDICATOR ── */
 #azTyping {
     display: none;
-    align-items: flex-end;
-    gap: 8px;
-    padding: 0 16px 4px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0 16px 6px;
     flex-shrink: 0;
     animation: azMsgIn 0.25s ease;
 }
@@ -346,7 +348,7 @@
     background: #fff;
     border: 1px solid #e8eef4;
     border-radius: 18px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 4px;
     padding: 13px 16px;
     display: flex;
     gap: 5px;
@@ -367,46 +369,52 @@
 
 /* ── QUICK REPLY CHIPS ── */
 #azChips {
-    padding: 6px 14px 4px;
+    padding: 10px 16px 8px;
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 8px;
+    background: #f8fafc;
+    border-top: 1px solid #f1f5f9;
     flex-shrink: 0;
     min-height: 0;
+    box-sizing: border-box;
+    width: 100%;
 }
 .az-chip {
-    background: #fff;
-    border: 1.5px solid #0434dc;
-    color: #0434dc;
-    padding: 6px 13px;
-    border-radius: 20px;
+    background: #ffffff;
+    border: 1.5px solid #1d4ed8;
+    color: #1d4ed8;
+    padding: 7px 14px;
+    border-radius: 18px;
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.18s ease;
+    transition: all 0.2s ease;
     white-space: nowrap;
     font-family: inherit;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
 }
 .az-chip:hover {
-    background: #0434dc;
-    color: #fff;
+    background: #1d4ed8;
+    color: #ffffff;
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(4,52,220,0.22);
+    box-shadow: 0 4px 12px rgba(29,78,216,0.25);
 }
 
 /* ── INPUT AREA ── */
 .az-input-area {
-    padding: 10px 14px 12px;
-    background: #fff;
-    border-top: 1px solid #f0f4f8;
+    padding: 12px 16px;
+    background: #ffffff;
+    border-top: 1px solid #e2e8f0;
     display: flex;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
+    box-sizing: border-box;
 }
 #azInput {
     flex: 1;
-    border: 1.5px solid #e2e8f0;
+    border: 1.5px solid #cbd5e1;
     border-radius: 26px;
     padding: 10px 16px;
     font-size: 13.5px;
@@ -439,11 +447,14 @@
 /* ── POWERED BY ── */
 .az-powered {
     text-align: center;
-    padding: 5px 16px 7px;
-    font-size: 10.5px;
-    color: #b0bec5;
-    background: #fff;
+    padding: 8px 16px 12px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #94a3b8;
+    background: #ffffff;
+    border-top: 1px solid #f1f5f9;
     flex-shrink: 0;
+    letter-spacing: 0.1px;
 }
 .az-powered strong { color: #02016A; font-weight: 700; }
 
