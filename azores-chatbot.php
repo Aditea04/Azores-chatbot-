@@ -215,20 +215,27 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .az-capsule-btn {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px 16px;
+    padding: 11px 15px;
+    width: 100%;
+    box-sizing: border-box;
     border: 1.5px solid #1d4ed8;
-    border-radius: 20px;
+    border-radius: 14px;
     background: #f8fafc;
     color: #1d4ed8 !important;
     text-decoration: none !important;
     font-weight: 600;
     font-size: 13px;
+    line-height: 1.4;
+    white-space: normal;
+    word-break: break-word;
     transition: all 0.25s ease;
     box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
@@ -236,12 +243,12 @@
     background: #1d4ed8;
     color: #ffffff !important;
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(29,78,216,0.3);
+    box-shadow: 0 6px 16px rgba(29,78,216,0.25);
     border-color: #1e40af;
 }
 .az-capsule-title {
     display: block;
-    line-height: 1.3;
+    line-height: 1.35;
 }
 .az-capsule-hover-url {
     display: none;
@@ -261,7 +268,7 @@
     text-align: center;
     font-size: 10.5px;
     color: #94a3b8;
-    margin: 4px 0 2px;
+    margin: 6px 0 3px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -286,41 +293,45 @@
 
 /* Avatar */
 .az-av {
-    width: 30px; height: 30px;
+    width: 32px; height: 32px;
     border-radius: 10px;
     background: linear-gradient(135deg, #02016A, #0434dc);
     display: flex; align-items: center; justify-content: center;
     flex-shrink: 0;
     color: #fff;
     font-weight: 800;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: -0.5px;
 }
 .az-user .az-av { background: linear-gradient(135deg, #475569, #334155); }
 
 /* Bubble */
-.az-bubble-wrap { display: flex; flex-direction: column; max-width: 82%; }
+.az-bubble-wrap { display: flex; flex-direction: column; max-width: 88%; min-width: 0; }
 .az-user .az-bubble-wrap { align-items: flex-end; }
 
 .az-bubble {
-    padding: 10px 14px;
+    padding: 12px 16px;
     border-radius: 18px;
     font-size: 13.5px;
-    line-height: 1.6;
+    line-height: 1.55;
     word-break: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
 }
-.az-bot  .az-bubble { background: #fff; color: #1e293b; border: 1px solid #e8eef4; border-bottom-left-radius: 5px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
-.az-user .az-bubble { background: linear-gradient(135deg, #02016A 0%, #0434dc 100%); color: #fff; border-bottom-right-radius: 5px; box-shadow: 0 4px 14px rgba(4,52,220,0.28); }
+.az-bot  .az-bubble { background: #ffffff; color: #1e293b; border: 1px solid #e2e8f0; border-bottom-left-radius: 5px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.az-user .az-bubble { background: linear-gradient(135deg, #02016A 0%, #0434dc 100%); color: #ffffff; border-bottom-right-radius: 5px; box-shadow: 0 4px 14px rgba(4,52,220,0.25); }
 
 /* Links inside bot bubbles */
-.az-bot .az-bubble a { color: #0434dc; text-decoration: underline; }
+.az-bot .az-bubble a { color: #1d4ed8; text-decoration: underline; font-weight: 600; word-break: break-word; }
+.az-bot .az-bubble p { margin: 0 0 8px 0; }
+.az-bot .az-bubble p:last-child { margin-bottom: 0; }
 
 /* Lists inside bubbles */
-.az-bot .az-bubble ul { padding-left: 18px; margin: 6px 0 2px; }
-.az-bot .az-bubble li { margin-bottom: 4px; }
+.az-bot .az-bubble ul, .az-bot .az-bubble ol { padding-left: 20px; margin: 8px 0 4px; }
+.az-bot .az-bubble li { margin-bottom: 5px; line-height: 1.5; }
 
 /* Timestamp */
-.az-ts { font-size: 10px; color: #94a3b8; margin-top: 4px; padding: 0 3px; }
+.az-ts { font-size: 10px; color: #94a3b8; margin-top: 4px; padding: 0 4px; }
 
 /* ── TYPING INDICATOR ── */
 #azTyping {
