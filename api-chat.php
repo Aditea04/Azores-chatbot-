@@ -183,7 +183,15 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         ];
     }
 
-    // GENERAL DIRECT PROJECT ASK / HELP ASK (FLOWCHART: "To help you with any such information, first of all I have to know what is your project about")
+    // 3. IRRELEVANT / OFF-TOPIC CONSUMER QUESTIONS (MUST BE EVALUATED BEFORE GENERAL HELP MATCHER)
+    if (preg_match('/\b(recipe|recipes|cook|cooking|bake|soup|chicken soup|food|weather|rain|movie|game|coding|python|java|php|math|mathematics|solve|joke|song|cricket|football|actor|homework|study|school work|assignment|tea|chai|coffee|flat|flats|rent|renting|rental|lease|room|rooms|noida|gurgaon|delhi flat|plumber|electrician|doctor|medicine)\b/i', $msg)) {
+        return [
+            'reply' => buildIrrelevantResponseHTML(),
+            'suggestions' => ["Highway Projects", "Bridge Projects", "Contact Team"]
+        ];
+    }
+
+    // 4. GENERAL DIRECT PROJECT ASK / HELP ASK (FLOWCHART: "To help you with any such information, first of all I have to know what is your project about")
     if ((preg_match('/\b(i need your help|need your help|i need help|need help|help me|can you help|can u help|do my project|do a project|do this project|execute my project|execute a project|build my project|build a project|make a project|have a project|start a project|handle my project|take my project|construction help|project help|need help with|want to make a project|help me with|help with a project|help me build|can you do|can u do)\b/i', $msg) || (strpos($msg, 'project') !== false && (strpos($msg, 'do') !== false || strpos($msg, 'help') !== false || strpos($msg, 'build') !== false || strpos($msg, 'make') !== false))) && !preg_match('/\b(highway|bridge|flyover|peb|shed|turnkey|epc|school|hospital|township|residential|budget|cost|price|rate|discount|manpower|timeline|material)\b/i', $msg)) {
         return [
             'reply' => "To help you with any such information, first of all I have to know what is your project about",
