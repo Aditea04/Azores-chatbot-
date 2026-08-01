@@ -284,9 +284,11 @@
 .az-msg-row {
     display: flex;
     align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 4px;
+    gap: 12px;
+    margin-bottom: 8px;
     animation: azMsgIn 0.28s ease;
+    width: 100%;
+    box-sizing: border-box;
 }
 @keyframes azMsgIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
 .az-msg-row.az-bot  { align-self: flex-start; }
@@ -294,7 +296,7 @@
 
 /* Avatar */
 .az-av {
-    width: 32px; height: 32px;
+    width: 34px; height: 34px;
     border-radius: 10px;
     background: linear-gradient(135deg, #02016A, #0434dc);
     display: flex; align-items: center; justify-content: center;
@@ -308,14 +310,14 @@
 .az-user .az-av { background: linear-gradient(135deg, #475569, #334155); }
 
 /* Bubble */
-.az-bubble-wrap { display: flex; flex-direction: column; max-width: 86%; min-width: 0; }
+.az-bubble-wrap { display: flex; flex-direction: column; max-width: calc(100% - 50px); min-width: 0; }
 .az-user .az-bubble-wrap { align-items: flex-end; }
 
 .az-bubble {
-    padding: 12px 16px;
-    border-radius: 18px;
+    padding: 14px 18px;
+    border-radius: 20px;
     font-size: 13.5px;
-    line-height: 1.55;
+    line-height: 1.6;
     word-break: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
@@ -325,7 +327,7 @@
 
 /* Links inside bot bubbles */
 .az-bot .az-bubble a { color: #1d4ed8; text-decoration: underline; font-weight: 600; word-break: break-word; }
-.az-bot .az-bubble p { margin: 0 0 8px 0; }
+.az-bot .az-bubble p { margin: 0 0 10px 0; }
 .az-bot .az-bubble p:last-child { margin-bottom: 0; }
 
 /* Lists inside bubbles */
@@ -333,25 +335,25 @@
 .az-bot .az-bubble li { margin-bottom: 5px; line-height: 1.5; }
 
 /* Timestamp */
-.az-ts { font-size: 10px; color: #94a3b8; margin-top: 4px; padding: 0 4px; }
+.az-ts { font-size: 10px; color: #94a3b8; margin-top: 5px; padding: 0 4px; }
 
 /* ── TYPING INDICATOR ── */
 #azTyping {
     display: none;
     align-items: flex-start;
-    gap: 10px;
-    padding: 0 16px 6px;
+    gap: 12px;
+    padding: 0 16px 8px;
     flex-shrink: 0;
     animation: azMsgIn 0.25s ease;
 }
 .az-typing-bubble {
     background: #fff;
     border: 1px solid #e8eef4;
-    border-radius: 18px;
+    border-radius: 20px;
     border-top-left-radius: 4px;
-    padding: 13px 16px;
+    padding: 14px 18px;
     display: flex;
-    gap: 5px;
+    gap: 6px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 .az-dot-bounce {
@@ -369,7 +371,7 @@
 
 /* ── QUICK REPLY CHIPS ── */
 #azChips {
-    padding: 10px 16px 8px;
+    padding: 12px 16px 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -384,15 +386,16 @@
     background: #ffffff;
     border: 1.5px solid #1d4ed8;
     color: #1d4ed8;
-    padding: 7px 14px;
-    border-radius: 18px;
+    padding: 8px 16px;
+    border-radius: 22px;
     font-size: 12px;
     font-weight: 600;
+    line-height: 1.4;
     cursor: pointer;
     transition: all 0.2s ease;
     white-space: nowrap;
     font-family: inherit;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
 }
 .az-chip:hover {
     background: #1d4ed8;
