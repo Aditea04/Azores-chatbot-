@@ -219,8 +219,8 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         ];
     }
 
-    // 3. IN-DEPTH COMMERCIAL / BUDGET / FINANCIAL / STAFF INQUIRIES
-    if (preg_match('/\b(budget|cost|price|rate|rates|discount|estimate|estimation|quotation|timeline|duration|manpower|labor|labour|workforce|material|materials|steel|cement|concrete|land|land cost|acre|sqft|sq ft|sqm|sq m|fee|charge|tender quote|boq|bill of quantities|people|team|staff|engineer|engineers|managing director|director|owner|founder|ceo)\b/i', $msg)) {
+    // 3. IN-DEPTH COMMERCIAL / BUDGET / FINANCIAL / EXPENSES / STAFF INQUIRIES
+    if (preg_match('/\b(budget|cost|costs|price|prices|pricing|rate|rates|discount|discounts|expense|expenses|expenditure|finance|finances|financial|estimate|estimation|quotation|timeline|duration|manpower|labor|labour|workforce|material|materials|steel|cement|concrete|land|land cost|acre|sqft|sq ft|sqm|sq m|fee|fees|charge|charges|tender quote|boq|bill of quantities|people|team|staff|engineer|engineers|managing director|director|owner|founder|ceo)\b/i', $msg)) {
         $contactInfoHTML = "📞 <strong>+91 7004709933</strong> | 📧 <strong>Azores.ranchi@gmail.com</strong>";
         return [
             'reply' => "I cannot help you with that currently but you can reach out to us at " . $contactInfoHTML . " and enquire about it.",
