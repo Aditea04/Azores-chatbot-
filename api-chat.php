@@ -185,8 +185,8 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         ];
     }
 
-    // 3. IRRELEVANT / OFF-TOPIC CONSUMER QUESTIONS (MUST BE EVALUATED BEFORE GENERAL HELP MATCHER)
-    if (preg_match('/\b(recipe|recipes|cook|cooking|bake|soup|chicken soup|food|weather|rain|movie|game|coding|python|java|php|math|mathematics|solve|joke|song|cricket|football|actor|homework|study|school work|assignment|tea|chai|coffee|flat|flats|rent|renting|rental|lease|room|rooms|noida|gurgaon|delhi flat|plumber|electrician|doctor|medicine)\b/i', $msg)) {
+    // 3. IRRELEVANT / OFF-TOPIC CONSUMER QUESTIONS & RENTAL INQUIRIES (PLACES, APARTMENTS, EQUIPMENT, VEHICLES ANYWHERE)
+    if (preg_match('/\b(rent|renting|rental|rented|rents|rent out|to rent|on rent|lease|leasing|leased|hire|hiring|flat|flats|apartment|apartments|house|houses|villa|villas|room|rooms|pg|hostel|plot|land lease|crane rent|jcb rent|excavator rent|machinery rent|equipment rent|vehicle rent|tool rent|recipe|recipes|cook|cooking|bake|soup|chicken soup|food|weather|rain|movie|game|coding|python|java|php|math|mathematics|solve|joke|song|cricket|football|actor|homework|study|school work|assignment|tea|chai|coffee|plumber|electrician|doctor|medicine)\b/i', $msg)) {
         return [
             'reply' => buildIrrelevantResponseHTML(),
             'suggestions' => ["Highway Projects", "Bridge Projects", "Contact Team"]
@@ -450,8 +450,8 @@ $unmatchedResponse = buildIrrelevantResponseHTML();
 
 
 
-// 1. OUT-OF-SCOPE / UNSUPPORTED INDIVIDUAL CONSUMER SERVICES
-if (containsAny($msg, ['flat for rent', 'apartment for rent', 'rent flat', 'lease room', 'single room', 'recipe', 'food', 'weather', 'movie', 'game', 'coding', 'python', 'java', 'php', 'math', 'homework', 'assignment', 'study', 'joke', 'cricket', 'football', 'repair roof', 'plumber', 'electrician', 'tea', 'chai', 'coffee', 'cook', 'bake', 'dance'])) {
+// 1. OUT-OF-SCOPE / UNSUPPORTED INDIVIDUAL CONSUMER & RENTAL SERVICES
+if (containsAny($msg, ['rent', 'renting', 'rental', 'lease', 'leasing', 'hire', 'hiring', 'flat', 'apartment', 'house', 'room', 'hostel', 'pg', 'villa', 'crane rent', 'jcb rent', 'equipment rent', 'machinery rent', 'tool rent', 'vehicle rent', 'recipe', 'food', 'weather', 'movie', 'game', 'coding', 'python', 'java', 'php', 'math', 'homework', 'assignment', 'study', 'joke', 'cricket', 'football', 'repair roof', 'plumber', 'electrician', 'tea', 'chai', 'coffee', 'cook', 'bake', 'dance'])) {
     $reply = $unmatchedResponse;
     $chips = ["Highway Projects", "Bridge Projects", "Contact Team"];
 }
