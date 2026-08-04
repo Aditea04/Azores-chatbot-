@@ -154,12 +154,12 @@ function matchLocalIntent($userMessage, $questionsData = []) {
     // Strip conversational filler prefixes (e.g. "okay then ", "so ", "well ", "then ")
     $cleanMsg = preg_replace('/^(okay\s+then|ok\s+then|so\s+then|well\s+then|okay|ok|so|well|then|alright)\s+/i', '', $msg);
 
-    // 1. GREETINGS (HI, HELLO, HEY, HI AZORES, HELLO AZORES, HEY AI, ETC.)
-    if (preg_match('/^(hi|hello|hey|greetings|good morning|good afternoon|good evening|namaste|yo|sup)(\s+(azores|ai|bot|team|there|everyone|all|friend|assistant))?[!.,\s]*$/i', $msg) || 
-        preg_match('/^(hi|hello|hey|greetings|good morning|good afternoon|good evening|namaste|yo|sup|who are you|what is this)[!.,\s]*$/i', $cleanMsg) || 
-        $msg === 'hi' || $msg === 'hello' || $msg === 'hey' || $msg === 'hi azores' || $msg === 'hello azores' || $msg === 'hey azores') {
+    // 1. GREETINGS (HI, HELLO, HEY, HEYY, HEYYY, HIII, HELLOO, ETC.)
+    if (preg_match('/^(h+[i1]+|h+[e3]+y+|h+e+l+o+|greetings|good\s*morning|good\s*afternoon|good\s*evening|namaste|yo+|sup+)(\s+(azores|ai|bot|team|there|everyone|all|friend|assistant|nick))?[!.,\s]*$/i', $msg) || 
+        preg_match('/^(h+[i1]+|h+[e3]+y+|h+e+l+o+|greetings|good\s*morning|good\s*afternoon|good\s*evening|namaste|yo+|sup+|who are you|what is this)[!.,\s]*$/i', $cleanMsg) || 
+        $msg === 'hi' || $msg === 'hello' || $msg === 'hey' || $msg === 'heyy' || $msg === 'heyyy') {
         return [
-            'reply' => "Hey! Nice to meet you. I am Nick, how can I help you today?",
+            'reply' => "Hey! 👋 Nice to meet you. I am Nick, your AI assistant for Azores Infrastructure. How can I help you today?",
             'suggestions' => ["About Us", "Contact Us", "Our Services", "Our Specializations", "Location"]
         ];
     }
