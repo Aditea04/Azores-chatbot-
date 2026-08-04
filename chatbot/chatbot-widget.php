@@ -548,17 +548,17 @@
     <!-- Proactive greeting bubble -->
     <div id="azProactive">
         <button id="azProClose" aria-label="Dismiss">&#x2715;</button>
-        <p>👋 Hi there! I'm <strong>Azores AI</strong>. Need help with a construction or infrastructure project?</p>
+        <p>👋 Hi there! I'm <strong>Nick</strong>. Need help with a construction or infrastructure project?</p>
     </div>
 
     <!-- Chat window -->
-    <div id="azWindow" role="dialog" aria-label="Azores AI Chat" aria-modal="true">
+    <div id="azWindow" role="dialog" aria-label="Nick - Azores AI Chat" aria-modal="true">
 
         <!-- Header -->
         <div class="az-header">
-            <div class="az-hdr-avatar"><img src="img/bot_avatar.jpg" alt="Azores AI"></div>
+            <div class="az-hdr-avatar"><img src="img/bot_avatar.jpg" alt="Nick"></div>
             <div class="az-hdr-info">
-                <div class="az-hdr-name">Azores AI Assistant</div>
+                <div class="az-hdr-name">Nick · Azores AI</div>
                 <div class="az-hdr-sub">
                     <span class="az-dot"></span>
                     Online &nbsp;·&nbsp; Replies instantly
@@ -573,8 +573,8 @@
         <div id="azMsgs" role="log" aria-live="polite" aria-label="Chat messages"></div>
 
         <!-- Typing indicator -->
-        <div id="azTyping" aria-label="Azores AI is typing">
-            <div class="az-av"><img src="img/bot_avatar.jpg" alt="Azores AI"></div>
+        <div id="azTyping" aria-label="Nick is typing">
+            <div class="az-av"><img src="img/bot_avatar.jpg" alt="Nick"></div>
             <div class="az-typing-bubble">
                 <div class="az-dot-bounce"></div>
                 <div class="az-dot-bounce"></div>
@@ -593,11 +593,11 @@
             </button>
         </div>
 
-        <div class="az-powered">Powered by <strong>Azores AI</strong> &nbsp;·&nbsp; Class 1A Infrastructure</div>
+        <div class="az-powered">Powered by <strong>Nick</strong> &nbsp;·&nbsp; Class 1A Infrastructure</div>
     </div>
 
     <!-- Launcher FAB -->
-    <button id="azLauncher" aria-label="Open Azores AI chat" aria-expanded="false">
+    <button id="azLauncher" aria-label="Open Nick AI chat" aria-expanded="false">
         <span id="azBadge" aria-label="Unread messages"></span>
         <span class="az-icon az-icon-chat">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
@@ -680,7 +680,7 @@
                 setTimeout(() => {
                     hideTyping();
                     addBotMsg(
-                        "Hello! 👋 Welcome to <strong>Azores Infrastructure</strong>. I'm your AI assistant — ask me anything about our construction services, projects, or partnerships!",
+                        "Hello! 👋 Welcome to <strong>Azores Infrastructure</strong>. I'm <strong>Nick</strong> — ask me anything about our construction services, projects, or partnerships!",
                         ["Our services", "About Azores", "Contact us"]
                     );
                 }, 1100);

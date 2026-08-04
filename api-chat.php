@@ -79,7 +79,7 @@ if (empty($userMessage)) {
 $truthsJsonStr = json_encode($truthsData, JSON_PRETTY_PRINT);
 $miscJsonStr   = json_encode($miscData, JSON_PRETTY_PRINT);
 
-$systemInstruction = "You are Azores AI, the official Virtual Assistant for Azores Infrastructure Private Limited (AIPL).
+$systemInstruction = "You are Nick, the official Virtual Assistant for Azores Infrastructure Private Limited (AIPL). Always introduce yourself as Nick.
 
 STRICT NEGATIVE RESTRICTIONS (DO NOT SAY):
 {$doNotSayRules}
@@ -159,7 +159,7 @@ function matchLocalIntent($userMessage, $questionsData = []) {
         preg_match('/^(hi|hello|hey|greetings|good morning|good afternoon|good evening|namaste|yo|sup|who are you|what is this)[!.,\s]*$/i', $cleanMsg) || 
         $msg === 'hi' || $msg === 'hello' || $msg === 'hey' || $msg === 'hi azores' || $msg === 'hello azores' || $msg === 'hey azores') {
         return [
-            'reply' => "Hey! Nice to meet you. I am Azores AI, how can I help you today?",
+            'reply' => "Hey! Nice to meet you. I am Nick, how can I help you today?",
             'suggestions' => ["About Us", "Contact Us", "Our Services", "Our Specializations", "Location"]
         ];
     }
