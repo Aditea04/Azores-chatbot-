@@ -563,10 +563,10 @@
         <div class="az-header">
             <div class="az-hdr-avatar"><img src="img/bot_avatar.jpg" alt="Nick"></div>
             <div class="az-hdr-info">
-                <div class="az-hdr-name">Nick · Azores AI</div>
+                <div class="az-hdr-name">Nick</div>
                 <div class="az-hdr-sub">
                     <span class="az-dot"></span>
-                    Online &nbsp;·&nbsp; Replies instantly
+                    Online &nbsp;·&nbsp; Azores AI
                 </div>
             </div>
             <button class="az-hdr-close" id="azClose" aria-label="Close chat">
