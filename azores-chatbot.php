@@ -156,18 +156,20 @@
 .az-hdr-avatar {
     width: 42px;
     height: 42px;
-    border-radius: 13px;
-    background: rgba(255,255,255,0.12);
-    border: 1.5px solid rgba(255,255,255,0.25);
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1.5px solid rgba(255,255,255,0.4);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    color: #fff;
-    font-weight: 800;
-    font-size: 16px;
-    letter-spacing: -0.5px;
     overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+.az-hdr-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .az-hdr-info { flex: 1; min-width: 0; }
 .az-hdr-name { color: #fff; font-size: 15px; font-weight: 700; letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -283,8 +285,9 @@
 /* Avatar */
 .az-av {
     width: 34px; height: 34px;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #02016A, #0434dc);
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
     display: flex; align-items: center; justify-content: center;
     flex-shrink: 0;
     color: #fff;
@@ -292,8 +295,15 @@
     font-size: 13px;
     letter-spacing: -0.5px;
     margin-top: 2px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
-.az-user .az-av { background: linear-gradient(135deg, #475569, #334155); }
+.az-av img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.az-user .az-av { background: linear-gradient(135deg, #475569, #334155); border: none; }
 
 /* Bubble */
 .az-bubble-wrap { display: flex; flex-direction: column; max-width: calc(100% - 50px); min-width: 0; }
@@ -551,7 +561,7 @@
 
         <!-- Header -->
         <div class="az-header">
-            <div class="az-hdr-avatar">A</div>
+            <div class="az-hdr-avatar"><img src="img/bot_avatar.jpg" alt="Azores AI"></div>
             <div class="az-hdr-info">
                 <div class="az-hdr-name">Azores AI Assistant</div>
                 <div class="az-hdr-sub">
@@ -569,7 +579,7 @@
 
         <!-- Typing indicator -->
         <div id="azTyping" aria-label="Azores AI is typing">
-            <div class="az-av">A</div>
+            <div class="az-av"><img src="img/bot_avatar.jpg" alt="Azores AI"></div>
             <div class="az-typing-bubble">
                 <div class="az-dot-bounce"></div>
                 <div class="az-dot-bounce"></div>
@@ -755,7 +765,7 @@
         // Avatar
         const av = document.createElement('div');
         av.className = 'az-av';
-        av.textContent = 'A';
+        av.innerHTML = '<img src="img/bot_avatar.jpg" alt="Azores AI">';
 
         // Bubble wrap
         const wrap = document.createElement('div');
