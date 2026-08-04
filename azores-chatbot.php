@@ -139,7 +139,7 @@
 /* ── HEADER ── */
 .az-header {
     background: linear-gradient(135deg, #02016A 0%, #0f47e8 100%);
-    padding: 16px 18px;
+    padding: 14px 18px !important;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -154,9 +154,9 @@
     background: rgba(255,255,255,0.1);
 }
 .az-hdr-avatar {
-    width: 44px;
-    height: 44px;
-    border-radius: 14px;
+    width: 42px;
+    height: 42px;
+    border-radius: 13px;
     background: rgba(255,255,255,0.12);
     border: 1.5px solid rgba(255,255,255,0.25);
     display: flex;
@@ -165,7 +165,7 @@
     flex-shrink: 0;
     color: #fff;
     font-weight: 800;
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: -0.5px;
     overflow: hidden;
 }
@@ -198,7 +198,7 @@
 #azMsgs {
     flex: 1;
     overflow-y: auto;
-    padding: 18px 16px 8px;
+    padding: 14px 16px 8px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -220,48 +220,33 @@
     box-sizing: border-box;
 }
 .az-capsule-btn {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: fit-content;
-    max-width: 100%;
-    align-self: flex-start;
-    padding: 6px 13px;
-    border: 1.5px solid #1d4ed8;
-    border-radius: 18px;
-    background: #ffffff;
-    color: #1d4ed8 !important;
+    display: inline-flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: fit-content !important;
+    max-width: 100% !important;
+    align-self: flex-start !important;
+    padding: 6px 14px !important;
+    border: 1.5px solid #0434dc !important;
+    border-radius: 16px !important;
+    background: #ffffff !important;
+    color: #0434dc !important;
     text-decoration: none !important;
-    font-weight: 600;
-    font-size: 11.5px;
-    line-height: 1.35;
-    white-space: normal;
-    word-break: break-word;
-    transition: all 0.2s ease;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    font-weight: 600 !important;
+    font-size: 11.5px !important;
+    line-height: 1.35 !important;
+    white-space: nowrap !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04) !important;
 }
 .az-capsule-btn:hover {
-    background: #1d4ed8;
+    background: #1d4ed8 !important;
     color: #ffffff !important;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(29,78,216,0.25);
-    border-color: #1e40af;
-}
-.az-capsule-title {
-    display: block;
-    line-height: 1.3;
-}
-.az-capsule-hover-url {
-    display: none;
-    margin-top: 2px;
-    font-size: 10px;
-    font-weight: 500;
-    color: #93c5fd;
-    letter-spacing: 0.2px;
-}
-.az-capsule-btn:hover .az-capsule-hover-url {
-    display: inline-block;
-    color: #e0f2fe;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(29,78,216,0.25) !important;
+    border-color: #1e40af !important;
 }
 
 /* Date separator */
@@ -314,20 +299,31 @@
 .az-bubble-wrap { display: flex; flex-direction: column; max-width: calc(100% - 50px); min-width: 0; }
 .az-user .az-bubble-wrap { align-items: flex-end; }
 
-.az-bubble {
-    padding: 14px 18px;
-    border-radius: 20px;
-    font-size: 13.5px;
-    line-height: 1.6;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    box-sizing: border-box;
+.az-bubble, #azWidget .az-bubble {
+    padding: 14px 20px !important;
+    font-size: 13.5px !important;
+    line-height: 1.55 !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+    box-sizing: border-box !important;
 }
-.az-bot  .az-bubble { background: #ffffff; color: #1e293b; border: 1px solid #e2e8f0; border-top-left-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
-.az-user .az-bubble { background: linear-gradient(135deg, #02016A 0%, #0434dc 100%); color: #ffffff; border-top-right-radius: 4px; box-shadow: 0 4px 14px rgba(4,52,220,0.25); }
+.az-bot .az-bubble, #azWidget .az-bot .az-bubble {
+    background: #ffffff !important;
+    color: #1e293b !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 18px 18px 18px 4px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important;
+}
+.az-user .az-bubble, #azWidget .az-user .az-bubble {
+    background: linear-gradient(135deg, #02016A 0%, #0434dc 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 18px 18px 4px 18px !important;
+    box-shadow: 0 4px 14px rgba(4,52,220,0.25) !important;
+}
 
 /* Links inside bot bubbles */
-.az-bot .az-bubble a { color: #1d4ed8; text-decoration: underline; font-weight: 600; word-break: break-word; }
+.az-bot .az-bubble a { color: #0434dc; text-decoration: underline; font-weight: 600; word-break: break-word; }
 .az-bot .az-bubble p { margin: 0 0 10px 0; }
 .az-bot .az-bubble p:last-child { margin-bottom: 0; }
 
@@ -336,7 +332,7 @@
 .az-bot .az-bubble li { margin-bottom: 5px; line-height: 1.5; }
 
 /* Timestamp */
-.az-ts { font-size: 10px; color: #94a3b8; margin-top: 5px; padding: 0 4px; }
+.az-ts { font-size: 10.5px; color: #94a3b8; margin-top: 6px; padding: 0 2px; }
 
 /* ── TYPING INDICATOR ── */
 #azTyping {
@@ -372,56 +368,67 @@
 
 /* ── QUICK REPLY CHIPS ── */
 #azChips {
-    padding: 12px 16px 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    background: #f8fafc;
-    border-top: 1px solid #f1f5f9;
-    flex-shrink: 0;
-    min-height: 0;
-    box-sizing: border-box;
-    width: 100%;
+    display: none !important;
 }
-.az-chip {
-    background: #ffffff;
-    border: 1.5px solid #1d4ed8;
-    color: #1d4ed8;
-    padding: 8px 16px;
-    border-radius: 22px;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1.4;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-    font-family: inherit;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+#azChips::-webkit-scrollbar, .az-msg-inline-chips::-webkit-scrollbar {
+    height: 3px !important;
 }
-.az-chip:hover {
-    background: #1d4ed8;
-    color: #ffffff;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(29,78,216,0.25);
+#azChips::-webkit-scrollbar-thumb, .az-msg-inline-chips::-webkit-scrollbar-thumb {
+    background: #cbd5e1 !important;
+    border-radius: 3px !important;
+}
+
+.az-chip, #azWidget .az-chip, #azWidget .az-inline-chip {
+    background: #ffffff !important;
+    border: 1.5px solid #0434dc !important;
+    color: #0434dc !important;
+    padding: 5px 12px !important;
+    border-radius: 16px !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    line-height: 1.3 !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+    font-family: inherit !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04) !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+    margin: 1px 0 !important;
+}
+.az-chip:hover, #azWidget .az-chip:hover, #azWidget .az-inline-chip:hover {
+    background: #0434dc !important;
+    color: #ffffff !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(4,52,220,0.25) !important;
 }
 
 /* Inline chips under bot message bubbles */
 .az-msg-inline-chips {
-    margin-top: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    width: 100%;
+    margin-top: 6px !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    gap: 6px !important;
+    width: 100% !important;
+    scroll-behavior: smooth !important;
+    padding-bottom: 2px !important;
+    -webkit-overflow-scrolling: touch !important;
 }
 .az-inline-chip {
-    padding: 6px 13px;
-    font-size: 11.5px;
-    border-radius: 18px;
+    padding: 5px 12px !important;
+    font-size: 11px !important;
+    line-height: 1.3 !important;
+    border-radius: 16px !important;
+    flex-shrink: 0 !important;
 }
 
 /* ── INPUT AREA ── */
 .az-input-area {
-    padding: 12px 16px;
+    padding: 10px 14px !important;
     background: #ffffff;
     border-top: 1px solid #e2e8f0;
     display: flex;
@@ -433,8 +440,8 @@
 #azInput {
     flex: 1;
     border: 1.5px solid #cbd5e1;
-    border-radius: 26px;
-    padding: 10px 16px;
+    border-radius: 24px;
+    padding: 9px 16px;
     font-size: 13.5px;
     font-family: inherit;
     outline: none;
@@ -447,7 +454,7 @@
 #azInput:disabled { opacity: 0.6; }
 
 #azSend {
-    width: 42px; height: 42px;
+    width: 38px; height: 38px;
     border-radius: 50%;
     background: linear-gradient(135deg, #02016A, #0434dc);
     border: none;
@@ -465,8 +472,8 @@
 /* ── POWERED BY ── */
 .az-powered {
     text-align: center;
-    padding: 8px 16px 12px;
-    font-size: 11px;
+    padding: 6px 14px 8px !important;
+    font-size: 10.5px;
     font-weight: 500;
     color: #94a3b8;
     background: #ffffff;
