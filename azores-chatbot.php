@@ -303,7 +303,10 @@
     height: 100%;
     object-fit: cover;
 }
-.az-user .az-av { background: linear-gradient(135deg, #475569, #334155); border: none; }
+.az-user .az-av {
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+}
 
 /* Bubble */
 .az-bubble-wrap { display: flex; flex-direction: column; max-width: calc(100% - 50px); min-width: 0; }
@@ -844,7 +847,7 @@
 
         const av = document.createElement('div');
         av.className = 'az-av';
-        av.textContent = 'U';
+        av.innerHTML = '<img src="img/user_avatar.png" alt="User">';
 
         const wrap = document.createElement('div');
         wrap.className = 'az-bubble-wrap';

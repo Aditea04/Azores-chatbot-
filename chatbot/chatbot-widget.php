@@ -294,11 +294,15 @@
 .az-msg-row.az-user { align-self: flex-end;   flex-direction: row-reverse; }
 
 /* Avatar */
-.az-av {
-    font-size: 12px;
-    letter-spacing: -0.5px;
+.az-av img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.az-user .az-av { background: linear-gradient(135deg, #475569, #334155); }
+.az-user .az-av {
+    background: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+}
 
 /* Bubble */
 .az-bubble-wrap { display: flex; flex-direction: column; max-width: 82%; }
@@ -813,7 +817,7 @@
 
         const av = document.createElement('div');
         av.className = 'az-av';
-        av.textContent = 'U';
+        av.innerHTML = '<img src="img/user_avatar.png" alt="User">';
 
         const wrap = document.createElement('div');
         wrap.className = 'az-bubble-wrap';
