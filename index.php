@@ -946,19 +946,15 @@ button.cta-btn {
                 <label>Upload Resume <span style="color:#aaa;font-weight:400">(Optional)</span></label>
                 <input type="file" id="cf_resume" accept=".pdf,.doc,.docx">
             </div>
-            <button class="career-submit-btn" onclick="careerSubmitForm()">Submit &amp; Connect</button>
+            <button class="career-submit-btn" onclick="careerSubmitForm()">Submit</button>
         </div>
 
-        <!-- Screen 4: Connect via -->
-        <div class="career-screen" id="careerScreen4" style="text-align:center;">
-            <h2 style="text-align:center;">Connect with us via</h2>
-            <p class="connect-note" style="text-align:center;">We've noted your details. Choose how you'd like to reach us.</p>
-            <a href="mailto:hr@azoresinfra.com" class="connect-btn mail-btn" style="justify-content:center; text-align:center;">
-                <img src="img/icon-gmail.png" alt="Gmail" class="connect-icon" style="vertical-align:middle;"> <span style="vertical-align:middle;">Mail via Gmail</span>
-            </a>
-            <a href="https://wa.me/919031140000" target="_blank" class="connect-btn whatsapp-btn" style="justify-content:center; text-align:center;">
-                <img src="img/icon-whatsapp.png" alt="WhatsApp" class="connect-icon" style="vertical-align:middle;"> <span style="vertical-align:middle;">WhatsApp</span>
-            </a>
+        <!-- Screen 4: Thank you popup -->
+        <div class="career-screen" id="careerScreen4" style="text-align:center; padding: 20px 10px;">
+            <div style="font-size: 42px; margin-bottom: 10px;">🎉</div>
+            <h2 style="text-align:center; font-size: 26px; font-weight: 800; color: #ffffff; margin-bottom: 12px; letter-spacing: -0.02em;">Thank you !!</h2>
+            <p class="connect-note" style="text-align:center; font-size: 15px; line-height: 1.5; color: rgba(255,255,255,0.85); max-width: 320px; margin: 0 auto 20px;">We have received your request for contact, someone from our behalf will be reaching you soon.</p>
+            <button class="career-submit-btn" onclick="closeCareerModal()" style="margin-top: 10px; width: 100%;">Done</button>
         </div>
     </div>
 </div>
