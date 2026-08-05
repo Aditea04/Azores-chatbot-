@@ -631,7 +631,7 @@
     const proactive = el('azProactive');
     const proClose  = el('azProClose');
 
-    /* ── STATE ── */
+    /* ── STATE & PERSISTENCE ── */
     let isOpen        = false;
     let isBusy        = false;
     let history       = [];
@@ -639,6 +639,54 @@
     let msgCount      = 0;
     let ratingShown   = false;
     let proTimer      = null;
+
+    function saveSessionState() {
+        try {
+            const data = {
+                html: msgs.innerHTML,
+                history: history,
+                msgCount: msgCount,
+                isOpen: isOpen,
+                ratingShown: ratingShown
+            };
+            sessionStorage.setItem('az_chat_state', JSON.stringify(data));
+        } catch (e) {}
+    }
+
+    function restoreSessionState() {
+        try {
+            const raw = sessionStorage.getItem('az_chat_state');
+            if (!raw) return false;
+            const data = JSON.parse(raw);
+            if (data && data.html) {
+                msgs.innerHTML = data.html;
+                history = data.history || [];
+                msgCount = data.msgCount || 0;
+                ratingShown = !!data.ratingShown;
+
+                msgs.querySelectorAll('.az-chip, .az-inline-chip').forEach(btn => {
+                    const s = btn.textContent;
+                    btn.addEventListener('click', (e) => {
+                        if (e) e.stopPropagation();
+                        const t = s.toLowerCase().trim();
+                        if (t.startsWith('call') || t.includes('+91') || t.includes('7004709933')) {
+                            window.open('tel:+917004709933', '_self'); return;
+                        }
+                        if (t.startsWith('email') || t.includes('email')) {
+                            window.open('mailto:Azores.ranchi@gmail.com', '_self'); return;
+                        }
+                        sendMessage(s.trim(), true);
+                    });
+                });
+
+                if (data.isOpen) {
+                    openChat(true);
+                }
+                return true;
+            }
+        } catch (e) {}
+        return false;
+    }
 
     /* ── HELPERS ── */
     function now() {
@@ -666,19 +714,20 @@
     }
 
     /* ── OPEN / CLOSE ── */
-    function openChat() {
+    function openChat(isRestoring = false) {
         isOpen = true;
         window_.classList.add('az-open');
         launcher.setAttribute('aria-expanded', 'true');
         launcher.querySelector('.az-icon-chat').style.display = 'none';
         launcher.querySelector('.az-icon-x').style.display   = 'flex';
-        proactive.style.display = 'none';
+        if (proactive) proactive.style.display = 'none';
         clearTimeout(proTimer);
         setBadge(0);
+        saveSessionState();
         setTimeout(() => { input.focus(); scrollBottom(); }, 380);
 
         // First-open welcome message
-        if (msgCount === 0) {
+        if (!isRestoring && msgCount === 0) {
             setTimeout(() => {
                 showTyping(1000);
                 setTimeout(() => {
@@ -699,6 +748,7 @@
         launcher.querySelector('.az-icon-chat').style.display = 'flex';
         launcher.querySelector('.az-icon-x').style.display   = 'none';
         if (msgCount > 0) setBadge(0);
+        saveSessionState();
     }
 
     launcher.addEventListener('click', () => isOpen ? closeChat() : openChat());
@@ -808,6 +858,7 @@
         }
 
         if (!isOpen) setBadge(unread + 1);
+        saveSessionState();
     }
 
     function addUserMsg(text) {
@@ -831,11 +882,11 @@
         ts.textContent = now();
 
         wrap.appendChild(bubble);
-        wrap.appendChild(ts);
         row.appendChild(wrap);
         row.appendChild(av);
         msgs.appendChild(row);
         scrollBottom();
+        saveSessionState();
     }
 
     /* ── HANDOFF CARD ── */
@@ -960,6 +1011,7 @@
 
     /* ── INIT ── */
     sendBtn.style.opacity = '0.6';
+    restoreSessionState();
 
 })();
 </script>
